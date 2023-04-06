@@ -1,0 +1,26 @@
+[0.353s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.818s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.648s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[27.907s] [100%] [32m[1mLinking CXX executable merge_arrays_node[0m
+[44.759s] [100%] Built target merge_arrays_node
+[45.043s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[47.027s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays
+[47.277s] -- Install configuration: ""
+[47.282s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node
+[48.114s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""
+[48.118s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+[48.122s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+[48.127s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+[48.131s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+[48.136s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/path.sh
+[48.140s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/path.dsv
+[48.144s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.bash
+[48.150s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.sh
+[48.154s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.zsh
+[48.158s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.dsv
+[48.162s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.dsv
+[48.167s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+[48.171s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+[48.178s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+[48.185s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.xml
+[48.189s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays

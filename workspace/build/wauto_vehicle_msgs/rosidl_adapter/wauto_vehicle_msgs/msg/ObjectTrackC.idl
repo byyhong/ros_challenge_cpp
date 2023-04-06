@@ -1,0 +1,67 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_vehicle_msgs/msg/ObjectTrackC.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_vehicle_msgs {
+  module msg {
+    module ObjectTrackC_Constants {
+      @verbatim (language="comment", text=
+        "---------------------" "\n"        "Object_TrackC Message" "\n"        "---------------------" "\n"        "The name of the message as defined in the DBC file.")
+      const string NAME = "Object_TrackC";
+      @verbatim (language="comment", text=
+        "-----" "\n"        "Enums" "\n"        "-----" "\n"        "Enum for DynProp signal" "\n"        "Moving in opposite direction")
+      const uint8 DYNPROP_4 = 4;
+      @verbatim (language="comment", text=
+        "Moving in same direction as host")
+      const uint8 DYNPROP_3 = 3;
+      @verbatim (language="comment", text=
+        "Has moved but currently stopped")
+      const uint8 DYNPROP_2 = 2;
+      @verbatim (language="comment", text=
+        "Has never moved")
+      const uint8 DYNPROP_1 = 1;
+      @verbatim (language="comment", text=
+        "Unknown")
+      const uint8 DYNPROP_0 = 0;
+    };
+    @verbatim (language="comment", text=
+      "----------------------------------------------" "\n"
+      "This is an auto generated file. DO NOT EDIT!!!" "\n"
+      "----------------------------------------------")
+    struct ObjectTrackC {
+      @verbatim (language="comment", text=
+        "-------" "\n"
+        "Signals" "\n"
+        "-------" "\n"
+        "Rolling_Count")
+      @default (value=0)
+      uint8 rolling_count;
+
+      @verbatim (language="comment", text=
+        "ObjObjectID")
+      @default (value=0)
+      uint8 objobjectid;
+
+      @verbatim (language="comment", text=
+        "Object_Latitude")
+      @default (value=0)
+      int32 object_latitude;
+
+      @verbatim (language="comment", text=
+        "Object_Absolute_Velocity")
+      @default (value=0)
+      uint8 object_absolute_velocity;
+
+      @verbatim (language="comment", text=
+        "Object_Course")
+      @default (value=0)
+      uint8 object_course;
+
+      @verbatim (language="comment", text=
+        "DynProp")
+      @default (value=0)
+      uint8 dynprop;
+    };
+  };
+};

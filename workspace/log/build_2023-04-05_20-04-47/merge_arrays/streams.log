@@ -1,0 +1,119 @@
+[0.402s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.989s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[5.157s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[10.005s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.046s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.051s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.055s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[10.060s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::timer_callback()[m[K’:
+[10.065s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:63:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.073s]    63 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%llu"[m[K, [32m[Ksizeof(result.data) / sizeof(result.data[0])[m[K);
+[10.078s]       |                                             [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.083s]       |                                                                         [32m[K|[m[K
+[10.088s]       |                                                                         [32m[Klong unsigned int[m[K
+[10.093s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:63:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.099s]    63 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%llu[m[K", sizeof(result.data) / sizeof(result.data[0]));
+[10.103s]       |                                              [01;36m[K~~~^[m[K
+[10.108s]       |                                                 [01;36m[K|[m[K
+[10.112s]       |                                                 [01;36m[Klong long unsigned int[m[K
+[10.117s]       |                                              [32m[K%lu[m[K
+[10.121s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.138s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.182s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[10.189s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:64:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.193s]    64 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%llu"[m[K, [32m[Ksizeof(result.data)[m[K);
+[10.201s]       |                                             [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[10.206s]       |                                                     [32m[K|[m[K
+[10.211s]       |                                                     [32m[Klong unsigned int[m[K
+[10.215s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:64:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.219s]    64 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%llu[m[K", sizeof(result.data));
+[10.223s]       |                                              [01;36m[K~~~^[m[K
+[10.227s]       |                                                 [01;36m[K|[m[K
+[10.232s]       |                                                 [01;36m[Klong long unsigned int[m[K
+[10.238s]       |                                              [32m[K%lu[m[K
+[10.243s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.248s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.266s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.295s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[10.299s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:65:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.305s]    65 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%llu"[m[K, [32m[Ksizeof(result.data[0])[m[K);
+[10.311s]       |                                             [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.317s]       |                                                     [32m[K|[m[K
+[10.322s]       |                                                     [32m[Klong unsigned int[m[K
+[10.326s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:65:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.331s]    65 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%llu[m[K", sizeof(result.data[0]));
+[10.335s]       |                                              [01;36m[K~~~^[m[K
+[10.340s]       |                                                 [01;36m[K|[m[K
+[10.344s]       |                                                 [01;36m[Klong long unsigned int[m[K
+[10.350s]       |                                              [32m[K%lu[m[K
+[10.355s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.399s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.403s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[10.408s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:66:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.413s]    66 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%llu"[m[K, [32m[Ksizeof(result.data[1])[m[K);
+[10.416s]       |                                             [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.420s]       |                                                     [32m[K|[m[K
+[10.424s]       |                                                     [32m[Klong unsigned int[m[K
+[10.428s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:66:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.433s]    66 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%llu[m[K", sizeof(result.data[1]));
+[10.438s]       |                                              [01;36m[K~~~^[m[K
+[10.444s]       |                                                 [01;36m[K|[m[K
+[10.450s]       |                                                 [01;36m[Klong long unsigned int[m[K
+[10.454s]       |                                              [32m[K%lu[m[K
+[28.888s] [100%] [32m[1mLinking CXX executable merge_arrays_node[0m
+[46.501s] [100%] Built target merge_arrays_node
+[46.768s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[48.842s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays
+[49.095s] -- Install configuration: ""
+[49.100s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node
+[49.939s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""
+[49.944s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+[49.949s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+[49.953s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+[49.958s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+[49.962s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/path.sh
+[49.969s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/path.dsv
+[49.976s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.bash
+[49.980s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.sh
+[49.984s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.zsh
+[49.988s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.dsv
+[49.994s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.dsv
+[50.003s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+[50.012s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+[50.018s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+[50.022s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.xml
+[50.025s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays

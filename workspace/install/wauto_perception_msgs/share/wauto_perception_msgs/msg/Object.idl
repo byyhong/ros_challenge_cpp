@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+#include "geometry_msgs/msg/TwistWithCovariance.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "wauto_perception_msgs/msg/ObjectClassification.idl"
+
+module wauto_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message defines an \"Object\"" "\n"
+      "" "\n"
+      "An \"Object\" is defined as a detected, and possibly further classified, entity of interest" "\n"
+      "that can be passed between nodes. A detection is simply an identification of an entity" "\n"
+      "in an image or pointcloud. A classification is a further \"binning\" of a detection, such as" "\n"
+      "a traffic light being detected and further being classified as being green." "\n"
+      "" "\n"
+      "An Object is also defined as in 3D space relative to the vehicle.")
+    struct Object {
+      @verbatim (language="comment", text=
+        "Unique id")
+      @default (value=0)
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        "A list of classifications for this Object")
+      wauto_perception_msgs::msg::ObjectClassification classification;
+
+      @verbatim (language="comment", text=
+        "The position and orientation of the detected Object")
+      geometry_msgs::msg::PoseWithCovariance pose;
+
+      @verbatim (language="comment", text=
+        "The twist (derivative of pose) of the detected Object")
+      geometry_msgs::msg::TwistWithCovariance twist;
+
+      @verbatim (language="comment", text=
+        "3D bounding box")
+      geometry_msgs::msg::Vector3 size;
+    };
+  };
+};

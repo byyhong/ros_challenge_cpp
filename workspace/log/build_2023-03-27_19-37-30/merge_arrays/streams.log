@@ -1,0 +1,101 @@
+[0.304s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.039s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[5.376s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[10.744s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+[10.748s]    22 |     [01;31m[Kboolean[m[K merged = false;
+[10.753s]       |     [01;31m[K^~~~~~~[m[K
+[10.757s]       |     [32m[Kbool[m[K
+[10.762s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ does not name a type
+[10.767s]    36 |     void topic_callback(const [01;31m[Kstd_msg[m[K::msg::Int32MultiArray &msg)
+[10.771s]       |                               [01;31m[K^~~~~~~[m[K
+[10.776s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[10.781s]    36 |     void topic_callback(const std_msg::msg[01;31m[K::[m[KInt32MultiArray &msg)
+[10.786s]       |                                           [01;31m[K^~[m[K
+[10.792s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[10.798s]    36 |     void topic_callback[34m[K([m[Kconst std_msg::msg[01;31m[K:[m[K[32m[K:[m[KInt32MultiArray &msg)
+[10.804s]       |                        [34m[K~[m[K                  [01;31m[K^[m[K[32m[K~[m[K
+[10.811s]       |                                           [32m[K)[m[K
+[10.818s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.823s]    36 |     void topic_callback(const std_msg::[01;31m[Kmsg[m[K::Int32MultiArray &msg)
+[10.834s]       |                                        [01;31m[K^~~[m[K
+[10.839s]       |                                           [32m[K;[m[K
+[10.845s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:45:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[10.849s]    36 |     void topic_callback(const std_msg::msg::[01;31m[KInt32MultiArray[m[K &msg)
+[10.854s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.859s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In constructor ‘[01m[KMergeArrays::MergeArrays()[m[K’:
+[10.864s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:25:53:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMergeArrays[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[10.868s]    25 |     MergeArrays() : Node("merge_arrays_publisher"), [01;31m[Kcount_[m[K(0)
+[10.872s]       |                                                     [01;31m[K^~~~~~[m[K
+[10.877s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.882s]    27 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int32MultiArray>("/output/array", 10);
+[10.885s]       |         [01;31m[K^~~~~~~~~~[m[K
+[10.889s]       |         [32m[Krmw_publisher_t[m[K
+[10.900s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:60:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[10.904s]    27 |         publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>("/output/array", 10);
+[10.909s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.914s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMergeArrays::create_publisher<<expression error> >(const char [14], int)[m[K’
+[10.919s]    27 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Int32MultiArray>("/output/array", 10)[m[K;
+[10.926s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.934s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[10.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[10.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.949s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6[m[K:
+[10.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[10.958s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[10.962s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[10.967s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.973s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.978s]    27 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Int32MultiArray>("/output/array", 10)[m[K;
+[10.983s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[10.989s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[10.995s]    28 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Int32MultiArray>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1));
+[10.999s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[11.004s]       |         [32m[Krmw_subscription_t[m[K
+[11.008s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:66:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[11.013s]    28 |         subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1));
+[11.018s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[11.024s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMergeArrays::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (MergeArrays::*)(...), MergeArrays*, const std::_Placeholder<1>&>::type)[m[K’
+[11.029s]    28 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1))[m[K;
+[11.034s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.038s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.046s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.051s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.056s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6[m[K:
+[11.063s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[11.068s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[11.073s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.078s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.082s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.087s]    28 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1))[m[K;
+[11.090s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.096s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:29:66:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[11.101s]    29 |         subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>("input/array2", 10, std::bind(&MergeArrays::topic_callback, this, _1));
+[11.106s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[11.112s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:29:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMergeArrays::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (MergeArrays::*)(...), MergeArrays*, const std::_Placeholder<1>&>::type)[m[K’
+[11.117s]    29 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array2", 10, std::bind(&MergeArrays::topic_callback, this, _1))[m[K;
+[11.122s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.127s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.138s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.143s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6[m[K:
+[11.150s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[11.155s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[11.160s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.165s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.169s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:29:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.173s]    29 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array2", 10, std::bind(&MergeArrays::topic_callback, this, _1))[m[K;
+[11.178s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.183s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[11.188s]    31 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&MergeArrays::timer_callback, this));
+[11.193s]       |         [01;31m[K^~~~~~[m[K
+[11.198s]       |         [32m[Ktimer_t[m[K
+[11.204s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:31:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMergeArrays[m[K’
+[11.208s]    31 |         timer_ = this->create_wall_timer(500ms, std::bind(&MergeArrays::[01;31m[Ktimer_callback[m[K, this));
+[11.213s]       |                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[11.217s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:32:24:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[11.222s]    32 |         std_msgs::msg::[01;31m[KInt32MultiArray[m[K arrays;
+[11.227s]       |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[11.600s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[11.611s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[11.617s] gmake: *** [Makefile:146: all] Error 2
+[11.621s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

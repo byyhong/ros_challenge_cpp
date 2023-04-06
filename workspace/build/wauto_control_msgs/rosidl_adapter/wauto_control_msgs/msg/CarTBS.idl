@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_control_msgs/msg/CarTBS.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "TBS = [T, B, S]")
+    struct CarTBS {
+      @verbatim (language="comment", text=
+        "Torque [-22534, 22534]")
+      double t;
+
+      @verbatim (language="comment", text=
+        "Brake  [-65534, 0]")
+      double b;
+
+      @verbatim (language="comment", text=
+        "Steer  [-540, 540]")
+      double s;
+    };
+  };
+};

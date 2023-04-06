@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_control_msgs/msg/CarInput.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "u = [v_dot, psi_dot, gamma]")
+    struct CarInput {
+      @verbatim (language="comment", text=
+        "Lin. accel.")
+      @unit (value="m/s^2")
+      double v_dot;
+
+      @verbatim (language="comment", text=
+        "Heading rate")
+      @unit (value="rad/s")
+      double psi_dot;
+
+      @verbatim (language="comment", text=
+        "Steering angle")
+      @unit (value="rad")
+      double gamma;
+    };
+  };
+};

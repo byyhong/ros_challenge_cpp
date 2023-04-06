@@ -1,0 +1,260 @@
+[0.450s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'merge_arrays']
+[0.451s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['merge_arrays'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbdd0552860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbdd065be80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbdd065be80>>, mixin_verb=('build',))
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.511s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atk-sandbox/atk-sandbox/workspace'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['python_setup_py']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/common_pkgs) by extension 'ros'
+[0.658s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/common_pkgs' with type 'ros.ament_cmake' and name 'common_pkgs'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'ros'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'cmake'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'python'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extensions ['python_setup_py']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples) by extension 'python_setup_py'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extension 'ignore_ament_install'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/examples/compose_nodes) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/examples/compose_nodes' with type 'ros.ament_cmake' and name 'compose_nodes'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'colcon_pkg'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'ros'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extensions ['cmake', 'python']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'cmake'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'python'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extensions ['python_setup_py']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces) by extension 'python_setup_py'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extension 'ignore_ament_install'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extensions ['colcon_pkg']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extensions ['colcon_meta']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_control_msgs) by extension 'ros'
+[0.752s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/interfaces/wauto_control_msgs' with type 'ros.ament_cmake' and name 'wauto_control_msgs'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_perception_msgs) by extension 'ros'
+[0.774s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/interfaces/wauto_perception_msgs' with type 'ros.ament_cmake' and name 'wauto_perception_msgs'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/interfaces/wauto_vehicle_msgs) by extension 'ros'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/interfaces/wauto_vehicle_msgs' with type 'ros.ament_cmake' and name 'wauto_vehicle_msgs'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'ros'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extensions ['cmake', 'python']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'python'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extensions ['python_setup_py']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch) by extension 'python_setup_py'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extension 'ignore'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extension 'colcon_pkg'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extensions ['colcon_meta']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extension 'colcon_meta'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extensions ['ros']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/launch/launch_utils) by extension 'ros'
+[0.838s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/launch/launch_utils' with type 'ros.ament_python' and name 'launch_utils'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extension 'ignore_ament_install'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extensions ['colcon_pkg']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extensions ['colcon_meta']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extension 'colcon_meta'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/wacore) by extension 'ros'
+[0.858s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common/wacore' with type 'ros.ament_cmake' and name 'wacore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'ignore_ament_install'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['colcon_pkg']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'ros'
+[0.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/merge_arrays' with type 'ros.ament_cmake' and name 'merge_arrays'
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.943s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'common_pkgs' in 'src/common/common_pkgs'
+[0.944s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'compose_nodes' in 'src/common/examples/compose_nodes'
+[0.945s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'launch_utils' in 'src/common/launch/launch_utils'
+[0.946s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wacore' in 'src/common/wacore'
+[0.947s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wauto_control_msgs' in 'src/common/interfaces/wauto_control_msgs'
+[0.948s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wauto_perception_msgs' in 'src/common/interfaces/wauto_perception_msgs'
+[0.949s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wauto_vehicle_msgs' in 'src/common/interfaces/wauto_vehicle_msgs'
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_target' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_clean_cache' from command line to 'False'
+[0.956s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_clean_first' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_force_configure' from command line to 'False'
+[0.958s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'ament_cmake_args' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'catkin_cmake_args' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.961s] DEBUG:colcon.colcon_core.verb:Building package 'merge_arrays' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays', 'merge_install': False, 'path': '/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays', 'symlink_install': False, 'test_result_base': None}
+[0.964s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays' with build type 'ament_cmake'
+[0.973s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays'
+[0.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.985s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[4.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[7.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(merge_arrays)
+[7.430s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays' for CMake module files
+[7.461s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays' for CMake config files
+[7.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('merge_arrays', 'cmake_prefix_path')
+[7.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/hook/cmake_prefix_path.ps1'
+[7.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/hook/cmake_prefix_path.dsv'
+[7.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/hook/cmake_prefix_path.sh'
+[7.497s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib'
+[7.498s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/bin'
+[7.500s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/pkgconfig/merge_arrays.pc'
+[7.503s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/python3.10/site-packages'
+[7.506s] Level 1:colcon.colcon_core.environment:checking '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/bin'
+[7.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.ps1'
+[7.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.dsv'
+[7.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.sh'
+[7.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.bash'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.zsh'
+[7.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/colcon-core/packages/merge_arrays)
+[7.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.573s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.632s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.636s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[7.638s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atk-sandbox/atk-sandbox/workspace/install/local_setup.ps1'
+[7.650s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atk-sandbox/atk-sandbox/workspace/install/_local_setup_util_ps1.py'
+[7.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atk-sandbox/atk-sandbox/workspace/install/setup.ps1'
+[7.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atk-sandbox/atk-sandbox/workspace/install/local_setup.sh'
+[7.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atk-sandbox/atk-sandbox/workspace/install/_local_setup_util_sh.py'
+[7.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atk-sandbox/atk-sandbox/workspace/install/setup.sh'
+[7.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atk-sandbox/atk-sandbox/workspace/install/local_setup.bash'
+[7.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atk-sandbox/atk-sandbox/workspace/install/setup.bash'
+[7.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atk-sandbox/atk-sandbox/workspace/install/local_setup.zsh'
+[7.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atk-sandbox/atk-sandbox/workspace/install/setup.zsh'

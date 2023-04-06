@@ -1,0 +1,13 @@
+[0.355s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.131s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.847s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[9.641s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[9.645s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:40:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.650s]    40 |     void topic_callback([01;35m[Kconst std_msgs::msg::Int32MultiArray &msg[m[K)
+[9.654s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[29.540s] [100%] [32m[1mLinking CXX executable merge_arrays_node[0m
+[36.692s] gmake[2]: *** Deleting file 'merge_arrays_node'
+[36.698s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:159: merge_arrays_node] Interrupt
+[36.703s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Interrupt
+[36.708s] gmake: *** [Makefile:146: all] Interrupt
+[36.711s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

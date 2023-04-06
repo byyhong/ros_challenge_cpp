@@ -1,0 +1,18 @@
+[0.274s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.683s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.011s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[8.366s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::merge_arrays(std_msgs::msg::Int32MultiArray, std_msgs::msg::Int32MultiArray)[m[K’:
+[8.371s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:99:24:[m[K [01;31m[Kerror: [m[K‘[01m[KsizeOf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[8.376s]    99 |         int arr_len1 = [01;31m[KsizeOf[m[K(array1.data) / sizeOf(array1.data[0]);
+[8.380s]       |                        [01;31m[K^~~~~~[m[K
+[8.385s]       |                        [32m[Ksize_t[m[K
+[8.389s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:103:23:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.392s]   103 |             if (array1[01;31m[K[[m[Ki] < array2[j])
+[8.397s]       |                       [01;31m[K^[m[K
+[8.401s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:103:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.405s]   103 |             if (array1[i] < array2[01;31m[K[[m[Kj])
+[8.409s]       |                                   [01;31m[K^[m[K
+[11.986s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[11.993s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[11.998s] gmake: *** [Makefile:146: all] Error 2
+[12.000s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

@@ -1,0 +1,4 @@
+source;share/wacore/local_setup.bash
+source;share/wacore/local_setup.dsv
+source;share/wacore/local_setup.sh
+source;share/wacore/local_setup.zsh

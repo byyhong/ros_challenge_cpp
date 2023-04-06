@@ -1,0 +1,12 @@
+[0.388s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.096s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[2.679s] [ 50%] Built target listener
+[5.141s] [ 75%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[5.852s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kcompose_nodes/node1.hpp: No such file or directory
+[5.860s]     9 | #include [01;31m[K"compose_nodes/node1.hpp"[m[K
+[5.868s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.873s] compilation terminated.
+[5.878s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[5.883s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[5.890s] gmake: *** [Makefile:146: all] Error 2
+[5.895s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

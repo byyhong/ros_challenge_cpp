@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.003522] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.006145] (-) JobUnselected: {'identifier': 'compose_nodes'}
+[0.008933] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.011962] (-) JobUnselected: {'identifier': 'wacore'}
+[0.013695] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.016153] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.017644] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.019322] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.020433] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.095347] (-) TimerEvent: {}
+[0.197704] (-) TimerEvent: {}
+[0.293283] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.298075] (-) TimerEvent: {}
+[0.305434] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.308187] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[0.398319] (-) TimerEvent: {}
+[0.507554] (-) TimerEvent: {}
+[0.615676] (-) TimerEvent: {}
+[0.732861] (-) TimerEvent: {}
+[0.834566] (-) TimerEvent: {}
+[0.939496] (-) TimerEvent: {}
+[1.041153] (-) TimerEvent: {}
+[1.142698] (-) TimerEvent: {}
+[1.244465] (-) TimerEvent: {}
+[1.346204] (-) TimerEvent: {}
+[1.447622] (-) TimerEvent: {}
+[1.549471] (-) TimerEvent: {}
+[1.651741] (-) TimerEvent: {}
+[1.753384] (-) TimerEvent: {}
+[1.855344] (-) TimerEvent: {}
+[1.961019] (-) TimerEvent: {}
+[2.069058] (-) TimerEvent: {}
+[2.170651] (-) TimerEvent: {}
+[2.273437] (-) TimerEvent: {}
+[2.375264] (-) TimerEvent: {}
+[2.477383] (-) TimerEvent: {}
+[2.578714] (-) TimerEvent: {}
+[2.680392] (-) TimerEvent: {}
+[2.760098] (merge_arrays) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[2.780655] (-) TimerEvent: {}
+[2.882320] (-) TimerEvent: {}
+[2.983591] (-) TimerEvent: {}
+[3.085012] (-) TimerEvent: {}
+[3.186496] (-) TimerEvent: {}
+[3.289063] (-) TimerEvent: {}
+[3.390753] (-) TimerEvent: {}
+[3.492491] (-) TimerEvent: {}
+[3.593843] (-) TimerEvent: {}
+[3.696016] (-) TimerEvent: {}
+[3.798243] (-) TimerEvent: {}
+[3.899497] (-) TimerEvent: {}
+[4.001000] (-) TimerEvent: {}
+[4.102714] (-) TimerEvent: {}
+[4.205097] (-) TimerEvent: {}
+[4.307297] (-) TimerEvent: {}
+[4.410019] (-) TimerEvent: {}
+[4.512718] (-) TimerEvent: {}
+[4.615421] (-) TimerEvent: {}
+[4.718445] (-) TimerEvent: {}
+[4.820686] (-) TimerEvent: {}
+[4.922959] (-) TimerEvent: {}
+[5.025067] (-) TimerEvent: {}
+[5.127460] (-) TimerEvent: {}
+[5.230396] (-) TimerEvent: {}
+[5.333380] (-) TimerEvent: {}
+[5.435659] (-) TimerEvent: {}
+[5.539017] (-) TimerEvent: {}
+[5.641354] (-) TimerEvent: {}
+[5.743097] (-) TimerEvent: {}
+[5.846134] (-) TimerEvent: {}
+[5.948562] (-) TimerEvent: {}
+[6.051023] (-) TimerEvent: {}
+[6.153653] (-) TimerEvent: {}
+[6.255890] (-) TimerEvent: {}
+[6.358003] (-) TimerEvent: {}
+[6.461109] (-) TimerEvent: {}
+[6.563249] (-) TimerEvent: {}
+[6.665644] (-) TimerEvent: {}
+[6.767989] (-) TimerEvent: {}
+[6.873981] (-) TimerEvent: {}
+[6.980772] (-) TimerEvent: {}
+[7.103314] (-) TimerEvent: {}
+[7.205280] (-) TimerEvent: {}
+[7.348611] (-) TimerEvent: {}
+[7.451001] (-) TimerEvent: {}
+[7.553123] (-) TimerEvent: {}
+[7.655562] (-) TimerEvent: {}
+[7.757411] (-) TimerEvent: {}
+[7.859253] (-) TimerEvent: {}
+[7.961424] (-) TimerEvent: {}
+[8.063689] (-) TimerEvent: {}
+[8.166466] (-) TimerEvent: {}
+[8.269893] (-) TimerEvent: {}
+[8.372586] (-) TimerEvent: {}
+[8.475074] (-) TimerEvent: {}
+[8.484644] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kboolean\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.490700] (merge_arrays) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[Kboolean\x1b[m\x1b[K merged = false;\n'}
+[8.495183] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.499408] (merge_arrays) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kbool\x1b[m\x1b[K\n'}
+[8.503966] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.509053] (merge_arrays) StderrLine: {'line': b'   36 |     void topic_callback(const \x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::Int32MultiArray &msg)\n'}
+[8.513267] (merge_arrays) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.518296] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.522375] (merge_arrays) StderrLine: {'line': b'   36 |     void topic_callback(const std_msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KInt32MultiArray &msg)\n'}
+[8.526959] (merge_arrays) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.531194] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.536193] (merge_arrays) StderrLine: {'line': b'   36 |     void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msg::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KInt32MultiArray &msg)\n'}
+[8.541018] (merge_arrays) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[8.546505] (merge_arrays) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[8.551201] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[8.556345] (merge_arrays) StderrLine: {'line': b'   36 |     void topic_callback(const std_msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Int32MultiArray &msg)\n'}
+[8.566738] (merge_arrays) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.571796] (merge_arrays) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.576807] (-) TimerEvent: {}
+[8.578098] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:36:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.583056] (merge_arrays) StderrLine: {'line': b'   36 |     void topic_callback(const std_msg::msg::\x1b[01;31m\x1b[KInt32MultiArray\x1b[m\x1b[K &msg)\n'}
+[8.587254] (merge_arrays) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.592108] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMergeArrays::MergeArrays()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.596849] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:25:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMergeArrays\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.601358] (merge_arrays) StderrLine: {'line': b'   25 |     MergeArrays() : Node("merge_arrays_publisher"), \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K(0)\n'}
+[8.607032] (merge_arrays) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.611480] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.618043] (merge_arrays) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Int32MultiArray>("/output/array", 10);\n'}
+[8.623222] (merge_arrays) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.627452] (merge_arrays) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[8.631221] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.637556] (merge_arrays) StderrLine: {'line': b'   27 |         publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KInt32MultiArray\x1b[m\x1b[K>("/output/array", 10);\n'}
+[8.641052] (merge_arrays) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.645158] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMergeArrays::create_publisher<<expression error> >(const char [14], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.651057] (merge_arrays) StderrLine: {'line': b'   27 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Int32MultiArray>("/output/array", 10)\x1b[m\x1b[K;\n'}
+[8.658072] (merge_arrays) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.662171] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.668711] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.672659] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.678486] (-) TimerEvent: {}
+[8.679606] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[8.685037] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.690632] (merge_arrays) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[8.694609] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.699066] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.706142] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.710831] (merge_arrays) StderrLine: {'line': b'   27 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Int32MultiArray>("/output/array", 10)\x1b[m\x1b[K;\n'}
+[8.715379] (merge_arrays) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.720800] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.727878] (merge_arrays) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Int32MultiArray>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1));\n'}
+[8.732419] (merge_arrays) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.737025] (merge_arrays) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[8.741456] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.746786] (merge_arrays) StderrLine: {'line': b'   28 |         subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KInt32MultiArray\x1b[m\x1b[K>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1));\n'}
+[8.753231] (merge_arrays) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.757817] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMergeArrays::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (MergeArrays::*)(...), MergeArrays*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.761204] (merge_arrays) StderrLine: {'line': b'   28 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[8.766781] (merge_arrays) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.772870] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.777429] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.782004] (-) TimerEvent: {}
+[8.783230] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.788006] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[8.792510] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.799168] (merge_arrays) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[8.802713] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.807535] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.811514] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:28:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.815967] (merge_arrays) StderrLine: {'line': b'   28 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[8.820453] (merge_arrays) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.826371] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:29:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.832177] (merge_arrays) StderrLine: {'line': b'   29 |         subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KInt32MultiArray\x1b[m\x1b[K>("input/array2", 10, std::bind(&MergeArrays::topic_callback, this, _1));\n'}
+[8.839113] (merge_arrays) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.844183] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:29:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMergeArrays::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (MergeArrays::*)(...), MergeArrays*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.848990] (merge_arrays) StderrLine: {'line': b'   29 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array2", 10, std::bind(&MergeArrays::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[8.853907] (merge_arrays) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.858974] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.865144] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.869139] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.874240] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[8.879698] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.884391] (-) TimerEvent: {}
+[8.885820] (merge_arrays) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[8.891331] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.898027] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.902544] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:29:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.907773] (merge_arrays) StderrLine: {'line': b'   29 |         subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>("input/array2", 10, std::bind(&MergeArrays::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[8.912555] (merge_arrays) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.917910] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:31:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.922448] (merge_arrays) StderrLine: {'line': b'   31 |         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(500ms, std::bind(&MergeArrays::timer_callback, this));\n'}
+[8.927984] (merge_arrays) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.931780] (merge_arrays) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[8.939347] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:31:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMergeArrays\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.946331] (merge_arrays) StderrLine: {'line': b'   31 |         timer_ = this->create_wall_timer(500ms, std::bind(&MergeArrays::\x1b[01;31m\x1b[Ktimer_callback\x1b[m\x1b[K, this));\n'}
+[8.950539] (merge_arrays) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.955000] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:32:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K/\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.960239] (merge_arrays) StderrLine: {'line': b'   32 |         std_msgs \x1b[01;31m\x1b[K/\x1b[m\x1b[K msg / Int32MultiArray arrays;\n'}
+[8.966570] (merge_arrays) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.970648] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:32:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.974600] (merge_arrays) StderrLine: {'line': b'   32 |         std_msgs / \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K / Int32MultiArray arrays;\n'}
+[8.978320] (merge_arrays) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.982949] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:32:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.987797] (-) TimerEvent: {}
+[8.989182] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[8.994355] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[9.000545] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[9.005251] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[9.009371] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[9.014813] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[9.018351] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[9.022796] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.027868] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[9.032239] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[9.036939] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[9.040782] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.046748] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.050431] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.054654] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[9.060703] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.065367] (merge_arrays) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.069676] (merge_arrays) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.074358] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[9.080035] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[9.084722] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[9.090673] (-) TimerEvent: {}
+[9.092271] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[9.097599] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[9.102217] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.107296] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[9.111962] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[9.116373] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[9.120110] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.124282] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.130744] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.135586] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[9.141695] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.146804] (merge_arrays) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.153176] (merge_arrays) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.156868] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[9.160060] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[9.164623] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[9.170028] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[9.175270] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[9.179734] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[9.184036] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.188182] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[9.192232] (-) TimerEvent: {}
+[9.194284] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[9.198829] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[9.202467] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.206808] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.210744] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.215422] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[9.219956] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.224436] (merge_arrays) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.228774] (merge_arrays) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.233237] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp:7\x1b[m\x1b[K,\n'}
+[9.241491] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7\x1b[m\x1b[K:\n'}
+[9.249029] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.254262] (merge_arrays) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.260318] (merge_arrays) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.264292] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:32:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt32MultiArray\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.269004] (merge_arrays) StderrLine: {'line': b'   32 |         std_msgs / msg / \x1b[01;31m\x1b[KInt32MultiArray\x1b[m\x1b[K arrays;\n'}
+[9.273827] (merge_arrays) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.292440] (-) TimerEvent: {}
+[9.396884] (-) TimerEvent: {}
+[9.475520] (merge_arrays) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1\n'}
+[9.481093] (merge_arrays) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2\n'}
+[9.487648] (merge_arrays) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.492452] (merge_arrays) CommandEnded: {'returncode': 2}
+[9.498173] (-) TimerEvent: {}
+[9.599453] (-) TimerEvent: {}
+[9.701701] (-) TimerEvent: {}
+[9.803132] (-) TimerEvent: {}
+[9.909765] (-) TimerEvent: {}
+[10.011832] (-) TimerEvent: {}
+[10.113745] (-) TimerEvent: {}
+[10.215335] (-) TimerEvent: {}
+[10.317168] (-) TimerEvent: {}
+[10.418792] (-) TimerEvent: {}
+[10.520139] (-) TimerEvent: {}
+[10.621742] (-) TimerEvent: {}
+[10.723555] (-) TimerEvent: {}
+[10.825084] (-) TimerEvent: {}
+[10.926766] (-) TimerEvent: {}
+[11.028648] (-) TimerEvent: {}
+[11.130776] (-) TimerEvent: {}
+[11.232238] (-) TimerEvent: {}
+[11.333498] (-) TimerEvent: {}
+[11.436548] (-) TimerEvent: {}
+[11.539578] (-) TimerEvent: {}
+[11.642160] (-) TimerEvent: {}
+[11.653968] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 2}
+[11.672825] (-) EventReactorShutdown: {}

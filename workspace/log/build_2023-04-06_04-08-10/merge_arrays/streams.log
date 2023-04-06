@@ -1,0 +1,12 @@
+[0.278s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.653s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.324s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[9.171s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::merge_arrays(std_msgs::msg::Int32MultiArray, std_msgs::msg::Int32MultiArray)[m[K’:
+[9.177s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:99:24:[m[K [01;31m[Kerror: [m[K‘[01m[KsizeOf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[9.182s]    99 |         int arr_len1 = [01;31m[Ksizeof[m[K(array1.data) / sizeof(array1.data[0]);
+[9.186s]       |                        [01;31m[K^~~~~~[m[K
+[9.191s]       |                        [32m[Ksize_t[m[K
+[12.004s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Interrupt
+[12.010s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Interrupt
+[12.017s] gmake: *** [Makefile:146: all] Interrupt
+[12.128s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

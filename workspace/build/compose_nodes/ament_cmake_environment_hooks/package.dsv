@@ -1,0 +1,4 @@
+source;share/compose_nodes/local_setup.bash
+source;share/compose_nodes/local_setup.dsv
+source;share/compose_nodes/local_setup.sh
+source;share/compose_nodes/local_setup.zsh

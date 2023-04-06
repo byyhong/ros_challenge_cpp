@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/Roi.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "wauto_perception_msgs/msg/ObjectClassification.idl"
+
+module wauto_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message defines a Region of Interest (Roi)" "\n"
+      "" "\n"
+      "An Roi can represent an area for which a detection algorithm should take place" "\n"
+      " An example of this would be a segmentation algorithm finding the road and then" "\n"
+      " a detector is deployed to find road signals (bike lane, turn paint symbol, etc.)" "\n"
+      "" "\n"
+      "Further, an Roi can define an unrefined bounding box for which further classification is performed" "\n"
+      " An example of this would be a traffic light detector that finds all possible" "\n"
+      " traffic lights in some image. These bounding boxes the detector finds would be Rois" "\n"
+      " and then a classifier would use these Rois to determine the traffic light state (green, yellow, left turn signal, etc.)")
+    struct Roi {
+      @verbatim (language="comment", text=
+        "Unique id")
+      @default (value=0)
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        "A list of possible classifications for this Roi")
+      wauto_perception_msgs::msg::ObjectClassification classification;
+
+      @verbatim (language="comment", text=
+        "The outline of the Roi in image coordinates assuming aabb (axis aligned bounding box)")
+      geometry_msgs::msg::Point bottom_left;
+
+      geometry_msgs::msg::Point top_right;
+    };
+  };
+};

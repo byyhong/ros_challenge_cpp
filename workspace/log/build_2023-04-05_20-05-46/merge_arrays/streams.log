@@ -1,0 +1,6 @@
+[0.292s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.747s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[1.903s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:170: CMakeFiles/merge_arrays_node.dir/depend] Interrupt
+[1.908s] gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/merge_arrays_node.dir/all] Interrupt
+[1.912s] gmake: *** [Makefile:146: all] Interrupt
+[1.915s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

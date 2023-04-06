@@ -1,0 +1,11 @@
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/Roi.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/RoiArray.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/LaneMarking.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/LaneMarkingArray.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/LimitLine.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/LimitLineArray.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/Object.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/ObjectArray.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/ObjectClassification.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/Cluster.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs/rosidl_adapter/wauto_perception_msgs:msg/ClusterArray.idl

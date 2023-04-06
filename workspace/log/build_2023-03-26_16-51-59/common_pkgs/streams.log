@@ -1,0 +1,43 @@
+[0.198s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/common_pkgs -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs
+[0.684s] -- The C compiler identification is GNU 11.3.0
+[1.234s] -- The CXX compiler identification is GNU 11.3.0
+[1.322s] -- Detecting C compiler ABI info
+[2.683s] -- Detecting C compiler ABI info - done
+[2.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.745s] -- Detecting C compile features
+[2.754s] -- Detecting C compile features - done
+[2.809s] -- Detecting CXX compiler ABI info
+[4.274s] -- Detecting CXX compiler ABI info - done
+[4.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.346s] -- Detecting CXX compile features
+[4.356s] -- Detecting CXX compile features - done
+[4.436s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.424s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.786s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.454s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.481s] -- Added test 'lint_cmake' to check CMake code style
+[6.502s] -- Added test 'xmllint' to check XML markup files
+[6.685s] -- Configuring done
+[7.201s] -- Generating done
+[7.338s] -- Build files have been written to: /home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs
+[7.348s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/common_pkgs -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs
+[7.360s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs -- -j4 -l4
+[7.478s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs -- -j4 -l4
+[7.553s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs
+[7.569s] -- Install configuration: ""
+[7.615s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/ament_index/resource_index/package_run_dependencies/common_pkgs
+[7.677s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/ament_index/resource_index/parent_prefix_path/common_pkgs
+[7.748s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/ament_prefix_path.sh
+[7.792s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/ament_prefix_path.dsv
+[7.828s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/path.sh
+[7.872s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/path.dsv
+[7.908s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.bash
+[7.965s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.sh
+[8.030s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.zsh
+[8.089s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.dsv
+[8.474s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/package.dsv
+[8.615s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/ament_index/resource_index/packages/common_pkgs
+[8.725s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/cmake/common_pkgsConfig.cmake
+[8.853s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/cmake/common_pkgsConfig-version.cmake
+[8.931s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/package.xml
+[8.989s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/common_pkgs

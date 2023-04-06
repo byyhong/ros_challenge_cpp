@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_control_msgs/msg/CarState.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "x = [x, y, v, psi]")
+    struct CarState {
+      @verbatim (language="comment", text=
+        "Rear-axle x position")
+      double x;
+
+      @verbatim (language="comment", text=
+        "Rear-axle y position")
+      double y;
+
+      @verbatim (language="comment", text=
+        "Linear speed")
+      double v;
+
+      @verbatim (language="comment", text=
+        "Heading")
+      double psi;
+    };
+  };
+};

@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/LaneMarking.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_perception_msgs {
+  module msg {
+    module LaneMarking_Constants {
+      @verbatim (language="comment", text=
+        "Enum for lane marking types")
+      const uint8 WA_LANE_MARKING_TYPE_UNKNOWN = 0;
+      const uint8 WA_LANE_MARKING_TYPE_SOLID = 1;
+      const uint8 WA_LANE_MARKING_TYPE_DASHED = 2;
+      const uint8 WA_LANE_MARKING_TYPE_DOTTED = 3;
+      const uint8 WA_LANE_MARKING_TYPE_BOTTS_DOTS = 4;
+      const uint8 WA_LANE_MARKING_TYPE_DOUBLE = 5;
+      const uint8 WA_LANE_MARKING_TYPE_ROAD_EDGE = 6;
+      @verbatim (language="comment", text=
+        "Enum for lane marking colors")
+      const uint8 WA_LANE_MARKING_COLOR_UNKNOWN = 0;
+      const uint8 WA_LANE_MARKING_COLOR_WHITE = 1;
+      const uint8 WA_LANE_MARKING_COLOR_YELLOW = 2;
+      const uint8 WA_LANE_MARKING_COLOR_OTHER = 3;
+    };
+    @verbatim (language="comment", text=
+      "This message defines a \"Lane Marking\"" "\n"
+      "" "\n"
+      "A \"Lane Marking\" is defined by many characteristics, which may include marking color and marking type.")
+    struct LaneMarking {
+      @verbatim (language="comment", text=
+        "Unique id")
+      @default (value=0)
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "Lateral distance to lane markings" "\n"
+        "Negative indicates left, positive right")
+      int8 distance;
+
+      @verbatim (language="comment", text=
+        "Lane marking type (see WA_LANE_MARKING_COLOR)")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "Lane line color (see WA_LANE_MARKING_COLOR)")
+      uint8 color;
+    };
+  };
+};

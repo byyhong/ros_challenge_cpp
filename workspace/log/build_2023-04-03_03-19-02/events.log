@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.001459] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.002926] (-) JobUnselected: {'identifier': 'compose_nodes'}
+[0.004481] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.006349] (-) JobUnselected: {'identifier': 'wacore'}
+[0.007183] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.008862] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.009740] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.011387] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.012964] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.096937] (-) TimerEvent: {}
+[0.198717] (-) TimerEvent: {}
+[0.299980] (-) TimerEvent: {}
+[0.311921] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.330673] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.334025] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[0.400160] (-) TimerEvent: {}
+[0.501818] (-) TimerEvent: {}
+[0.603147] (-) TimerEvent: {}
+[0.706366] (-) TimerEvent: {}
+[0.808395] (-) TimerEvent: {}
+[0.916855] (-) TimerEvent: {}
+[1.020490] (-) TimerEvent: {}
+[1.122432] (-) TimerEvent: {}
+[1.224284] (-) TimerEvent: {}
+[1.326210] (-) TimerEvent: {}
+[1.427601] (-) TimerEvent: {}
+[1.529474] (-) TimerEvent: {}
+[1.632084] (-) TimerEvent: {}
+[1.734381] (-) TimerEvent: {}
+[1.836288] (-) TimerEvent: {}
+[1.979476] (-) TimerEvent: {}
+[2.094509] (-) TimerEvent: {}
+[2.196552] (-) TimerEvent: {}
+[2.298703] (-) TimerEvent: {}
+[2.407833] (-) TimerEvent: {}
+[2.509870] (-) TimerEvent: {}
+[2.612577] (-) TimerEvent: {}
+[2.714691] (-) TimerEvent: {}
+[2.818045] (-) TimerEvent: {}
+[2.923226] (-) TimerEvent: {}
+[3.026275] (-) TimerEvent: {}
+[3.128859] (-) TimerEvent: {}
+[3.237926] (-) TimerEvent: {}
+[3.341467] (-) TimerEvent: {}
+[3.443617] (-) TimerEvent: {}
+[3.545400] (-) TimerEvent: {}
+[3.647977] (-) TimerEvent: {}
+[3.750522] (-) TimerEvent: {}
+[3.857759] (-) TimerEvent: {}
+[3.959898] (-) TimerEvent: {}
+[4.030286] (merge_arrays) StdoutLine: {'line': b'[100%] Built target merge_arrays_node\n'}
+[4.060338] (-) TimerEvent: {}
+[4.162823] (-) TimerEvent: {}
+[4.270511] (-) TimerEvent: {}
+[4.391325] (-) TimerEvent: {}
+[4.557694] (-) TimerEvent: {}
+[4.661580] (-) TimerEvent: {}
+[4.706802] (merge_arrays) CommandEnded: {'returncode': 0}
+[4.762030] (-) TimerEvent: {}
+[4.866639] (-) TimerEvent: {}
+[4.968238] (-) TimerEvent: {}
+[5.069790] (-) TimerEvent: {}
+[5.171678] (-) TimerEvent: {}
+[5.273242] (-) TimerEvent: {}
+[5.375110] (-) TimerEvent: {}
+[5.477030] (-) TimerEvent: {}
+[5.578789] (-) TimerEvent: {}
+[5.681720] (-) TimerEvent: {}
+[5.784279] (-) TimerEvent: {}
+[5.886451] (-) TimerEvent: {}
+[5.988025] (-) TimerEvent: {}
+[6.089639] (-) TimerEvent: {}
+[6.191556] (-) TimerEvent: {}
+[6.293517] (-) TimerEvent: {}
+[6.395913] (-) TimerEvent: {}
+[6.497598] (-) TimerEvent: {}
+[6.598964] (-) TimerEvent: {}
+[6.700484] (-) TimerEvent: {}
+[6.802221] (-) TimerEvent: {}
+[6.905016] (-) TimerEvent: {}
+[6.909620] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'install'}
+[7.005319] (-) TimerEvent: {}
+[7.107286] (-) TimerEvent: {}
+[7.209666] (-) TimerEvent: {}
+[7.261063] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[7.309974] (-) TimerEvent: {}
+[7.411969] (-) TimerEvent: {}
+[7.513527] (-) TimerEvent: {}
+[7.612172] (merge_arrays) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.618074] (-) TimerEvent: {}
+[7.621774] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node\n'}
+[7.634919] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays\n'}
+[7.641519] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays\n'}
+[7.647025] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh\n'}
+[7.652984] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv\n'}
+[7.658567] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/path.sh\n'}
+[7.664015] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/environment/path.dsv\n'}
+[7.671786] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.bash\n'}
+[7.676169] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.sh\n'}
+[7.681571] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.zsh\n'}
+[7.686536] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/local_setup.dsv\n'}
+[7.692076] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.dsv\n'}
+[7.711180] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays\n'}
+[7.716409] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake\n'}
+[7.722023] (-) TimerEvent: {}
+[7.723450] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake\n'}
+[7.729578] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays/share/merge_arrays/package.xml\n'}
+[7.736571] (merge_arrays) CommandEnded: {'returncode': 0}
+[7.822270] (-) TimerEvent: {}
+[7.926802] (-) TimerEvent: {}
+[8.028478] (-) TimerEvent: {}
+[8.130081] (-) TimerEvent: {}
+[8.232184] (-) TimerEvent: {}
+[8.333721] (-) TimerEvent: {}
+[8.435315] (-) TimerEvent: {}
+[8.536680] (-) TimerEvent: {}
+[8.638081] (-) TimerEvent: {}
+[8.739621] (-) TimerEvent: {}
+[8.841576] (-) TimerEvent: {}
+[8.943474] (-) TimerEvent: {}
+[9.045138] (-) TimerEvent: {}
+[9.147790] (-) TimerEvent: {}
+[9.250027] (-) TimerEvent: {}
+[9.351828] (-) TimerEvent: {}
+[9.468652] (-) TimerEvent: {}
+[9.594358] (-) TimerEvent: {}
+[9.702763] (-) TimerEvent: {}
+[9.804522] (-) TimerEvent: {}
+[9.906118] (-) TimerEvent: {}
+[10.008007] (-) TimerEvent: {}
+[10.109495] (-) TimerEvent: {}
+[10.211423] (-) TimerEvent: {}
+[10.312884] (-) TimerEvent: {}
+[10.378971] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 0}
+[10.388514] (-) EventReactorShutdown: {}

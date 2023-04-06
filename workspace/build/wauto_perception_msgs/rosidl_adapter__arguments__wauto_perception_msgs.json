@@ -1,0 +1,16 @@
+{
+  "package_name": "wauto_perception_msgs",
+  "non_idl_tuples": [
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/Roi.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/RoiArray.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/LaneMarking.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/LaneMarkingArray.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/LimitLine.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/LimitLineArray.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/Object.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/ObjectArray.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/ObjectClassification.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/Cluster.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs:msg/ClusterArray.msg"
+  ]
+}

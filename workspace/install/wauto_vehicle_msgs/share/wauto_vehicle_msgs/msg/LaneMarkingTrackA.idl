@@ -1,0 +1,144 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_vehicle_msgs/msg/LaneMarkingTrackA.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_vehicle_msgs {
+  module msg {
+    module LaneMarkingTrackA_Constants {
+      @verbatim (language="comment", text=
+        "--------------------------" "\n"        "LaneMarking_TrackA Message" "\n"        "--------------------------" "\n"        "The name of the message as defined in the DBC file.")
+      const string NAME = "LaneMarking_TrackA";
+      @verbatim (language="comment", text=
+        "-----" "\n"        "Enums" "\n"        "-----" "\n"        "Enum for LaneMarkingLnHdngTngtV signal" "\n"        "Invalid")
+      const uint8 LANEMARKINGLNHDNGTNGTV_1 = 1;
+      @verbatim (language="comment", text=
+        "Valid")
+      const uint8 LANEMARKINGLNHDNGTNGTV_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for LaneMarkingLnDstV signal" "\n"        "Invalid")
+      const uint8 LANEMARKINGLNDSTV_1 = 1;
+      @verbatim (language="comment", text=
+        "Valid")
+      const uint8 LANEMARKINGLNDSTV_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for LaneMarkingLnCrvtV signal" "\n"        "Invalid")
+      const uint8 LANEMARKINGLNCRVTV_1 = 1;
+      @verbatim (language="comment", text=
+        "Valid")
+      const uint8 LANEMARKINGLNCRVTV_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for LaneMarkingLnCrvtGradV signal" "\n"        "Invalid")
+      const uint8 LANEMARKINGLNCRVTGRADV_1 = 1;
+      @verbatim (language="comment", text=
+        "Valid")
+      const uint8 LANEMARKINGLNCRVTGRADV_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for LaneMarkingLnMrkrTyp signal" "\n"        "None")
+      const uint8 LANEMARKINGLNMRKRTYP_0 = 0;
+      @verbatim (language="comment", text=
+        "Solid")
+      const uint8 LANEMARKINGLNMRKRTYP_1 = 1;
+      @verbatim (language="comment", text=
+        "Dashed")
+      const uint8 LANEMARKINGLNMRKRTYP_2 = 2;
+      @verbatim (language="comment", text=
+        "Dotted")
+      const uint8 LANEMARKINGLNMRKRTYP_3 = 3;
+      @verbatim (language="comment", text=
+        "Botts Dots")
+      const uint8 LANEMARKINGLNMRKRTYP_4 = 4;
+      @verbatim (language="comment", text=
+        "Double")
+      const uint8 LANEMARKINGLNMRKRTYP_5 = 5;
+      @verbatim (language="comment", text=
+        "Road Edge")
+      const uint8 LANEMARKINGLNMRKRTYP_6 = 6;
+      @verbatim (language="comment", text=
+        "Enum for LaneMarkingColor signal" "\n"        "Unknown")
+      const uint8 LANEMARKINGCOLOR_0 = 0;
+      @verbatim (language="comment", text=
+        "White")
+      const uint8 LANEMARKINGCOLOR_1 = 1;
+      @verbatim (language="comment", text=
+        "Yellow")
+      const uint8 LANEMARKINGCOLOR_2 = 2;
+      @verbatim (language="comment", text=
+        "Other")
+      const uint8 LANEMARKINGCOLOR_3 = 3;
+    };
+    @verbatim (language="comment", text=
+      "----------------------------------------------" "\n"
+      "This is an auto generated file. DO NOT EDIT!!!" "\n"
+      "----------------------------------------------")
+    struct LaneMarkingTrackA {
+      @verbatim (language="comment", text=
+        "-------" "\n"
+        "Signals" "\n"
+        "-------" "\n"
+        "Rolling_Count")
+      @default (value=0)
+      uint8 rolling_count;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingID")
+      @default (value=0)
+      uint8 lanemarkingid;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnHdngTngtV")
+      @default (value=0)
+      uint8 lanemarkinglnhdngtngtv;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnHdngTngt")
+      @default (value=0)
+      int8 lanemarkinglnhdngtngt;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnDstV")
+      @default (value=0)
+      uint8 lanemarkinglndstv;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnDst")
+      @default (value=0)
+      int8 lanemarkinglndst;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnCrvtV")
+      @default (value=0)
+      uint8 lanemarkinglncrvtv;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnCrvtGradV")
+      @default (value=0)
+      uint8 lanemarkinglncrvtgradv;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnCrvtGrad")
+      @default (value=0)
+      int16 lanemarkinglncrvtgrad;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnCrvt")
+      @default (value=0)
+      int16 lanemarkinglncrvt;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnQltyConfLvl")
+      @default (value=0)
+      uint8 lanemarkinglnqltyconflvl;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingLnMrkrTyp")
+      @default (value=0)
+      uint8 lanemarkinglnmrkrtyp;
+
+      @verbatim (language="comment", text=
+        "LaneMarkingColor")
+      @default (value=0)
+      uint8 lanemarkingcolor;
+    };
+  };
+};

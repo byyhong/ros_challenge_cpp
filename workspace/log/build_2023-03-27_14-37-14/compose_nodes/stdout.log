@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[ 50%] Built target node1
+[35m[1mConsolidate compiler generated dependencies of target node2[0m
+[100%] Built target node2
+-- Install configuration: ""
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include/compose_nodes
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include/compose_nodes/node1.hpp
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include/compose_nodes/node2.hpp
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/library_path.sh
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/library_path.dsv
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib/libnode1.so
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib/libnode2.so
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/launch
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/launch/compose_nodes.launch.py
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/package_run_dependencies/compose_nodes
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/parent_prefix_path/compose_nodes
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/ament_prefix_path.sh
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/path.sh
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/path.dsv
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.bash
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.sh
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.zsh
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.dsv
+-- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/package.dsv
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/packages/compose_nodes
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/rclcpp_components/compose_nodes
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/compose_nodesConfig.cmake
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/compose_nodesConfig-version.cmake
+-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/package.xml

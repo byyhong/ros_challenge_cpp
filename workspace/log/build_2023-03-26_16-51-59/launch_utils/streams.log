@@ -1,0 +1,55 @@
+[2.344s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/src/common/launch/launch_utils': PYTHONPATH=/home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/prefix_override:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_utils build --build-base /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build install --record /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/install.log --install-scripts $base/lib/launch_utils --single-version-externally-managed
+[2.713s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.717s]   warnings.warn(
+[2.875s] running egg_info
+[2.884s] creating ../../../../build/launch_utils/launch_utils.egg-info
+[2.914s] writing ../../../../build/launch_utils/launch_utils.egg-info/PKG-INFO
+[2.940s] writing dependency_links to ../../../../build/launch_utils/launch_utils.egg-info/dependency_links.txt
+[2.953s] writing requirements to ../../../../build/launch_utils/launch_utils.egg-info/requires.txt
+[2.962s] writing top-level names to ../../../../build/launch_utils/launch_utils.egg-info/top_level.txt
+[2.974s] writing manifest file '../../../../build/launch_utils/launch_utils.egg-info/SOURCES.txt'
+[3.139s] reading manifest file '../../../../build/launch_utils/launch_utils.egg-info/SOURCES.txt'
+[3.181s] writing manifest file '../../../../build/launch_utils/launch_utils.egg-info/SOURCES.txt'
+[3.195s] running build
+[3.208s] running build_py
+[3.215s] creating /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build
+[3.254s] creating /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib
+[3.264s] creating /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils
+[3.271s] copying launch_utils/__init__.py -> /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils
+[3.325s] copying launch_utils/utilities.py -> /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils
+[3.341s] creating /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/conditions
+[3.354s] copying launch_utils/conditions/__init__.py -> /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/conditions
+[3.392s] copying launch_utils/conditions/multiple_if_conditions.py -> /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/conditions
+[3.415s] creating /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/substitutions
+[3.435s] copying launch_utils/substitutions/__init__.py -> /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/substitutions
+[3.455s] copying launch_utils/substitutions/quote_wrapped_python_expression.py -> /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/substitutions
+[3.474s] running install
+[3.480s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.486s]   warnings.warn(
+[3.494s] running install_lib
+[3.544s] creating /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils
+[3.553s] copying /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/__init__.py -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils
+[3.587s] creating /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/conditions
+[3.599s] copying /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/conditions/__init__.py -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/conditions
+[3.620s] copying /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/conditions/multiple_if_conditions.py -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/conditions
+[3.653s] creating /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/substitutions
+[3.662s] copying /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/substitutions/__init__.py -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/substitutions
+[3.702s] copying /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/substitutions/quote_wrapped_python_expression.py -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/substitutions
+[3.728s] copying /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build/lib/launch_utils/utilities.py -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils
+[3.752s] byte-compiling /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/__init__.py to __init__.cpython-310.pyc
+[3.784s] byte-compiling /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/conditions/__init__.py to __init__.cpython-310.pyc
+[3.858s] byte-compiling /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/conditions/multiple_if_conditions.py to multiple_if_conditions.cpython-310.pyc
+[3.916s] byte-compiling /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[4.021s] byte-compiling /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/substitutions/quote_wrapped_python_expression.py to quote_wrapped_python_expression.cpython-310.pyc
+[4.067s] byte-compiling /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils/utilities.py to utilities.cpython-310.pyc
+[4.115s] running install_data
+[4.160s] creating /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/share/ament_index
+[4.170s] creating /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/share/ament_index/resource_index
+[4.177s] creating /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/share/ament_index/resource_index/packages
+[4.186s] copying resource/launch_utils -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/share/ament_index/resource_index/packages
+[4.215s] copying package.xml -> /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/share/launch_utils
+[4.244s] running install_egg_info
+[4.277s] Copying ../../../../build/launch_utils/launch_utils.egg-info to /home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages/launch_utils-0.0.0-py3.10.egg-info
+[4.543s] running install_scripts
+[5.001s] writing list of installed files to '/home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/install.log'
+[5.051s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/src/common/launch/launch_utils' returned '0': PYTHONPATH=/home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/prefix_override:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_utils build --build-base /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/build install --record /home/atk-sandbox/atk-sandbox/workspace/build/launch_utils/install.log --install-scripts $base/lib/launch_utils --single-version-externally-managed

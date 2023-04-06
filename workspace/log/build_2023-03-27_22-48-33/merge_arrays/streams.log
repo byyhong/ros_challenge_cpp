@@ -1,0 +1,33 @@
+[0.386s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.320s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[5.762s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[11.257s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[11.266s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:47:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’ and ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’})
+[11.272s]    47 |             array = msg.[01;31m[Kdata[m[K;
+[11.276s]       |                         [01;31m[K^~~~[m[K
+[11.281s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7[m[K,
+[11.285s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[11.289s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(const std_msgs::msg::Int32MultiArray_<std::allocator<void> >&)[m[K’
+[11.293s]    36 | struct [01;36m[KInt32MultiArray_[m[K
+[11.298s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.302s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kconst std_msgs::msg::Int32MultiArray_<std::allocator<void> >&[m[K’
+[11.309s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(std_msgs::msg::Int32MultiArray_<std::allocator<void> >&&)[m[K’
+[11.313s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >&&[m[K’
+[11.317s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:48:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’})
+[11.321s]    48 |             result = msg.[01;31m[Kdata[m[K;
+[11.325s]       |                          [01;31m[K^~~~[m[K
+[11.330s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7[m[K,
+[11.334s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[11.339s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(const std_msgs::msg::Int32MultiArray_<std::allocator<void> >&)[m[K’
+[11.344s]    36 | struct [01;36m[KInt32MultiArray_[m[K
+[11.349s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.353s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kconst std_msgs::msg::Int32MultiArray_<std::allocator<void> >&[m[K’
+[11.360s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(std_msgs::msg::Int32MultiArray_<std::allocator<void> >&&)[m[K’
+[11.368s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >&&[m[K’
+[11.373s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:50:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.379s]    50 |         for(int i = 0; [01;35m[Ki < sizeof(array.data)/sizeof(array.data[0])[m[K; i++){
+[11.385s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.731s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[15.737s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[15.742s] gmake: *** [Makefile:146: all] Error 2
+[15.746s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

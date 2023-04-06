@@ -1,0 +1,27 @@
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::timer_callback()[m[K’:
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   54 |             [01;31m[Kpublish_[m[K->publish(result_array);
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[Kpublisher_[m[K
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:55:18:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   55 |             for(i[01;31m[K:[m[K result_array.data){
+      |                  [01;31m[K^[m[K
+      |                  [32m[K::[m[K
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:55:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ has not been declared
+   55 |             for([01;31m[Ki[m[K: result_array.data){
+      |                 [01;31m[K^[m[K
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   58 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:55:16:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   55 |             for[01;36m[K([m[Ki: result_array.data){
+      |                [01;36m[K^[m[K
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   58 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

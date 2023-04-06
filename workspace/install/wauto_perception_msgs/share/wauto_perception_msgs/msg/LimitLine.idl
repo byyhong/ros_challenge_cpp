@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/LimitLine.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module wauto_perception_msgs {
+  module msg {
+    module LimitLine_Constants {
+      @verbatim (language="comment", text=
+        "Enum for limit line assignment")
+      const uint8 WA_LIMIT_LINE_ASSIGN_UNKNOWN = 0;
+      const uint8 WA_LIMIT_LINE_ASSIGN_HOST_LANE = 1;
+      const uint8 WA_LIMIT_LINE_ASSIGN_LEFT_SHOULDER = 2;
+      const uint8 WA_LIMIT_LINE_ASSIGN_LEFT_LANE = 3;
+      const uint8 WA_LIMIT_LINE_ASSIGN_RIGHT_LANE = 4;
+      const uint8 WA_LIMIT_LINE_ASSIGN_RIGHT_SHOULDER = 5;
+      const uint8 WA_LIMIT_LINE_ASSIGN_OVERHEAD = 6;
+    };
+    @verbatim (language="comment", text=
+      "This message defines a \"Limit Line\"" "\n"
+      "" "\n"
+      "A limit line is a horizontal line that indicates a zone that a vehicle should stop. A good example" "\n"
+      "is a perpendicular line infront of a stop sign. ")
+    struct LimitLine {
+      @verbatim (language="comment", text=
+        "Unique id")
+      @default (value=0)
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "Confidence")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "Position relative to the vehicle (ignore z)")
+      geometry_msgs::msg::Vector3 position;
+
+      @verbatim (language="comment", text=
+        "Lane assignment")
+      uint8 assignment;
+    };
+  };
+};

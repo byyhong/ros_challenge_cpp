@@ -1,0 +1,30 @@
+[0.277s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.652s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.149s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[8.663s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::merge_arrays(std_msgs::msg::Int32MultiArray, std_msgs::msg::Int32MultiArray)[m[K’:
+[8.668s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:99:24:[m[K [01;31m[Kerror: [m[K‘[01m[KsizeOf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[8.672s]    99 |         int arr_len1 = [01;31m[KsizeOf[m[K(array1.data) / sizeOf(array1.data[0]);
+[8.676s]       |                        [01;31m[K^~~~~~[m[K
+[8.681s]       |                        [32m[Ksize_t[m[K
+[8.685s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:103:23:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.690s]   103 |             if (array1[01;31m[K[[m[Ki] < array2[j])
+[8.694s]       |                       [01;31m[K^[m[K
+[8.698s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:103:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.705s]   103 |             if (array1[i] < array2[01;31m[K[[m[Kj])
+[8.713s]       |                                   [01;31m[K^[m[K
+[8.717s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:105:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.721s]   105 |                 result_array.data.push_back(array1[01;31m[K[[m[Ki]);
+[8.725s]       |                                                   [01;31m[K^[m[K
+[8.730s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:111:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.734s]   111 |                 result_array.data.push_back(array2[01;31m[K[[m[Kj]);
+[8.739s]       |                                                   [01;31m[K^[m[K
+[8.742s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:117:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.746s]   117 |                 result_array.data.push_back(array1[01;31m[K[[m[Ki]);
+[8.749s]       |                                                   [01;31m[K^[m[K
+[8.753s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:124:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[8.758s]   124 |                 result_array.data.push_back(array2[01;31m[K[[m[Kj]_;
+[8.762s]       |                                                   [01;31m[K^[m[K
+[12.369s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[12.376s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[12.380s] gmake: *** [Makefile:146: all] Error 2
+[12.384s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

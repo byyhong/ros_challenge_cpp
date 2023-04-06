@@ -1,0 +1,22 @@
+{
+  "package_name": "wauto_vehicle_msgs",
+  "non_idl_tuples": [
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/AVState.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/LaneMarkingTrackA.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/LaneMarkings.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/LimitLineTrackA.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/LimitLines.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/ObjectTrackA.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/ObjectTrackB.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/ObjectTrackC.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/ObjectTrackD.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/Objects.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/RoadState.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/TrafficSignTrackA.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/TrafficSignalHeadTrackA.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/TrafficSignalHeads.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/TrafficSigns.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/VehicleLocation.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_vehicle_msgs:msg/VehicleOrientation.msg"
+  ]
+}

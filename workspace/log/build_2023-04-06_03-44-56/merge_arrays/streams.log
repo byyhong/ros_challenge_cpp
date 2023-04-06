@@ -1,0 +1,464 @@
+[0.303s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.046s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.812s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[10.366s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[10.372s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[10.376s]    45 |         result_array = std_msgs::msg::[32m[KInt32MultiArray()[m[K[01;31m[K<[m[K[34m[K3[m[K>;
+[10.382s]       |                                       [32m[K~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~[m[K
+[10.388s]       |                                       [32m[K|[m[K                 [34m[K|[m[K
+[10.393s]       |                                       [32m[K|[m[K                 [34m[Kint[m[K
+[10.396s]       |                                       [32m[Kstd_msgs::msg::Int32MultiArray {aka std_msgs::msg::Int32MultiArray_<std::allocator<void> >}[m[K
+[10.401s] In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+[10.408s]                  from [01m[K/usr/include/c++/11/tuple:38[m[K,
+[10.415s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.428s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.435s] [01m[K/usr/include/c++/11/bits/stl_pair.h:489:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[10.442s]   489 |     [01;36m[Koperator[m[K<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[10.451s]       |     [01;36m[K^~~~~~~~[m[K
+[10.460s] [01m[K/usr/include/c++/11/bits/stl_pair.h:489:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.474s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[10.484s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.495s]       |                                                         [01;36m[K^[m[K
+[10.504s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[10.517s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[10.607s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[10.614s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.644s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.650s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:425:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[10.656s]   425 |     [01;36m[Koperator[m[K<(const reverse_iterator<_Iterator>& __x,
+[10.660s]       |     [01;36m[K^~~~~~~~[m[K
+[10.665s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:425:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.670s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[10.675s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.679s]       |                                                         [01;36m[K^[m[K
+[10.684s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[10.689s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[10.693s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[10.699s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.703s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.709s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[10.715s]   464 |     [01;36m[Koperator[m[K<(const reverse_iterator<_IteratorL>& __x,
+[10.719s]       |     [01;36m[K^~~~~~~~[m[K
+[10.724s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.730s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[10.737s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.742s]       |                                                         [01;36m[K^[m[K
+[10.747s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[10.750s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[10.756s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[10.761s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.765s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.771s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1557:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[10.775s]  1557 |     [01;36m[Koperator[m[K<(const move_iterator<_IteratorL>& __x,
+[10.779s]       |     [01;36m[K^~~~~~~~[m[K
+[10.783s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1557:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.788s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[10.793s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.798s]       |                                                         [01;36m[K^[m[K
+[10.809s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[10.815s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[10.820s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[10.827s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.831s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.838s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1613:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[10.843s]  1613 |     [01;36m[Koperator[m[K<(const move_iterator<_Iterator>& __x,
+[10.849s]       |     [01;36m[K^~~~~~~~[m[K
+[10.854s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1613:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.859s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[10.864s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.868s]       |                                                         [01;36m[K^[m[K
+[10.874s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[10.880s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.885s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.889s] [01m[K/usr/include/c++/11/array:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator<(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[10.894s]   311 |     [01;36m[Koperator[m[K<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)
+[10.898s]       |     [01;36m[K^~~~~~~~[m[K
+[10.903s] [01m[K/usr/include/c++/11/array:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.908s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[10.913s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.920s]       |                                                         [01;36m[K^[m[K
+[10.925s] In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+[10.930s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.933s] [01m[K/usr/include/c++/11/tuple:1570:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[10.940s]  1570 |     [01;36m[Koperator[m[K<(const tuple<_TElements...>& __t,
+[10.945s]       |     [01;36m[K^~~~~~~~[m[K
+[10.950s] [01m[K/usr/include/c++/11/tuple:1570:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.956s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[10.961s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[10.966s]       |                                                         [01;36m[K^[m[K
+[10.970s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[10.975s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[10.979s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[10.983s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1930:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[10.990s]  1930 |     [01;36m[Koperator[m[K<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[10.995s]       |     [01;36m[K^~~~~~~~[m[K
+[11.000s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1930:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.005s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[11.009s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.015s]       |                                                         [01;36m[K^[m[K
+[11.020s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[11.025s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.031s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:795:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[11.037s]   795 |     [01;36m[Koperator[m[K<(const unique_ptr<_Tp, _Dp>& __x,
+[11.043s]       |     [01;36m[K^~~~~~~~[m[K
+[11.049s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:795:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.054s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[11.058s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.063s]       |                                                         [01;36m[K^[m[K
+[11.068s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[11.073s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.077s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:807:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[11.081s]   807 |     [01;36m[Koperator[m[K<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+[11.086s]       |     [01;36m[K^~~~~~~~[m[K
+[11.092s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:807:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.097s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[11.101s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.106s]       |                                                         [01;36m[K^[m[K
+[11.111s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[11.116s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.121s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:816:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator<(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[11.126s]   816 |     [01;36m[Koperator[m[K<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+[11.130s]       |     [01;36m[K^~~~~~~~[m[K
+[11.134s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:816:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.139s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kint[m[K’
+[11.145s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.150s]       |                                                         [01;36m[K^[m[K
+[11.156s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[11.160s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.166s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.172s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[11.177s]  1457 |     [01;36m[Koperator[m[K<(const __shared_ptr<_Tp, _Lp>& __a,
+[11.182s]       |     [01;36m[K^~~~~~~~[m[K
+[11.187s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.193s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[11.199s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.204s]       |                                                         [01;36m[K^[m[K
+[11.209s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[11.214s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.221s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.226s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[11.230s]  1468 |     [01;36m[Koperator[m[K<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[11.235s]       |     [01;36m[K^~~~~~~~[m[K
+[11.240s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.247s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[11.251s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.256s]       |                                                         [01;36m[K^[m[K
+[11.260s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[11.264s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.268s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.273s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[11.277s]  1476 |     [01;36m[Koperator[m[K<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[11.282s]       |     [01;36m[K^~~~~~~~[m[K
+[11.287s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.293s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kint[m[K’
+[11.297s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.303s]       |                                                         [01;36m[K^[m[K
+[11.309s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.315s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.320s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:488:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator<(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[11.326s]   488 |     [01;36m[Koperator[m[K<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[11.331s]       |     [01;36m[K^~~~~~~~[m[K
+[11.336s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:488:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.342s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[11.350s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.356s]       |                                                         [01;36m[K^[m[K
+[11.361s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.367s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.375s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:499:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator<(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[11.379s]   499 |     [01;36m[Koperator[m[K<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[11.384s]       |     [01;36m[K^~~~~~~~[m[K
+[11.389s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:499:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.394s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[11.399s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.405s]       |                                                         [01;36m[K^[m[K
+[11.409s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.414s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[11.419s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:508:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator<(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[11.424s]   508 |     [01;36m[Koperator[m[K<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[11.428s]       |     [01;36m[K^~~~~~~~[m[K
+[11.434s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:508:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.439s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[11.443s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.450s]       |                                                         [01;36m[K^[m[K
+[11.457s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[11.460s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.465s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[11.469s] [01m[K/usr/include/c++/11/string_view:589:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[11.473s]   589 |     [01;36m[Koperator[m[K< (basic_string_view<_CharT, _Traits> __x,
+[11.478s]       |     [01;36m[K^~~~~~~~[m[K
+[11.482s] [01m[K/usr/include/c++/11/string_view:589:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.487s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[11.491s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.495s]       |                                                         [01;36m[K^[m[K
+[11.499s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[11.504s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.509s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[11.513s] [01m[K/usr/include/c++/11/string_view:595:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[11.518s]   595 |     [01;36m[Koperator[m[K< (basic_string_view<_CharT, _Traits> __x,
+[11.523s]       |     [01;36m[K^~~~~~~~[m[K
+[11.527s] [01m[K/usr/include/c++/11/string_view:595:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.533s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[11.538s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.542s]       |                                                         [01;36m[K^[m[K
+[11.547s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[11.555s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.560s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[11.565s] [01m[K/usr/include/c++/11/string_view:602:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[11.570s]   602 |     [01;36m[Koperator[m[K< (__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[11.575s]       |     [01;36m[K^~~~~~~~[m[K
+[11.579s] [01m[K/usr/include/c++/11/string_view:602:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.583s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kint[m[K’
+[11.590s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.595s]       |                                                         [01;36m[K^[m[K
+[11.599s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.604s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[11.609s] [01m[K/usr/include/c++/11/bits/basic_string.h:6340:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[11.614s]  6340 |     [01;36m[Koperator[m[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[11.621s]       |     [01;36m[K^~~~~~~~[m[K
+[11.629s] [01m[K/usr/include/c++/11/bits/basic_string.h:6340:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.634s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[11.640s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.645s]       |                                                         [01;36m[K^[m[K
+[11.650s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.656s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[11.660s] [01m[K/usr/include/c++/11/bits/basic_string.h:6353:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[11.664s]  6353 |     [01;36m[Koperator[m[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[11.668s]       |     [01;36m[K^~~~~~~~[m[K
+[11.672s] [01m[K/usr/include/c++/11/bits/basic_string.h:6353:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.676s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[11.681s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.687s]       |                                                         [01;36m[K^[m[K
+[11.692s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[11.697s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[11.702s] [01m[K/usr/include/c++/11/bits/basic_string.h:6365:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[11.706s]  6365 |     [01;36m[Koperator[m[K<(const _CharT* __lhs,
+[11.711s]       |     [01;36m[K^~~~~~~~[m[K
+[11.719s] [01m[K/usr/include/c++/11/bits/basic_string.h:6365:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.727s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’
+[11.731s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.741s]       |                                                         [01;36m[K^[m[K
+[11.749s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[11.755s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[11.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.771s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.779s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[11.787s] [01m[K/usr/include/c++/11/bits/stl_set.h:1023:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[11.793s]  1023 |     [01;36m[Koperator[m[K<(const set<_Key, _Compare, _Alloc>& __x,
+[11.798s]       |     [01;36m[K^~~~~~~~[m[K
+[11.804s] [01m[K/usr/include/c++/11/bits/stl_set.h:1023:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.808s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[11.813s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.820s]       |                                                         [01;36m[K^[m[K
+[11.825s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[11.831s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[11.836s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.841s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.845s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[11.851s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[11.855s]  1009 |     [01;36m[Koperator[m[K<(const multiset<_Key, _Compare, _Alloc>& __x,
+[11.863s]       |     [01;36m[K^~~~~~~~[m[K
+[11.868s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.873s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[11.877s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.882s]       |                                                         [01;36m[K^[m[K
+[11.888s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[11.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[11.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.901s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.907s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.912s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[11.917s] [01m[K/usr/include/c++/11/bits/stl_list.h:2050:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[11.924s]  2050 |     [01;36m[Koperator[m[K<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[11.930s]       |     [01;36m[K^~~~~~~~[m[K
+[11.934s] [01m[K/usr/include/c++/11/bits/stl_list.h:2050:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.940s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[11.944s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[11.950s]       |                                                         [01;36m[K^[m[K
+[11.955s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[11.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[11.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.983s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[11.988s] [01m[K/usr/include/c++/11/bits/stl_map.h:1501:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[11.994s]  1501 |     [01;36m[Koperator[m[K<(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[11.999s]       |     [01;36m[K^~~~~~~~[m[K
+[12.004s] [01m[K/usr/include/c++/11/bits/stl_map.h:1501:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.009s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[12.015s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.020s]       |                                                         [01;36m[K^[m[K
+[12.025s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[12.029s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[12.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.045s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.051s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[12.057s]  1166 |     [01;36m[Koperator[m[K<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[12.062s]       |     [01;36m[K^~~~~~~~[m[K
+[12.067s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.071s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[12.075s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.081s]       |                                                         [01;36m[K^[m[K
+[12.086s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[12.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.126s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.131s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.136s] [01m[K/usr/include/c++/11/optional:1063:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[12.140s]  1063 |     [01;36m[Koperator[m[K<(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[12.145s]       |     [01;36m[K^~~~~~~~[m[K
+[12.152s] [01m[K/usr/include/c++/11/optional:1063:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.157s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[12.161s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.166s]       |                                                         [01;36m[K^[m[K
+[12.171s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[12.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.186s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.199s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.215s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.221s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.226s] [01m[K/usr/include/c++/11/optional:1131:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator<(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[12.231s]  1131 |     [01;36m[Koperator[m[K<(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept
+[12.235s]       |     [01;36m[K^~~~~~~~[m[K
+[12.240s] [01m[K/usr/include/c++/11/optional:1131:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.246s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[12.256s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.261s]       |                                                         [01;36m[K^[m[K
+[12.266s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[12.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.316s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.321s] [01m[K/usr/include/c++/11/optional:1136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator<(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[12.325s]  1136 |     [01;36m[Koperator[m[K<(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[12.330s]       |     [01;36m[K^~~~~~~~[m[K
+[12.333s] [01m[K/usr/include/c++/11/optional:1136:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.338s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[12.341s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.345s]       |                                                         [01;36m[K^[m[K
+[12.350s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.400s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.405s] [01m[K/usr/include/c++/11/optional:1197:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const _Up&)[m[K’
+[12.411s]  1197 |     [01;36m[Koperator[m[K<(const optional<_Tp>& __lhs, const _Up& __rhs)
+[12.418s]       |     [01;36m[K^~~~~~~~[m[K
+[12.426s] [01m[K/usr/include/c++/11/optional:1197:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.432s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[12.436s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.442s]       |                                                         [01;36m[K^[m[K
+[12.447s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[12.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.490s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.495s] [01m[K/usr/include/c++/11/optional:1203:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Up, _Tp> std::operator<(const _Up&, const std::optional<_Tp>&)[m[K’
+[12.499s]  1203 |     [01;36m[Koperator[m[K<(const _Up& __lhs, const optional<_Tp>& __rhs)
+[12.504s]       |     [01;36m[K^~~~~~~~[m[K
+[12.508s] [01m[K/usr/include/c++/11/optional:1203:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.513s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[12.518s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.522s]       |                                                         [01;36m[K^[m[K
+[12.527s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[12.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.537s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.545s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.550s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.563s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.572s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.581s] [01m[K/usr/include/c++/11/variant:1247:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator<(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[12.585s]  1247 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(<, less)
+[12.590s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.595s] [01m[K/usr/include/c++/11/variant:1247:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.599s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[12.603s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<[01;36m[K3[m[K>;
+[12.608s]       |                                                         [01;36m[K^[m[K
+[12.613s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[12.617s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[12.622s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[12.626s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[12.631s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:5[m[K:
+[12.635s] [01m[K/usr/include/c++/11/system_error:269:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator<(const std::error_code&, const std::error_code&)[m[K’
+[12.640s]   269 |   [01;36m[Koperator[m[K<(const error_code& __lhs, const error_code& __rhs) noexcept
+[12.644s]       |   [01;36m[K^~~~~~~~[m[K
+[12.648s] [01m[K/usr/include/c++/11/system_error:269:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[12.652s]   269 |   operator<([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[12.658s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[12.662s] [01m[K/usr/include/c++/11/system_error:398:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator<(const std::error_condition&, const std::error_condition&)[m[K’
+[12.665s]   398 |   [01;36m[Koperator[m[K<(const error_condition& __lhs,
+[12.670s]       |   [01;36m[K^~~~~~~~[m[K
+[12.676s] [01m[K/usr/include/c++/11/system_error:398:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[12.681s]   398 |   operator<([01;36m[Kconst error_condition& __lhs[m[K,
+[12.686s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[12.689s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+[12.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.703s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.707s] [01m[K/usr/include/c++/11/thread:70:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator<(std::thread::id, std::thread::id)[m[K’
+[12.713s]    70 |   [01;36m[Koperator[m[K<(thread::id __x, thread::id __y) noexcept
+[12.717s]       |   [01;36m[K^~~~~~~~[m[K
+[12.723s] [01m[K/usr/include/c++/11/thread:70:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[12.729s]    70 |   operator<([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[12.733s]       |             [01;36m[K~~~~~~~~~~~^~~[m[K
+[12.737s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[12.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.763s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.767s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.772s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.789s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.793s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.797s] [01m[K/usr/include/c++/11/variant:1289:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator<(std::monostate, std::monostate)[m[K’
+[12.802s]  1289 |   constexpr bool [01;36m[Koperator[m[K<(monostate, monostate) noexcept { return false; }
+[12.806s]       |                  [01;36m[K^~~~~~~~[m[K
+[12.810s] [01m[K/usr/include/c++/11/variant:1289:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::monostate[m[K’
+[12.815s]  1289 |   constexpr bool operator<([01;36m[Kmonostate[m[K, monostate) noexcept { return false; }
+[12.820s]       |                            [01;36m[K^~~~~~~~~[m[K
+[12.824s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[12.827s]    45 |         result_array = std_msgs::msg::Int32MultiArray()<3>[01;31m[K;[m[K
+[12.831s]       |                                                           [01;31m[K^[m[K
+[12.835s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:40:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.840s]    40 |     void topic_callback([01;35m[Kconst std_msgs::msg::Int32MultiArray &msg[m[K)
+[12.844s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.115s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[15.121s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[15.126s] gmake: *** [Makefile:146: all] Error 2
+[15.132s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

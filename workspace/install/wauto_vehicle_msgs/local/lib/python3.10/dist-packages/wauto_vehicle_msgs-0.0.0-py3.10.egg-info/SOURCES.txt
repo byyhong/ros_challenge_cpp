@@ -1,0 +1,6 @@
+setup.py
+wauto_vehicle_msgs/__init__.py
+wauto_vehicle_msgs.egg-info/PKG-INFO
+wauto_vehicle_msgs.egg-info/SOURCES.txt
+wauto_vehicle_msgs.egg-info/dependency_links.txt
+wauto_vehicle_msgs.egg-info/top_level.txt

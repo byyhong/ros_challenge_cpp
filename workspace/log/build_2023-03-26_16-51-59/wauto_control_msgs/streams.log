@@ -1,0 +1,425 @@
+[0.108s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs
+[0.621s] -- The C compiler identification is GNU 11.3.0
+[1.228s] -- The CXX compiler identification is GNU 11.3.0
+[1.298s] -- Detecting C compiler ABI info
+[2.369s] -- Detecting C compiler ABI info - done
+[2.408s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.413s] -- Detecting C compile features
+[2.418s] -- Detecting C compile features - done
+[2.469s] -- Detecting CXX compiler ABI info
+[4.221s] -- Detecting CXX compiler ABI info - done
+[4.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.286s] -- Detecting CXX compile features
+[4.294s] -- Detecting CXX compile features - done
+[4.327s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.344s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.780s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[5.838s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.854s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.883s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.145s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.395s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.431s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[12.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.739s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[13.746s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.790s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[13.799s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.803s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.809s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[13.837s] -- Found PythonExtra: .so  
+[15.018s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.046s] -- Added test 'lint_cmake' to check CMake code style
+[15.068s] -- Added test 'xmllint' to check XML markup files
+[15.814s] -- Configuring done
+[19.985s] -- Generating done
+[20.509s] -- Build files have been written to: /home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs
+[20.522s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs
+[20.556s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs -- -j4 -l4
+[20.926s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[21.026s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.048s] [  2%] Built target ament_cmake_python_copy_wauto_control_msgs
+[22.343s] running egg_info
+[22.359s] creating wauto_control_msgs.egg-info
+[22.416s] writing wauto_control_msgs.egg-info/PKG-INFO
+[22.443s] writing dependency_links to wauto_control_msgs.egg-info/dependency_links.txt
+[22.467s] writing top-level names to wauto_control_msgs.egg-info/top_level.txt
+[22.483s] writing manifest file 'wauto_control_msgs.egg-info/SOURCES.txt'
+[22.701s] reading manifest file 'wauto_control_msgs.egg-info/SOURCES.txt'
+[22.725s] writing manifest file 'wauto_control_msgs.egg-info/SOURCES.txt'
+[22.817s] [  2%] Built target ament_cmake_python_build_wauto_control_msgs_egg
+[26.590s] [  2%] Built target wauto_control_msgs__cpp
+[26.809s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.941s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[27.210s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[27.878s] [  6%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/car_state__functions.c.o[0m
+[28.457s] [  8%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/car_input__functions.c.o[0m
+[29.017s] [  9%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/car_safety__functions.c.o[0m
+[29.608s] [ 10%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/car_trajectory__functions.c.o[0m
+[30.414s] [ 11%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/car_flat_data__functions.c.o[0m
+[31.066s] [ 12%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/car_tbs__functions.c.o[0m
+[31.710s] [ 13%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/lane_marking__functions.c.o[0m
+[32.314s] [ 14%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_control_msgs/msg/detail/lane_boundaries__functions.c.o[0m
+[33.206s] [ 16%] [32m[1mLinking C shared library libwauto_control_msgs__rosidl_generator_c.so[0m
+[33.307s] [ 17%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/car_state__type_support.cpp.o[0m
+[34.264s] [ 17%] Built target wauto_control_msgs__rosidl_generator_c
+[34.470s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35.354s] [ 19%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/car_state__type_support.cpp.o[0m
+[35.471s] [ 20%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/car_state__type_support.cpp.o[0m
+[35.963s] [ 21%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/car_input__type_support.cpp.o[0m
+[38.426s] [ 22%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/car_safety__type_support.cpp.o[0m
+[38.529s] [ 24%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/car_input__type_support.cpp.o[0m
+[39.392s] [ 25%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/car_input__type_support.cpp.o[0m
+[40.882s] [ 26%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/car_trajectory__type_support.cpp.o[0m
+[42.143s] [ 27%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/car_safety__type_support.cpp.o[0m
+[42.888s] [ 29%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/car_safety__type_support.cpp.o[0m
+[42.900s] [ 29%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/car_state__type_support_c.cpp.o[0m
+[43.165s] [ 31%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/car_flat_data__type_support.cpp.o[0m
+[46.131s] [ 33%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/car_tbs__type_support.cpp.o[0m
+[46.139s] [ 33%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/car_trajectory__type_support.cpp.o[0m
+[46.518s] [ 34%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/car_input__type_support_c.cpp.o[0m
+[47.147s] [ 35%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/car_trajectory__type_support.cpp.o[0m
+[48.227s] [ 36%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/lane_marking__type_support.cpp.o[0m
+[49.746s] [ 37%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/car_flat_data__type_support.cpp.o[0m
+[49.804s] [ 39%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/car_safety__type_support_c.cpp.o[0m
+[50.392s] [ 40%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/car_flat_data__type_support.cpp.o[0m
+[50.448s] [ 41%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_control_msgs/msg/lane_boundaries__type_support.cpp.o[0m
+[52.695s] [ 42%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/car_trajectory__type_support_c.cpp.o[0m
+[53.496s] [ 43%] [32m[1mLinking CXX shared library libwauto_control_msgs__rosidl_typesupport_cpp.so[0m
+[53.824s] [ 44%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/car_tbs__type_support.cpp.o[0m
+[54.029s] [ 45%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/car_tbs__type_support.cpp.o[0m
+[54.837s] [ 45%] Built target wauto_control_msgs__rosidl_typesupport_cpp
+[54.977s] [ 47%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/car_flat_data__type_support_c.cpp.o[0m
+[56.398s] [ 48%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/lane_marking__type_support.cpp.o[0m
+[57.195s] [ 49%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/lane_marking__type_support.cpp.o[0m
+[57.420s] [ 50%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/car_tbs__type_support_c.cpp.o[0m
+[59.331s] [ 51%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_control_msgs/msg/detail/lane_boundaries__type_support.cpp.o[0m
+[59.409s] [ 52%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/lane_marking__type_support_c.cpp.o[0m
+[59.716s] [ 54%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_control_msgs/msg/detail/dds_fastrtps/lane_boundaries__type_support.cpp.o[0m
+[61.430s] [ 55%] [32m[1mLinking CXX shared library libwauto_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[61.535s] [ 56%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_control_msgs/msg/detail/lane_boundaries__type_support_c.cpp.o[0m
+[62.005s] [ 57%] [32m[1mLinking CXX shared library libwauto_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[62.697s] [ 57%] Built target wauto_control_msgs__rosidl_typesupport_introspection_cpp
+[63.050s] [ 57%] Built target wauto_control_msgs__rosidl_typesupport_fastrtps_cpp
+[63.360s] [ 58%] [32m[1mLinking CXX shared library libwauto_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[64.145s] [ 58%] Built target wauto_control_msgs__rosidl_typesupport_fastrtps_c
+[64.238s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[66.298s] [ 60%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/car_state__type_support.cpp.o[0m
+[66.505s] [ 62%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/car_safety__type_support.cpp.o[0m
+[66.726s] [ 63%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/car_trajectory__type_support.cpp.o[0m
+[66.970s] [ 64%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/car_flat_data__type_support.cpp.o[0m
+[67.239s] [ 65%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/car_tbs__type_support.cpp.o[0m
+[67.493s] [ 66%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/lane_marking__type_support.cpp.o[0m
+[67.765s] [ 67%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/lane_boundaries__type_support.cpp.o[0m
+[67.996s] [ 68%] [32mBuilding CXX object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_control_msgs/msg/car_input__type_support.cpp.o[0m
+[68.227s] [ 70%] [32m[1mLinking CXX shared library libwauto_control_msgs__rosidl_typesupport_c.so[0m
+[68.935s] [ 70%] Built target wauto_control_msgs__rosidl_typesupport_c
+[69.030s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[71.803s] [ 72%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/car_state__type_support.c.o[0m
+[72.149s] [ 73%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/car_trajectory__type_support.c.o[0m
+[72.537s] [ 74%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/car_flat_data__type_support.c.o[0m
+[72.904s] [ 75%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/car_tbs__type_support.c.o[0m
+[73.269s] [ 77%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/lane_marking__type_support.c.o[0m
+[73.678s] [ 78%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/lane_boundaries__type_support.c.o[0m
+[74.072s] [ 79%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/car_safety__type_support.c.o[0m
+[74.441s] [ 80%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_control_msgs/msg/detail/car_input__type_support.c.o[0m
+[74.859s] [ 81%] [32m[1mLinking C shared library libwauto_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[75.545s] [ 81%] Built target wauto_control_msgs__rosidl_typesupport_introspection_c
+[75.643s] [ 81%] Built target wauto_control_msgs
+[75.793s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[80.978s] [ 82%] Built target wauto_control_msgs__py
+[81.137s] [ 83%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_car_state_s.c.o[0m
+[81.929s] [ 85%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_car_trajectory_s.c.o[0m
+[82.706s] [ 86%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_car_flat_data_s.c.o[0m
+[83.481s] [ 87%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_car_tbs_s.c.o[0m
+[84.225s] [ 88%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_lane_marking_s.c.o[0m
+[85.101s] [ 89%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_lane_boundaries_s.c.o[0m
+[85.839s] [ 90%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_car_safety_s.c.o[0m
+[86.794s] [ 91%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_control_msgs/msg/_car_input_s.c.o[0m
+[87.586s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/wauto_control_msgs/libwauto_control_msgs__rosidl_generator_py.so[0m
+[88.109s] [ 93%] Built target wauto_control_msgs__rosidl_generator_py
+[88.249s] [ 94%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wauto_control_msgs/_wauto_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[89.423s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[89.808s] [ 95%] Built target wauto_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[89.943s] [ 96%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wauto_control_msgs/_wauto_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[90.845s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[91.208s] [ 97%] Built target wauto_control_msgs__rosidl_typesupport_c__pyext
+[91.364s] [ 98%] [32mBuilding C object CMakeFiles/wauto_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wauto_control_msgs/_wauto_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[92.580s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[92.946s] [100%] Built target wauto_control_msgs__rosidl_typesupport_introspection_c__pyext
+[93.207s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs -- -j4 -l4
+[94.018s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs
+[94.042s] -- Install configuration: ""
+[94.081s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/ament_index/resource_index/rosidl_interfaces/wauto_control_msgs
+[94.126s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs
+[94.157s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg
+[94.186s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_flat_data.h
+[94.227s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_input.h
+[94.284s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_safety.h
+[94.325s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_state.h
+[94.353s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_tbs.h
+[94.395s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_trajectory.h
+[94.439s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail
+[94.471s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__functions.c
+[94.500s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__functions.h
+[94.525s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__struct.h
+[94.556s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__type_support.h
+[94.594s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__functions.c
+[94.635s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__functions.h
+[94.674s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__struct.h
+[94.707s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__type_support.h
+[94.740s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__functions.c
+[94.772s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__functions.h
+[94.801s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__struct.h
+[94.828s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__type_support.h
+[94.857s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__functions.c
+[94.901s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__functions.h
+[94.937s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__struct.h
+[94.965s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__type_support.h
+[95.002s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__functions.c
+[95.040s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__functions.h
+[95.075s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__struct.h
+[95.120s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__type_support.h
+[95.156s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__functions.c
+[95.195s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__functions.h
+[95.227s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__struct.h
+[95.265s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__type_support.h
+[95.304s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__functions.c
+[95.342s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__functions.h
+[95.388s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__struct.h
+[95.424s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__type_support.h
+[95.457s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__functions.c
+[95.513s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__functions.h
+[95.560s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__struct.h
+[95.603s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__type_support.h
+[95.647s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/lane_boundaries.h
+[95.700s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/lane_marking.h
+[95.734s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[95.789s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/library_path.sh
+[95.820s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/library_path.dsv
+[95.870s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_generator_c.so
+[95.927s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_generator_c.so" to ""
+[95.943s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs
+[95.952s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg
+[95.961s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail
+[95.971s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__rosidl_typesupport_fastrtps_c.h
+[96.023s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__rosidl_typesupport_fastrtps_c.h
+[96.063s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__rosidl_typesupport_fastrtps_c.h
+[96.111s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_c.h
+[96.142s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__rosidl_typesupport_fastrtps_c.h
+[96.188s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__rosidl_typesupport_fastrtps_c.h
+[96.244s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__rosidl_typesupport_fastrtps_c.h
+[96.280s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__rosidl_typesupport_fastrtps_c.h
+[96.323s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[96.358s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_fastrtps_c.so
+[96.409s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[96.414s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs
+[96.420s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg
+[96.439s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_flat_data.hpp
+[96.483s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_input.hpp
+[96.516s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_safety.hpp
+[96.564s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_state.hpp
+[96.601s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_tbs.hpp
+[96.632s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/car_trajectory.hpp
+[96.665s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail
+[96.676s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__builder.hpp
+[96.719s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__struct.hpp
+[96.755s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__traits.hpp
+[96.792s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__builder.hpp
+[96.827s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__struct.hpp
+[96.863s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__traits.hpp
+[96.903s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__builder.hpp
+[96.942s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__struct.hpp
+[96.991s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__traits.hpp
+[97.065s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__builder.hpp
+[97.106s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__struct.hpp
+[97.164s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__traits.hpp
+[97.205s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__builder.hpp
+[97.244s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__struct.hpp
+[97.284s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__traits.hpp
+[97.338s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__builder.hpp
+[97.388s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__struct.hpp
+[97.435s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__traits.hpp
+[97.480s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__builder.hpp
+[97.530s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__struct.hpp
+[97.562s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__traits.hpp
+[97.601s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__builder.hpp
+[97.645s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__struct.hpp
+[97.677s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__traits.hpp
+[97.720s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/lane_boundaries.hpp
+[97.765s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/lane_marking.hpp
+[97.802s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs
+[97.809s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg
+[97.821s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail
+[97.829s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__rosidl_typesupport_fastrtps_cpp.hpp
+[97.860s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__rosidl_typesupport_fastrtps_cpp.hpp
+[97.901s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__rosidl_typesupport_fastrtps_cpp.hpp
+[97.942s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_cpp.hpp
+[97.976s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__rosidl_typesupport_fastrtps_cpp.hpp
+[98.006s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[98.046s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/dds_fastrtps
+[98.072s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__rosidl_typesupport_fastrtps_cpp.hpp
+[98.110s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__rosidl_typesupport_fastrtps_cpp.hpp
+[98.143s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[98.172s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[98.228s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[98.234s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs
+[98.240s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg
+[98.247s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail
+[98.260s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__rosidl_typesupport_introspection_c.h
+[98.283s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__type_support.c
+[98.316s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__rosidl_typesupport_introspection_c.h
+[98.349s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__type_support.c
+[98.386s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__rosidl_typesupport_introspection_c.h
+[98.418s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__type_support.c
+[98.451s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__rosidl_typesupport_introspection_c.h
+[98.481s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__type_support.c
+[98.521s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__rosidl_typesupport_introspection_c.h
+[98.553s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__type_support.c
+[98.589s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__rosidl_typesupport_introspection_c.h
+[98.625s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__type_support.c
+[98.659s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__rosidl_typesupport_introspection_c.h
+[98.710s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__type_support.c
+[98.750s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__rosidl_typesupport_introspection_c.h
+[98.787s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__type_support.c
+[98.832s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[98.870s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_introspection_c.so
+[98.928s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[98.940s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_c.so
+[99.001s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_c.so" to ""
+[99.009s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs
+[99.017s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg
+[99.031s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail
+[99.044s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__rosidl_typesupport_introspection_cpp.hpp
+[99.094s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_flat_data__type_support.cpp
+[99.136s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__rosidl_typesupport_introspection_cpp.hpp
+[99.172s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_input__type_support.cpp
+[99.203s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__rosidl_typesupport_introspection_cpp.hpp
+[99.240s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_safety__type_support.cpp
+[99.272s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__rosidl_typesupport_introspection_cpp.hpp
+[99.309s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_state__type_support.cpp
+[99.352s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__rosidl_typesupport_introspection_cpp.hpp
+[99.394s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_tbs__type_support.cpp
+[99.436s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[99.475s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/car_trajectory__type_support.cpp
+[99.509s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__rosidl_typesupport_introspection_cpp.hpp
+[99.558s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_boundaries__type_support.cpp
+[99.597s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__rosidl_typesupport_introspection_cpp.hpp
+[99.639s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/include/wauto_control_msgs/wauto_control_msgs/msg/detail/lane_marking__type_support.cpp
+[99.676s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_introspection_cpp.so
+[99.741s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[99.749s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_cpp.so
+[99.804s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_typesupport_cpp.so" to ""
+[99.810s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/pythonpath.sh
+[99.848s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/pythonpath.dsv
+[99.881s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs-0.0.0-py3.10.egg-info
+[99.914s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[99.954s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[99.988s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[100.018s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[100.058s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs
+[100.083s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/__init__.py
+[100.121s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/_wauto_control_msgs_s.ep.rosidl_typesupport_c.c
+[100.166s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/_wauto_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[100.215s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/_wauto_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[100.253s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/libwauto_control_msgs__rosidl_generator_py.so
+[100.311s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg
+[100.341s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/__init__.py
+[100.388s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_flat_data.py
+[100.437s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_flat_data_s.c
+[100.474s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_input.py
+[100.524s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_input_s.c
+[100.572s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_safety.py
+[100.608s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_safety_s.c
+[100.644s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_state.py
+[100.688s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_state_s.c
+[100.730s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_tbs.py
+[100.764s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_tbs_s.c
+[100.802s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_trajectory.py
+[100.838s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_trajectory_s.c
+[100.882s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_lane_boundaries.py
+[100.918s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_lane_boundaries_s.c
+[100.959s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_lane_marking.py
+[101.007s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_lane_marking_s.c
+[101.042s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[101.081s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[101.126s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[101.481s] Listing '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs'...
+[101.487s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/__init__.py'...
+[101.492s] Listing '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg'...
+[101.496s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/__init__.py'...
+[101.502s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_flat_data.py'...
+[101.512s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_input.py'...
+[101.529s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_safety.py'...
+[101.534s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_state.py'...
+[101.542s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_tbs.py'...
+[101.547s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_car_trajectory.py'...
+[101.556s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_lane_boundaries.py'...
+[101.566s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/msg/_lane_marking.py'...
+[101.578s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[101.585s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[101.601s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[101.653s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[101.663s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[101.738s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages/wauto_control_msgs/wauto_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[101.750s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_generator_py.so
+[101.821s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib/libwauto_control_msgs__rosidl_generator_py.so" to ""
+[101.839s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarState.idl
+[101.883s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarInput.idl
+[101.918s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarSafety.idl
+[101.962s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarTrajectory.idl
+[102.012s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarFlatData.idl
+[102.064s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarTBS.idl
+[102.123s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/LaneMarking.idl
+[102.195s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/LaneBoundaries.idl
+[102.229s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarState.msg
+[102.287s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarInput.msg
+[102.337s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarSafety.msg
+[102.366s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarTrajectory.msg
+[102.404s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarFlatData.msg
+[102.434s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/CarTBS.msg
+[102.473s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/LaneMarking.msg
+[102.505s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/msg/LaneBoundaries.msg
+[102.568s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/ament_index/resource_index/package_run_dependencies/wauto_control_msgs
+[102.618s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/ament_index/resource_index/parent_prefix_path/wauto_control_msgs
+[102.664s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/ament_prefix_path.sh
+[102.697s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/ament_prefix_path.dsv
+[102.727s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/path.sh
+[102.766s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/environment/path.dsv
+[102.799s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/local_setup.bash
+[102.837s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/local_setup.sh
+[102.875s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/local_setup.zsh
+[102.911s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/local_setup.dsv
+[102.958s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/package.dsv
+[103.014s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/ament_index/resource_index/packages/wauto_control_msgs
+[103.060s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_generator_cExport.cmake
+[103.096s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[103.128s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[103.173s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[103.208s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_generator_cppExport.cmake
+[103.248s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[103.285s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[103.322s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[103.359s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[103.412s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_cExport.cmake
+[103.450s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[103.495s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[103.531s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[103.572s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_cppExport.cmake
+[103.607s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[103.645s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_generator_pyExport.cmake
+[103.679s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/export_wauto_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[103.719s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/rosidl_cmake-extras.cmake
+[103.749s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.780s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.813s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[103.856s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[103.897s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[103.942s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[103.982s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgsConfig.cmake
+[104.024s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/cmake/wauto_control_msgsConfig-version.cmake
+[104.062s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/share/wauto_control_msgs/package.xml
+[104.142s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs

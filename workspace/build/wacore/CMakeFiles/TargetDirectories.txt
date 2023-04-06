@@ -1,0 +1,9 @@
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/uninstall.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/wacore_uninstall.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/test.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/edit_cache.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/rebuild_cache.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/list_install_components.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/install.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/install/local.dir
+/home/atk-sandbox/atk-sandbox/workspace/build/wacore/CMakeFiles/install/strip.dir

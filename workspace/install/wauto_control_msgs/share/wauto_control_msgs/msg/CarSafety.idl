@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_control_msgs/msg/CarSafety.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_control_msgs {
+  module msg {
+    struct CarSafety {
+      @verbatim (language="comment", text=
+        "Signal with joystick the human is ready to drive")
+      boolean human_ready;
+
+      @verbatim (language="comment", text=
+        "Signal a human force stop")
+      boolean human_stop;
+
+      @verbatim (language="comment", text=
+        "Signal that car no longer listens for commands")
+      boolean car_disabled;
+
+      @verbatim (language="comment", text=
+        "Signal from trajectory_node that it is publishing")
+      boolean publishing_traj;
+
+      @verbatim (language="comment", text=
+        "Signal from trajectory_node that the trajectory is over")
+      boolean finished_traj;
+    };
+  };
+};

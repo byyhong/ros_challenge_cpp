@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_control_msgs/msg/LaneBoundaries.msg
+// generated code does not contain a copyright notice
+
+#include "wauto_control_msgs/msg/LaneMarking.idl"
+
+module wauto_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Lane Boundaries Information" "\n"
+      "Right and left are with respect to the Ego Vehicle Frame")
+    struct LaneBoundaries {
+      @verbatim (language="comment", text=
+        "Right lane boundary")
+      wauto_control_msgs::msg::LaneMarking right;
+
+      @verbatim (language="comment", text=
+        "Left lane boundary")
+      wauto_control_msgs::msg::LaneMarking left;
+    };
+  };
+};

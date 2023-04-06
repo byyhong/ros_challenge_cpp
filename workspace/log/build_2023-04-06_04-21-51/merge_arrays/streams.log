@@ -1,0 +1,31 @@
+[0.349s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.326s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[5.307s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[9.978s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::timer_callback()[m[K’:
+[9.982s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[9.987s]    54 |             [01;31m[Kpublish_[m[K->publish(result_array);
+[9.992s]       |             [01;31m[K^~~~~~~~[m[K
+[9.999s]       |             [32m[Kpublisher_[m[K
+[10.004s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:55:18:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[10.010s]    55 |             for(i[01;31m[K:[m[K result_array.data){
+[10.015s]       |                  [01;31m[K^[m[K
+[10.019s]       |                  [32m[K::[m[K
+[10.025s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:55:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ has not been declared
+[10.029s]    55 |             for([01;31m[Ki[m[K: result_array.data){
+[10.033s]       |                 [01;31m[K^[m[K
+[10.038s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[10.043s]    58 |         [01;31m[K}[m[K
+[10.047s]       |         [01;31m[K^[m[K
+[10.051s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[10.055s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[10.061s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[10.066s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:55:16:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[10.070s]    55 |             for[01;36m[K([m[Ki: result_array.data){
+[10.075s]       |                [01;36m[K^[m[K
+[10.080s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[10.085s]    58 |         [01;31m[K}[m[K
+[10.092s]       |         [01;31m[K^[m[K
+[14.200s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[14.208s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[14.212s] gmake: *** [Makefile:146: all] Error 2
+[14.215s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

@@ -1,0 +1,73 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/ObjectClassification.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_perception_msgs {
+  module msg {
+    module ObjectClassification_Constants {
+      @verbatim (language="comment", text=
+        "The possible classification types")
+      const uint8 WA_OBJECT_CLASSIFICATION_UNKNOWN = 0;
+      const uint8 WA_OBJECT_CLASSIFICATION_CAR = 1;
+      const uint8 WA_OBJECT_CLASSIFICATION_PEDESTRIAN = 2;
+      const uint8 WA_OBJECT_CLASSIFICATION_DEER = 3;
+      const uint8 WA_OBJECT_CLASSIFICATION_BARRICADE = 4;
+      const uint8 WA_OBJECT_CLASSIFICATION_TRAFFIC_LIGHT = 5;
+      const uint8 WA_OBJECT_CLASSIFICATION_TRAFFIC_SIGN = 6;
+      const uint8 WA_OBJECT_CLASSIFICATION_BARREL = 7;
+      @verbatim (language="comment", text=
+        "Additional classification for traffic light signals" "\n"        "Bit flags")
+      const uint8 WA_TRAFFIC_LIGHT_STATE_UNKNOWN = 0;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_RED = 1;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_YELLOW = 2;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_GREEN = 4;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_CIRCLE = 8;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_LEFT_ARROW = 16;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_RIGHT_ARROW = 32;
+      const uint8 WA_TRAFFIC_LIGHT_STATE_FLASHING = 64;
+      @verbatim (language="comment", text=
+        "Additional classification for traffic signs")
+      const uint8 WA_TRAFFIC_SIGN_UNKNOWN = 0;
+      const uint8 WA_TRAFFIC_SIGN_SPEED_LIMIT = 1;
+      const uint8 WA_TRAFFIC_SIGN_STOP = 2;
+      const uint8 WA_TRAFFIC_SIGN_YIELD = 3;
+      @verbatim (language="comment", text=
+        "Dynamic Property ENUM")
+      const uint8 WA_DYNPROP_UNKNOWN = 0;
+      const uint8 WA_DYNPROP_NEVER = 1;
+      const uint8 WA_DYNPROP_STOPPED = 2;
+      const uint8 WA_DYNPROP_MOVING_SAME = 3;
+      const uint8 WA_DYNPROP_MOVING_OPPOSITE = 4;
+    };
+    @verbatim (language="comment", text=
+      "This message defines an object classification")
+    struct ObjectClassification {
+      @verbatim (language="comment", text=
+        "Value between 0 and 1 defining the percent confidence of the detection")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "The classification types" "\n"
+        "See WA_OBJECT_CLASSIFICATION below")
+      uint8 classification;
+
+      @verbatim (language="comment", text=
+        "The Dynamic Property types" "\n"
+        "See WA_DYNPROP_CLASSIFICATION below")
+      uint8 dynprop;
+
+      @verbatim (language="comment", text=
+        "Further custom classification types to be used to further define an object" "\n"
+        " Example use case is a traffic light, which can be defined as green, red, etc." "\n"
+        " This variable should then be set to a different enum, as desired")
+      uint8 custom_classification;
+
+      @verbatim (language="comment", text=
+        "Additional optional attribute that can be defined to show an objects \"value\"" "\n"
+        "A good example is the value of a speed limit sign")
+      @default (value=0)
+      uint8 value;
+    };
+  };
+};

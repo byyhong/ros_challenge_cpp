@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_av_state_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_av_state_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_lane_marking_track_a_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_lane_marking_track_a_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_lane_markings_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_lane_markings_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_limit_line_track_a_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_limit_line_track_a_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_limit_lines_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_limit_lines_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_a_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_a_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_b_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_b_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_c_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_c_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_d_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_object_track_d_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_objects_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_objects_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_road_state_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_road_state_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_sign_track_a_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_sign_track_a_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_signal_head_track_a_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_signal_head_track_a_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_signal_heads_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_signal_heads_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_signs_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_traffic_signs_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_vehicle_location_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_vehicle_location_s.c.o.d"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_vehicle_orientation_s.c.o"
+  "CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_vehicle_msgs/msg/_vehicle_orientation_s.c.o.d"
+  "rosidl_generator_py/wauto_vehicle_msgs/libwauto_vehicle_msgs__rosidl_generator_py.pdb"
+  "rosidl_generator_py/wauto_vehicle_msgs/libwauto_vehicle_msgs__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/wauto_vehicle_msgs__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

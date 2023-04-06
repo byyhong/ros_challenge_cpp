@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.003997] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.007091] (-) JobUnselected: {'identifier': 'compose_nodes'}
+[0.012201] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.013922] (-) JobUnselected: {'identifier': 'wacore'}
+[0.015117] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.016783] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.019444] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.021143] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.023514] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.096042] (-) TimerEvent: {}
+[0.197822] (-) TimerEvent: {}
+[0.299285] (-) TimerEvent: {}
+[0.351270] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.366874] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.371206] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[0.422668] (-) TimerEvent: {}
+[0.524284] (-) TimerEvent: {}
+[0.625546] (-) TimerEvent: {}
+[0.727412] (-) TimerEvent: {}
+[0.828787] (-) TimerEvent: {}
+[0.930291] (-) TimerEvent: {}
+[1.032558] (-) TimerEvent: {}
+[1.134064] (-) TimerEvent: {}
+[1.240519] (-) TimerEvent: {}
+[1.342445] (-) TimerEvent: {}
+[1.444261] (-) TimerEvent: {}
+[1.546327] (-) TimerEvent: {}
+[1.647989] (-) TimerEvent: {}
+[1.749869] (-) TimerEvent: {}
+[1.851925] (-) TimerEvent: {}
+[1.953830] (-) TimerEvent: {}
+[2.055628] (-) TimerEvent: {}
+[2.153413] (merge_arrays) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target merge_arrays_node\x1b[0m\n'}
+[2.158812] (-) TimerEvent: {}
+[2.260923] (-) TimerEvent: {}
+[2.363837] (-) TimerEvent: {}
+[2.465201] (-) TimerEvent: {}
+[2.566788] (-) TimerEvent: {}
+[2.668601] (-) TimerEvent: {}
+[2.770151] (-) TimerEvent: {}
+[2.871917] (-) TimerEvent: {}
+[2.974316] (-) TimerEvent: {}
+[3.076386] (-) TimerEvent: {}
+[3.177903] (-) TimerEvent: {}
+[3.280084] (-) TimerEvent: {}
+[3.381746] (-) TimerEvent: {}
+[3.483253] (-) TimerEvent: {}
+[3.585582] (-) TimerEvent: {}
+[3.688532] (-) TimerEvent: {}
+[3.789898] (-) TimerEvent: {}
+[3.891788] (-) TimerEvent: {}
+[3.993584] (-) TimerEvent: {}
+[4.095273] (-) TimerEvent: {}
+[4.197144] (-) TimerEvent: {}
+[4.299161] (-) TimerEvent: {}
+[4.400960] (-) TimerEvent: {}
+[4.503997] (-) TimerEvent: {}
+[4.606160] (-) TimerEvent: {}
+[4.708133] (-) TimerEvent: {}
+[4.811109] (-) TimerEvent: {}
+[4.913373] (-) TimerEvent: {}
+[5.014909] (-) TimerEvent: {}
+[5.116851] (-) TimerEvent: {}
+[5.220415] (-) TimerEvent: {}
+[5.322966] (-) TimerEvent: {}
+[5.425346] (-) TimerEvent: {}
+[5.518277] (merge_arrays) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[5.528512] (-) TimerEvent: {}
+[5.631958] (-) TimerEvent: {}
+[5.750543] (-) TimerEvent: {}
+[5.922613] (-) TimerEvent: {}
+[6.025065] (-) TimerEvent: {}
+[6.130201] (-) TimerEvent: {}
+[6.232645] (-) TimerEvent: {}
+[6.334656] (-) TimerEvent: {}
+[6.436714] (-) TimerEvent: {}
+[6.538615] (-) TimerEvent: {}
+[6.640835] (-) TimerEvent: {}
+[6.742347] (-) TimerEvent: {}
+[6.844224] (-) TimerEvent: {}
+[6.946266] (-) TimerEvent: {}
+[7.048317] (-) TimerEvent: {}
+[7.149869] (-) TimerEvent: {}
+[7.252508] (-) TimerEvent: {}
+[7.354276] (-) TimerEvent: {}
+[7.456099] (-) TimerEvent: {}
+[7.561521] (-) TimerEvent: {}
+[7.683526] (-) TimerEvent: {}
+[7.794935] (-) TimerEvent: {}
+[7.897055] (-) TimerEvent: {}
+[7.999202] (-) TimerEvent: {}
+[8.101288] (-) TimerEvent: {}
+[8.204895] (-) TimerEvent: {}
+[8.307255] (-) TimerEvent: {}
+[8.409265] (-) TimerEvent: {}
+[8.511647] (-) TimerEvent: {}
+[8.613764] (-) TimerEvent: {}
+[8.716044] (-) TimerEvent: {}
+[8.818582] (-) TimerEvent: {}
+[8.925236] (-) TimerEvent: {}
+[9.027158] (-) TimerEvent: {}
+[9.129535] (-) TimerEvent: {}
+[9.231820] (-) TimerEvent: {}
+[9.334266] (-) TimerEvent: {}
+[9.436830] (-) TimerEvent: {}
+[9.539044] (-) TimerEvent: {}
+[9.641343] (-) TimerEvent: {}
+[9.744000] (-) TimerEvent: {}
+[9.846383] (-) TimerEvent: {}
+[9.948397] (-) TimerEvent: {}
+[10.050549] (-) TimerEvent: {}
+[10.152981] (-) TimerEvent: {}
+[10.255585] (-) TimerEvent: {}
+[10.358050] (-) TimerEvent: {}
+[10.460250] (-) TimerEvent: {}
+[10.562473] (-) TimerEvent: {}
+[10.664894] (-) TimerEvent: {}
+[10.767238] (-) TimerEvent: {}
+[10.869503] (-) TimerEvent: {}
+[10.971807] (-) TimerEvent: {}
+[11.018122] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.023026] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.027673] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.032311] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.037558] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.042180] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.046988] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.050950] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.054903] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.059294] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.063776] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.067982] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[11.072023] (-) TimerEvent: {}
+[11.073283] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MergeArrays::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.079366] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:61:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid cast from type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[11.083145] (merge_arrays) StderrLine: {'line': b'   61 |         RCLCPP_INFO(this->get_logger(), "%d", \x1b[01;31m\x1b[Ksize_t(result)\x1b[m\x1b[K);\n'}
+[11.087302] (merge_arrays) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.172351] (-) TimerEvent: {}
+[11.275018] (-) TimerEvent: {}
+[11.379173] (-) TimerEvent: {}
+[11.481440] (-) TimerEvent: {}
+[11.583714] (-) TimerEvent: {}
+[11.686111] (-) TimerEvent: {}
+[11.788513] (-) TimerEvent: {}
+[11.890449] (-) TimerEvent: {}
+[11.992792] (-) TimerEvent: {}
+[12.094931] (-) TimerEvent: {}
+[12.197338] (-) TimerEvent: {}
+[12.299598] (-) TimerEvent: {}
+[12.401932] (-) TimerEvent: {}
+[12.504116] (-) TimerEvent: {}
+[12.606364] (-) TimerEvent: {}
+[12.708790] (-) TimerEvent: {}
+[12.815909] (-) TimerEvent: {}
+[12.940815] (-) TimerEvent: {}
+[13.064842] (-) TimerEvent: {}
+[13.167784] (-) TimerEvent: {}
+[13.272634] (-) TimerEvent: {}
+[13.375987] (-) TimerEvent: {}
+[13.478557] (-) TimerEvent: {}
+[13.581022] (-) TimerEvent: {}
+[13.683425] (-) TimerEvent: {}
+[13.785980] (-) TimerEvent: {}
+[13.888224] (-) TimerEvent: {}
+[13.991227] (-) TimerEvent: {}
+[14.095610] (-) TimerEvent: {}
+[14.268993] (-) TimerEvent: {}
+[14.371324] (-) TimerEvent: {}
+[14.473375] (-) TimerEvent: {}
+[14.575498] (-) TimerEvent: {}
+[14.677605] (-) TimerEvent: {}
+[14.779537] (-) TimerEvent: {}
+[14.883540] (-) TimerEvent: {}
+[14.996085] (-) TimerEvent: {}
+[15.098560] (-) TimerEvent: {}
+[15.202288] (-) TimerEvent: {}
+[15.304825] (-) TimerEvent: {}
+[15.411945] (-) TimerEvent: {}
+[15.514015] (-) TimerEvent: {}
+[15.616768] (-) TimerEvent: {}
+[15.719822] (-) TimerEvent: {}
+[15.755411] (merge_arrays) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1\n'}
+[15.763170] (merge_arrays) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2\n'}
+[15.772640] (merge_arrays) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.777907] (merge_arrays) CommandEnded: {'returncode': 2}
+[15.820032] (-) TimerEvent: {}
+[15.959615] (-) TimerEvent: {}
+[16.092847] (-) TimerEvent: {}
+[16.195072] (-) TimerEvent: {}
+[16.296926] (-) TimerEvent: {}
+[16.398852] (-) TimerEvent: {}
+[16.500342] (-) TimerEvent: {}
+[16.602260] (-) TimerEvent: {}
+[16.704335] (-) TimerEvent: {}
+[16.805617] (-) TimerEvent: {}
+[16.907248] (-) TimerEvent: {}
+[17.008897] (-) TimerEvent: {}
+[17.110890] (-) TimerEvent: {}
+[17.212440] (-) TimerEvent: {}
+[17.314068] (-) TimerEvent: {}
+[17.415554] (-) TimerEvent: {}
+[17.517307] (-) TimerEvent: {}
+[17.619260] (-) TimerEvent: {}
+[17.722508] (-) TimerEvent: {}
+[17.827187] (-) TimerEvent: {}
+[17.929159] (-) TimerEvent: {}
+[18.030949] (-) TimerEvent: {}
+[18.123675] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 2}
+[18.136168] (-) TimerEvent: {}
+[18.143218] (-) EventReactorShutdown: {}

@@ -1,0 +1,85 @@
+[0.284s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.691s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.209s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[8.703s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:81:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Int32MultiArray[m[K’ has not been declared
+[8.708s]    81 |     void merge_arrays([01;31m[Kstd_msgs[m[K::Int32MultiArray array1, std_msgs::Int32MultiArray array2()){
+[8.713s]       |                       [01;31m[K^~~~~~~~[m[K
+[8.718s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:81:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Int32MultiArray[m[K’ has not been declared
+[8.722s]    81 |     void merge_arrays(std_msgs::Int32MultiArray array1, [01;31m[Kstd_msgs[m[K::Int32MultiArray array2()){
+[8.727s]       |                                                         [01;31m[K^~~~~~~~[m[K
+[8.732s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:119:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[8.736s]   119 | }
+[8.740s]       |  [01;31m[K^[m[K
+[8.746s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[8.751s]    21 | [01;36m[K{[m[K
+[8.756s]       | [01;36m[K^[m[K
+[8.761s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::timer_callback()[m[K’:
+[8.765s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:71:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kint[m[K’
+[8.769s]    71 |         merge_arrays([01;31m[Kresult[m[K, result2);
+[8.775s]       |                      [01;31m[K^~~~~~[m[K
+[8.779s]       |                      [01;31m[K|[m[K
+[8.783s]       |                      [01;31m[Kstd_msgs::msg::Int32MultiArray {aka std_msgs::msg::Int32MultiArray_<std::allocator<void> >}[m[K
+[8.789s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:81:49:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid MergeArrays::merge_arrays(int, int (*)())[m[K’
+[8.796s]    81 |     void merge_arrays([01;36m[Kstd_msgs::Int32MultiArray array1[m[K, std_msgs::Int32MultiArray array2()){
+[8.800s]       |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.804s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::merge_arrays(int, int (*)())[m[K’:
+[8.810s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:82:17:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’?
+[8.815s]    82 |       std_msgs::[01;31m[KInt32MultiArray[m[K result_array;
+[8.820s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.825s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7[m[K,
+[8.829s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:9[m[K:
+[8.834s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:131:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ declared here
+[8.839s]   131 | using [01;36m[KInt32MultiArray[m[K =
+[8.843s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[8.848s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:86:22:[m[K [01;31m[Kerror: [m[K‘[01m[KsizeOf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[8.852s]    86 |       int arr_len1 = [01;31m[KsizeOf[m[K(array1)/sizeOf(array1[0]);
+[8.855s]       |                      [01;31m[K^~~~~~[m[K
+[8.860s]       |                      [32m[Ksize_t[m[K
+[8.865s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:86:50:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[8.869s]    86 |       int arr_len1 = sizeOf(array1)/sizeOf(array1[01;31m[K[[m[K0]);
+[8.873s]       |                                                  [01;31m[K^[m[K
+[8.877s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:87:54:[m[K [01;35m[Kwarning: [m[Kpointer to a function used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
+[8.883s]    87 |       int arr_len2 = sizeOf(array2) / sizeOf(array2[0[01;35m[K][m[K);
+[8.888s]       |                                                      [01;35m[K^[m[K
+[8.892s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:89:18:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[8.897s]    89 |         if(array1[01;31m[K[[m[Ki] < array2[j]){
+[8.902s]       |                  [01;31m[K^[m[K
+[8.906s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:89:32:[m[K [01;35m[Kwarning: [m[Kpointer to a function used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
+[8.910s]    89 |         if(array1[i] < array2[j[01;35m[K][m[K){
+[8.915s]       |                                [01;35m[K^[m[K
+[8.919s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:90:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_array[m[K’ was not declared in this scope; did you mean ‘[01m[Kreallocarray[m[K’?
+[8.923s]    90 |           [01;31m[Kresult_array[m[K[result_array_index] = array1[i];
+[8.927s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[8.932s]       |           [32m[Kreallocarray[m[K
+[8.937s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:90:52:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[8.941s]    90 |           result_array[result_array_index] = array1[01;31m[K[[m[Ki];
+[8.944s]       |                                                    [01;31m[K^[m[K
+[8.950s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:94:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_array[m[K’ was not declared in this scope; did you mean ‘[01m[Kreallocarray[m[K’?
+[8.955s]    94 |           [01;31m[Kresult_array[m[K[result_array_index] = array2[j];
+[8.960s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[8.963s]       |           [32m[Kreallocarray[m[K
+[8.968s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:94:54:[m[K [01;35m[Kwarning: [m[Kpointer to a function used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
+[8.972s]    94 |           result_array[result_array_index] = array2[j[01;35m[K][m[K;
+[8.977s]       |                                                      [01;35m[K^[m[K
+[8.982s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:99:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_array[m[K’ was not declared in this scope; did you mean ‘[01m[Kreallocarray[m[K’?
+[8.988s]    99 |           [01;31m[Kresult_array[m[K[result_array_index] = array1[i];
+[8.993s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[8.998s]       |           [32m[Kreallocarray[m[K
+[9.002s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:99:52:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[9.007s]    99 |           result_array[result_array_index] = array1[01;31m[K[[m[Ki];
+[9.010s]       |                                                    [01;31m[K^[m[K
+[9.015s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:106:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_array[m[K’ was not declared in this scope; did you mean ‘[01m[Kreallocarray[m[K’?
+[9.019s]   106 |           [01;31m[Kresult_array[m[K[result_array_index] = array2[j];
+[9.023s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[9.027s]       |           [32m[Kreallocarray[m[K
+[9.031s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:106:54:[m[K [01;35m[Kwarning: [m[Kpointer to a function used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
+[9.037s]   106 |           result_array[result_array_index] = array2[j[01;35m[K][m[K;
+[9.042s]       |                                                      [01;35m[K^[m[K
+[9.046s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K At global scope:
+[9.056s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:119:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[9.060s]   119 | }
+[9.065s]       |  [01;31m[K^[m[K
+[12.513s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[12.521s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[12.524s] gmake: *** [Makefile:146: all] Error 2
+[12.529s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

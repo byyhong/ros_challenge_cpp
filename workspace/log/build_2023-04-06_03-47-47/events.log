@@ -1,0 +1,639 @@
+[0.000000] (-) TimerEvent: {}
+[0.004160] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.009490] (-) JobUnselected: {'identifier': 'compose_nodes'}
+[0.011843] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.014121] (-) JobUnselected: {'identifier': 'wacore'}
+[0.015239] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.016749] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.019525] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.020741] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.021587] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.095143] (-) TimerEvent: {}
+[0.199543] (-) TimerEvent: {}
+[0.304242] (-) TimerEvent: {}
+[0.403842] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.405534] (-) TimerEvent: {}
+[0.416064] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.420312] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[0.505797] (-) TimerEvent: {}
+[0.611609] (-) TimerEvent: {}
+[0.715399] (-) TimerEvent: {}
+[0.817064] (-) TimerEvent: {}
+[0.918477] (-) TimerEvent: {}
+[1.019936] (-) TimerEvent: {}
+[1.121596] (-) TimerEvent: {}
+[1.222963] (-) TimerEvent: {}
+[1.324518] (-) TimerEvent: {}
+[1.426351] (-) TimerEvent: {}
+[1.549351] (-) TimerEvent: {}
+[1.650598] (-) TimerEvent: {}
+[1.751940] (-) TimerEvent: {}
+[1.853739] (-) TimerEvent: {}
+[1.955050] (-) TimerEvent: {}
+[1.990484] (merge_arrays) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target merge_arrays_node\x1b[0m\n'}
+[2.055290] (-) TimerEvent: {}
+[2.156808] (-) TimerEvent: {}
+[2.258301] (-) TimerEvent: {}
+[2.359592] (-) TimerEvent: {}
+[2.460954] (-) TimerEvent: {}
+[2.562581] (-) TimerEvent: {}
+[2.663752] (-) TimerEvent: {}
+[2.765174] (-) TimerEvent: {}
+[2.866600] (-) TimerEvent: {}
+[2.967807] (-) TimerEvent: {}
+[3.069186] (-) TimerEvent: {}
+[3.170605] (-) TimerEvent: {}
+[3.271977] (-) TimerEvent: {}
+[3.373165] (-) TimerEvent: {}
+[3.474583] (-) TimerEvent: {}
+[3.575992] (-) TimerEvent: {}
+[3.677568] (-) TimerEvent: {}
+[3.779602] (-) TimerEvent: {}
+[3.881607] (-) TimerEvent: {}
+[3.983598] (-) TimerEvent: {}
+[4.085700] (-) TimerEvent: {}
+[4.187146] (-) TimerEvent: {}
+[4.288787] (-) TimerEvent: {}
+[4.391339] (-) TimerEvent: {}
+[4.442118] (merge_arrays) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[4.491677] (-) TimerEvent: {}
+[4.593239] (-) TimerEvent: {}
+[4.695159] (-) TimerEvent: {}
+[4.800280] (-) TimerEvent: {}
+[4.902783] (-) TimerEvent: {}
+[5.004136] (-) TimerEvent: {}
+[5.105369] (-) TimerEvent: {}
+[5.206841] (-) TimerEvent: {}
+[5.308532] (-) TimerEvent: {}
+[5.410349] (-) TimerEvent: {}
+[5.511797] (-) TimerEvent: {}
+[5.613532] (-) TimerEvent: {}
+[5.715233] (-) TimerEvent: {}
+[5.816948] (-) TimerEvent: {}
+[5.919051] (-) TimerEvent: {}
+[6.021911] (-) TimerEvent: {}
+[6.125335] (-) TimerEvent: {}
+[6.227517] (-) TimerEvent: {}
+[6.329691] (-) TimerEvent: {}
+[6.431945] (-) TimerEvent: {}
+[6.534222] (-) TimerEvent: {}
+[6.636586] (-) TimerEvent: {}
+[6.738960] (-) TimerEvent: {}
+[6.841135] (-) TimerEvent: {}
+[6.943168] (-) TimerEvent: {}
+[7.045417] (-) TimerEvent: {}
+[7.147671] (-) TimerEvent: {}
+[7.249688] (-) TimerEvent: {}
+[7.351979] (-) TimerEvent: {}
+[7.454320] (-) TimerEvent: {}
+[7.556634] (-) TimerEvent: {}
+[7.658835] (-) TimerEvent: {}
+[7.761108] (-) TimerEvent: {}
+[7.863652] (-) TimerEvent: {}
+[7.966006] (-) TimerEvent: {}
+[8.068290] (-) TimerEvent: {}
+[8.170705] (-) TimerEvent: {}
+[8.272840] (-) TimerEvent: {}
+[8.375380] (-) TimerEvent: {}
+[8.477625] (-) TimerEvent: {}
+[8.579684] (-) TimerEvent: {}
+[8.682025] (-) TimerEvent: {}
+[8.784371] (-) TimerEvent: {}
+[8.888217] (-) TimerEvent: {}
+[8.990653] (-) TimerEvent: {}
+[9.052824] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.059669] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[9.064817] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::\x1b[32m\x1b[KInt32MultiArray()\x1b[m\x1b[K\x1b[01;31m\x1b[K<\x1b[m\x1b[K\x1b[34m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.070735] (merge_arrays) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[34m\x1b[K~\x1b[m\x1b[K\n'}
+[9.074468] (merge_arrays) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K|\x1b[m\x1b[K                 \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[9.079330] (merge_arrays) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K|\x1b[m\x1b[K                 \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[9.082945] (merge_arrays) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Kstd_msgs::msg::Int32MultiArray {aka std_msgs::msg::Int32MultiArray_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[9.087379] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[9.091092] (-) TimerEvent: {}
+[9.092164] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[9.097670] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.101915] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.106019] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:489:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.109977] (merge_arrays) StderrLine: {'line': b'  489 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[9.114151] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.118216] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:489:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.122498] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.128483] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.133613] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.137896] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.142235] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[9.146205] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[9.150415] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.154804] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.158590] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.162246] (merge_arrays) StderrLine: {'line': b'  425 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const reverse_iterator<_Iterator>& __x,\n'}
+[9.165691] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.168960] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.172786] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.177003] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.180984] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.184818] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.190111] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[9.194414] (-) TimerEvent: {}
+[9.195675] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[9.200562] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.204935] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.208654] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.212754] (merge_arrays) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const reverse_iterator<_IteratorL>& __x,\n'}
+[9.216698] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.220635] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.225702] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.229101] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.233576] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.237005] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.240269] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[9.243941] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[9.247794] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.252008] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.256010] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.260104] (merge_arrays) StderrLine: {'line': b' 1557 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const move_iterator<_IteratorL>& __x,\n'}
+[9.263702] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.267772] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1557:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.271933] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.275840] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.279138] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.282921] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.285899] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[9.289541] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[9.292947] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.296317] (-) TimerEvent: {}
+[9.297400] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.302381] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1613:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.307428] (merge_arrays) StderrLine: {'line': b' 1613 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const move_iterator<_Iterator>& __x,\n'}
+[9.311197] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.315897] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1613:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.320014] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.324289] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.329421] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.334217] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[9.338173] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.343147] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.347507] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator<(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.352201] (merge_arrays) StderrLine: {'line': b'  311 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)\n'}
+[9.356154] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.359663] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.363498] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.366888] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.370501] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.374132] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[9.377452] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.381116] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1570:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.385604] (merge_arrays) StderrLine: {'line': b' 1570 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const tuple<_TElements...>& __t,\n'}
+[9.389727] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.393831] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1570:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.398332] (-) TimerEvent: {}
+[9.399442] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.403534] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.407018] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.410936] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[9.415151] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[9.418962] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[9.422743] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1930:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.427264] (merge_arrays) StderrLine: {'line': b' 1930 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[9.430736] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.435127] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1930:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.439525] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.443997] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.447918] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.452515] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.457695] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.462719] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:795:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.468096] (merge_arrays) StderrLine: {'line': b'  795 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[9.472900] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.476571] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:795:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.480531] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.485157] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.489477] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.493817] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.497757] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.502166] (-) TimerEvent: {}
+[9.503446] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:807:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.507767] (merge_arrays) StderrLine: {'line': b'  807 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)\n'}
+[9.512516] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.517328] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:807:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.521704] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.525578] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.529369] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.532787] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.535812] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.540319] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:816:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator<(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.545034] (merge_arrays) StderrLine: {'line': b'  816 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)\n'}
+[9.551117] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.555255] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:816:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.560008] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.564201] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.568687] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.572897] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[9.576522] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.580478] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.583928] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.587473] (merge_arrays) StderrLine: {'line': b' 1457 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const __shared_ptr<_Tp, _Lp>& __a,\n'}
+[9.591308] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.594731] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.599211] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.604229] (-) TimerEvent: {}
+[9.605284] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.609967] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.614085] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[9.618689] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.622891] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.626728] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.630536] (merge_arrays) StderrLine: {'line': b' 1468 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[9.635415] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.639435] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.643727] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.648628] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.652541] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.657760] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[9.662536] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.666602] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.670625] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.674798] (merge_arrays) StderrLine: {'line': b' 1476 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[9.678947] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.682771] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.686281] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.690563] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.694627] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.699039] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.702943] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.706813] (-) TimerEvent: {}
+[9.707917] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:488:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator<(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.712804] (merge_arrays) StderrLine: {'line': b'  488 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[9.717147] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.721659] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:488:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.726305] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.730139] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.734957] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.739457] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.743645] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.748859] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:499:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator<(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.753454] (merge_arrays) StderrLine: {'line': b'  499 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[9.757269] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.761105] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:499:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.765045] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.769137] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.773202] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.777017] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.781364] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3\x1b[m\x1b[K:\n'}
+[9.785738] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:508:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator<(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.789493] (merge_arrays) StderrLine: {'line': b'  508 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[9.792913] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.797444] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:508:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.801378] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.807468] (-) TimerEvent: {}
+[9.809185] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.814681] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.818680] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[9.822643] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.827154] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.831899] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:589:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.836545] (merge_arrays) StderrLine: {'line': b'  589 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K< (basic_string_view<_CharT, _Traits> __x,\n'}
+[9.840901] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.845507] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:589:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.849658] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.853908] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.857596] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.861484] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[9.865095] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.869258] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.873602] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.877379] (merge_arrays) StderrLine: {'line': b'  595 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K< (basic_string_view<_CharT, _Traits> __x,\n'}
+[9.880749] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.885174] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.890061] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.897401] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.901371] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.905284] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[9.909170] (-) TimerEvent: {}
+[9.910345] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.916270] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.920999] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:602:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.925331] (merge_arrays) StderrLine: {'line': b'  602 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K< (__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[9.929157] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.932745] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:602:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.935966] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.939929] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.944521] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.949355] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.953632] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.957342] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6340:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.962455] (merge_arrays) StderrLine: {'line': b' 6340 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[9.966370] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.969856] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6340:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.973516] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.977670] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[9.981372] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.985339] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.988996] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.992814] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6353:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.997153] (merge_arrays) StderrLine: {'line': b' 6353 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[10.000744] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.004189] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6353:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.008251] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.011701] (-) TimerEvent: {}
+[10.012762] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.016594] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.021626] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[10.025377] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.030130] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.033852] (merge_arrays) StderrLine: {'line': b' 6365 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const _CharT* __lhs,\n'}
+[10.037306] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.040709] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.044810] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.049240] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.054440] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.058120] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[10.061778] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[10.065633] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.069345] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.073049] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.077534] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:1023:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.081575] (merge_arrays) StderrLine: {'line': b' 1023 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[10.085605] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.089471] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:1023:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.093667] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.097888] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.101955] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.105490] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[10.109022] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[10.112998] (-) TimerEvent: {}
+[10.114045] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.118199] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.121706] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.125832] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.130119] (merge_arrays) StderrLine: {'line': b' 1009 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[10.133782] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.138447] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.142001] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.145859] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.151023] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.155344] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[10.160609] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[10.169142] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.173404] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.177365] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.181086] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.185601] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2050:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.190197] (merge_arrays) StderrLine: {'line': b' 2050 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[10.194331] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.197867] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2050:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.201578] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205896] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.210480] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.213739] (-) TimerEvent: {}
+[10.214690] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[10.219207] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[10.222959] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.227586] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.231052] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.234806] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.238536] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1501:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.243016] (merge_arrays) StderrLine: {'line': b' 1501 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[10.247067] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.251600] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1501:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.255762] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.259951] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.264227] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.268360] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[10.272605] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[10.276489] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.280455] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.284291] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.288037] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.292385] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.297656] (merge_arrays) StderrLine: {'line': b' 1166 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[10.302192] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.306588] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.311347] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.315090] (-) TimerEvent: {}
+[10.316183] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.320681] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.325032] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[10.329908] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.334378] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.337530] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.342380] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.346468] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.350137] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.354592] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.359094] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.362834] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.366906] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.373094] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1063:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.376790] (merge_arrays) StderrLine: {'line': b' 1063 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[10.380868] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.384837] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1063:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.388700] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.392584] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.397453] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.401361] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[10.405474] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.408897] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.412513] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.415985] (-) TimerEvent: {}
+[10.416905] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.421089] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.424835] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.429156] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.432867] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.436617] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.440029] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.445442] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1131:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator<(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.449749] (merge_arrays) StderrLine: {'line': b' 1131 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept\n'}
+[10.454145] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.458480] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1131:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.462934] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.468545] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.472309] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.475823] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[10.479376] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.482371] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.486119] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.489201] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.492694] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.496042] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.499935] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.503530] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.507306] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.511131] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.514242] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator<(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.517859] (-) TimerEvent: {}
+[10.519275] (merge_arrays) StderrLine: {'line': b' 1136 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[10.524327] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.528843] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.532558] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.536315] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.540133] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.543297] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[10.546823] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.550126] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.553325] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.558194] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.562001] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.566256] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.570318] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.576388] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.580647] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.585107] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.588817] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1197:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.594230] (merge_arrays) StderrLine: {'line': b' 1197 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[10.600288] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.604189] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1197:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.610191] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.614663] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.619325] (-) TimerEvent: {}
+[10.620336] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.625954] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[10.630788] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.635267] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.639305] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.643807] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.648600] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.652664] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.657539] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.662122] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.666677] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.671001] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.674901] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1203:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Up, _Tp> std::operator<(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.679812] (merge_arrays) StderrLine: {'line': b' 1203 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[10.683275] (merge_arrays) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.687859] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1203:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.692003] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.695545] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.701106] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.705677] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[10.709398] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.713480] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.718019] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.723278] (-) TimerEvent: {}
+[10.724343] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.728599] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.734308] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.739866] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.743374] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.748169] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.754607] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.758247] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1247:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator<(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.764802] (merge_arrays) StderrLine: {'line': b' 1247 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(<, less)\n'}
+[10.769951] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.773595] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1247:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.778271] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.783918] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<\x1b[01;36m\x1b[K3\x1b[m\x1b[K>;\n'}
+[10.788427] (merge_arrays) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.792030] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[10.796245] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[10.800171] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[10.805395] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[10.810093] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:5\x1b[m\x1b[K:\n'}
+[10.813955] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:269:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator<(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.818907] (merge_arrays) StderrLine: {'line': b'  269 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[10.824304] (-) TimerEvent: {}
+[10.825580] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.829929] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:269:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.835549] (merge_arrays) StderrLine: {'line': b'  269 |   operator<(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[10.840996] (merge_arrays) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[10.844915] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:398:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator<(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.848785] (merge_arrays) StderrLine: {'line': b'  398 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const error_condition& __lhs,\n'}
+[10.854431] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.860174] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:398:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.864831] (merge_arrays) StderrLine: {'line': b'  398 |   operator<(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[10.871332] (merge_arrays) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[10.875879] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K,\n'}
+[10.880682] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.886554] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.891310] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.895131] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:70:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator<(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.900774] (merge_arrays) StderrLine: {'line': b'   70 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(thread::id __x, thread::id __y) noexcept\n'}
+[10.906246] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.910274] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:70:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.914592] (merge_arrays) StderrLine: {'line': b'   70 |   operator<(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[10.920299] (merge_arrays) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.925776] (-) TimerEvent: {}
+[10.927156] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[10.932651] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.937791] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.945996] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.951258] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.955204] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.960327] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.965533] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.970308] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.975490] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.979588] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[10.984110] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1289:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator<(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.988194] (merge_arrays) StderrLine: {'line': b' 1289 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(monostate, monostate) noexcept { return false; }\n'}
+[10.993224] (merge_arrays) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.997726] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1289:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.001628] (merge_arrays) StderrLine: {'line': b' 1289 |   constexpr bool operator<(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return false; }\n'}
+[11.006123] (merge_arrays) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.010572] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.014531] (merge_arrays) StderrLine: {'line': b'   45 |         result_array = std_msgs::msg::Int32MultiArray()<3>\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[11.018682] (merge_arrays) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.022881] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.026979] (-) TimerEvent: {}
+[11.028426] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.032993] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.036946] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.040891] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.044614] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.048477] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.051728] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.055651] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.059510] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.064166] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.068958] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[11.073146] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:47:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Int32MultiArray = struct std_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_data_size\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.079809] (merge_arrays) StderrLine: {'line': b'   47 |         RCLCPP_INFO(this->get_logger(), "%d", result_array.\x1b[01;31m\x1b[Kget_data_size\x1b[m\x1b[K());\n'}
+[11.085515] (merge_arrays) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.090305] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:40:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.094057] (merge_arrays) StderrLine: {'line': b'   40 |     void topic_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Int32MultiArray &msg\x1b[m\x1b[K)\n'}
+[11.098012] (merge_arrays) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.127421] (-) TimerEvent: {}
+[11.229659] (-) TimerEvent: {}
+[11.331951] (-) TimerEvent: {}
+[11.434165] (-) TimerEvent: {}
+[11.536122] (-) TimerEvent: {}
+[11.638420] (-) TimerEvent: {}
+[11.740811] (-) TimerEvent: {}
+[11.843138] (-) TimerEvent: {}
+[11.945404] (-) TimerEvent: {}
+[12.047730] (-) TimerEvent: {}
+[12.150363] (-) TimerEvent: {}
+[12.252539] (-) TimerEvent: {}
+[12.354700] (-) TimerEvent: {}
+[12.457194] (-) TimerEvent: {}
+[12.559242] (-) TimerEvent: {}
+[12.661401] (-) TimerEvent: {}
+[12.763621] (-) TimerEvent: {}
+[12.865917] (-) TimerEvent: {}
+[12.968153] (-) TimerEvent: {}
+[13.070201] (-) TimerEvent: {}
+[13.110338] (merge_arrays) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1\n'}
+[13.117584] (merge_arrays) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2\n'}
+[13.122260] (merge_arrays) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.128021] (merge_arrays) CommandEnded: {'returncode': 2}
+[13.170433] (-) TimerEvent: {}
+[13.271919] (-) TimerEvent: {}
+[13.373211] (-) TimerEvent: {}
+[13.474857] (-) TimerEvent: {}
+[13.576140] (-) TimerEvent: {}
+[13.677566] (-) TimerEvent: {}
+[13.778933] (-) TimerEvent: {}
+[13.880182] (-) TimerEvent: {}
+[13.981573] (-) TimerEvent: {}
+[14.082865] (-) TimerEvent: {}
+[14.184513] (-) TimerEvent: {}
+[14.286218] (-) TimerEvent: {}
+[14.387620] (-) TimerEvent: {}
+[14.489234] (-) TimerEvent: {}
+[14.590913] (-) TimerEvent: {}
+[14.692582] (-) TimerEvent: {}
+[14.794047] (-) TimerEvent: {}
+[14.895641] (-) TimerEvent: {}
+[14.933013] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 2}
+[14.947521] (-) EventReactorShutdown: {}

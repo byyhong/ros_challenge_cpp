@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:43:22:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Int32MultiArray[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   43 |             result = [01;31m[Kmsg[m[K;
+      |                      [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7[m[K,
+                 from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(const std_msgs::msg::Int32MultiArray_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KInt32MultiArray_[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

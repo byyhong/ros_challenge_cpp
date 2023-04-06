@@ -1,0 +1,74 @@
+[0.865s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[4.145s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[8.185s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[14.271s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.435s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.561s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[14.568s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::timer_callback()[m[K’:
+[14.583s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:61:62:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’})
+[14.587s]    61 |         RCLCPP_INFO(this->get_logger(), "%d", [32m[K*(&result + 1)[m[K [01;31m[K-[m[K [34m[Kresult[m[K);
+[14.592s]       |                                               [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[14.597s]       |                                               [32m[K|[m[K                [34m[K|[m[K
+[14.604s]       |                                               [32m[K|[m[K                [34m[KInt32MultiArray_<[...]>[m[K
+[14.608s]       |                                               [32m[KInt32MultiArray_<[...]>[m[K
+[14.614s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[14.621s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[14.628s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[14.634s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[14.638s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[14.644s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:560:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[14.651s]   560 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[14.658s]       |     [01;36m[K^~~~~~~~[m[K
+[14.665s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:560:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.677s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.739s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.762s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[14.769s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:61:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[14.775s]    61 |         RCLCPP_INFO(this->get_logger(), "%d", *(&result + 1) - [01;36m[Kresult[m[K);
+[14.781s]       |                                                                [01;36m[K^~~~~~[m[K
+[14.786s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[14.792s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[14.799s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[14.804s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[14.808s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[14.814s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1639:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[14.819s]  1639 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[14.824s]       |     [01;36m[K^~~~~~~~[m[K
+[14.829s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1639:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.834s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.839s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.869s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.909s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[14.915s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:61:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[14.919s]    61 |         RCLCPP_INFO(this->get_logger(), "%d", *(&result + 1) - [01;36m[Kresult[m[K);
+[14.925s]       |                                                                [01;36m[K^~~~~~[m[K
+[19.356s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[19.367s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[19.376s] gmake: *** [Makefile:146: all] Error 2
+[19.386s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

@@ -1,0 +1,15 @@
+[0.300s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.671s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.057s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[8.587s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:27:15:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+[8.591s]    27 |     std_msgs::[01;31m[KInt32MultiArray[m[K result_array;
+[8.595s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.685s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[8.690s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_array[m[K’ was not declared in this scope; did you mean ‘[01m[Kreallocarray[m[K’?
+[8.695s]    45 |         [01;31m[Kresult_array[m[K = std_msgs::msg::Int32MultiArray();
+[8.700s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.703s]       |         [32m[Kreallocarray[m[K
+[12.438s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[12.450s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[12.456s] gmake: *** [Makefile:146: all] Error 2
+[12.460s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

@@ -1,0 +1,15 @@
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/ament_index/resource_index/package_run_dependencies/common_pkgs
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/ament_index/resource_index/parent_prefix_path/common_pkgs
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/ament_prefix_path.sh
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/ament_prefix_path.dsv
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/path.sh
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/environment/path.dsv
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.bash
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.sh
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.zsh
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/local_setup.dsv
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/package.dsv
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/ament_index/resource_index/packages/common_pkgs
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/cmake/common_pkgsConfig.cmake
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/cmake/common_pkgsConfig-version.cmake
+/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs/share/common_pkgs/package.xml

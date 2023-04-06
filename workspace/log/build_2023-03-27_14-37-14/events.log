@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.001092] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.001831] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.003591] (-) JobUnselected: {'identifier': 'wacore'}
+[0.004773] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.006468] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.008404] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.009641] (compose_nodes) JobQueued: {'identifier': 'compose_nodes', 'dependencies': OrderedDict()}
+[0.010886] (compose_nodes) JobStarted: {'identifier': 'compose_nodes'}
+[0.096169] (-) TimerEvent: {}
+[0.197647] (-) TimerEvent: {}
+[0.246504] (compose_nodes) JobProgress: {'identifier': 'compose_nodes', 'progress': 'cmake'}
+[0.261253] (compose_nodes) JobProgress: {'identifier': 'compose_nodes', 'progress': 'build'}
+[0.263931] (compose_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atk-sandbox/atk-sandbox/workspace/build/compose_nodes', '--', '-j4', '-l4'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/compose_nodes', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('OLDPWD', '/home/atk-sandbox/atk-sandbox/workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/compose_nodes'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[0.297860] (-) TimerEvent: {}
+[0.399105] (-) TimerEvent: {}
+[0.500576] (-) TimerEvent: {}
+[0.602220] (-) TimerEvent: {}
+[0.703509] (-) TimerEvent: {}
+[0.805365] (-) TimerEvent: {}
+[0.906712] (-) TimerEvent: {}
+[1.008268] (-) TimerEvent: {}
+[1.109706] (-) TimerEvent: {}
+[1.211173] (-) TimerEvent: {}
+[1.312872] (-) TimerEvent: {}
+[1.414309] (-) TimerEvent: {}
+[1.515590] (-) TimerEvent: {}
+[1.625601] (-) TimerEvent: {}
+[1.727026] (-) TimerEvent: {}
+[1.824718] (compose_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node1\x1b[0m\n'}
+[1.829336] (-) TimerEvent: {}
+[1.931049] (-) TimerEvent: {}
+[2.032456] (-) TimerEvent: {}
+[2.133770] (-) TimerEvent: {}
+[2.235822] (-) TimerEvent: {}
+[2.337078] (-) TimerEvent: {}
+[2.438788] (-) TimerEvent: {}
+[2.540765] (-) TimerEvent: {}
+[2.642326] (-) TimerEvent: {}
+[2.744279] (-) TimerEvent: {}
+[2.845718] (-) TimerEvent: {}
+[2.948393] (-) TimerEvent: {}
+[3.050357] (-) TimerEvent: {}
+[3.151934] (-) TimerEvent: {}
+[3.253578] (-) TimerEvent: {}
+[3.355899] (-) TimerEvent: {}
+[3.457535] (-) TimerEvent: {}
+[3.560463] (-) TimerEvent: {}
+[3.678925] (-) TimerEvent: {}
+[3.783979] (-) TimerEvent: {}
+[3.885632] (-) TimerEvent: {}
+[3.987361] (-) TimerEvent: {}
+[4.089085] (-) TimerEvent: {}
+[4.190978] (-) TimerEvent: {}
+[4.292555] (-) TimerEvent: {}
+[4.394076] (-) TimerEvent: {}
+[4.495412] (-) TimerEvent: {}
+[4.596955] (-) TimerEvent: {}
+[4.606585] (compose_nodes) StdoutLine: {'line': b'[ 50%] Built target node1\n'}
+[4.697252] (-) TimerEvent: {}
+[4.798858] (-) TimerEvent: {}
+[4.900447] (-) TimerEvent: {}
+[5.002631] (-) TimerEvent: {}
+[5.082463] (compose_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node2\x1b[0m\n'}
+[5.102886] (-) TimerEvent: {}
+[5.204185] (-) TimerEvent: {}
+[5.305470] (-) TimerEvent: {}
+[5.406733] (-) TimerEvent: {}
+[5.508265] (-) TimerEvent: {}
+[5.610475] (-) TimerEvent: {}
+[5.712420] (-) TimerEvent: {}
+[5.813840] (-) TimerEvent: {}
+[5.915510] (-) TimerEvent: {}
+[6.017124] (-) TimerEvent: {}
+[6.119344] (-) TimerEvent: {}
+[6.221023] (-) TimerEvent: {}
+[6.322482] (-) TimerEvent: {}
+[6.423974] (-) TimerEvent: {}
+[6.525792] (-) TimerEvent: {}
+[6.627009] (-) TimerEvent: {}
+[6.728358] (-) TimerEvent: {}
+[6.829974] (-) TimerEvent: {}
+[6.931632] (-) TimerEvent: {}
+[7.032801] (-) TimerEvent: {}
+[7.134356] (-) TimerEvent: {}
+[7.235961] (-) TimerEvent: {}
+[7.337589] (-) TimerEvent: {}
+[7.439045] (-) TimerEvent: {}
+[7.540705] (-) TimerEvent: {}
+[7.598536] (compose_nodes) StdoutLine: {'line': b'[100%] Built target node2\n'}
+[7.640921] (-) TimerEvent: {}
+[7.742409] (-) TimerEvent: {}
+[7.843840] (-) TimerEvent: {}
+[7.872248] (compose_nodes) CommandEnded: {'returncode': 0}
+[7.944173] (-) TimerEvent: {}
+[8.045723] (-) TimerEvent: {}
+[8.147115] (-) TimerEvent: {}
+[8.248690] (-) TimerEvent: {}
+[8.350009] (-) TimerEvent: {}
+[8.451552] (-) TimerEvent: {}
+[8.553009] (-) TimerEvent: {}
+[8.654341] (-) TimerEvent: {}
+[8.755749] (-) TimerEvent: {}
+[8.857094] (-) TimerEvent: {}
+[8.958746] (-) TimerEvent: {}
+[9.060039] (-) TimerEvent: {}
+[9.161324] (-) TimerEvent: {}
+[9.262687] (-) TimerEvent: {}
+[9.364313] (-) TimerEvent: {}
+[9.465795] (-) TimerEvent: {}
+[9.567250] (-) TimerEvent: {}
+[9.668628] (-) TimerEvent: {}
+[9.770322] (-) TimerEvent: {}
+[9.827101] (compose_nodes) JobProgress: {'identifier': 'compose_nodes', 'progress': 'install'}
+[9.870536] (-) TimerEvent: {}
+[9.972109] (-) TimerEvent: {}
+[10.073907] (compose_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atk-sandbox/atk-sandbox/workspace/build/compose_nodes'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/compose_nodes', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('OLDPWD', '/home/atk-sandbox/atk-sandbox/workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/compose_nodes'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[10.080112] (-) TimerEvent: {}
+[10.181638] (-) TimerEvent: {}
+[10.283101] (-) TimerEvent: {}
+[10.323705] (compose_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.329592] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include\n'}
+[10.334368] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include/compose_nodes\n'}
+[10.339062] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include/compose_nodes/node1.hpp\n'}
+[10.342874] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/include/compose_nodes/node2.hpp\n'}
+[10.346999] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/library_path.sh\n'}
+[10.353257] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/library_path.dsv\n'}
+[10.357836] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib/libnode1.so\n'}
+[10.371270] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib/libnode2.so\n'}
+[10.378201] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/launch\n'}
+[10.383288] (-) TimerEvent: {}
+[10.384465] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/launch/compose_nodes.launch.py\n'}
+[10.390350] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/package_run_dependencies/compose_nodes\n'}
+[10.395402] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/parent_prefix_path/compose_nodes\n'}
+[10.399526] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/ament_prefix_path.sh\n'}
+[10.403841] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/ament_prefix_path.dsv\n'}
+[10.408754] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/path.sh\n'}
+[10.413125] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/environment/path.dsv\n'}
+[10.417426] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.bash\n'}
+[10.422747] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.sh\n'}
+[10.428084] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.zsh\n'}
+[10.432901] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/local_setup.dsv\n'}
+[10.437198] (compose_nodes) StdoutLine: {'line': b'-- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/package.dsv\n'}
+[10.452737] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/packages/compose_nodes\n'}
+[10.457490] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/ament_index/resource_index/rclcpp_components/compose_nodes\n'}
+[10.468732] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.473096] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.477432] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.481346] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/compose_nodesConfig.cmake\n'}
+[10.484978] (-) TimerEvent: {}
+[10.486153] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/cmake/compose_nodesConfig-version.cmake\n'}
+[10.490487] (compose_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/share/compose_nodes/package.xml\n'}
+[10.497513] (compose_nodes) CommandEnded: {'returncode': 0}
+[10.585216] (-) TimerEvent: {}
+[10.686703] (-) TimerEvent: {}
+[10.788364] (-) TimerEvent: {}
+[10.889846] (-) TimerEvent: {}
+[10.991280] (-) TimerEvent: {}
+[11.092918] (-) TimerEvent: {}
+[11.194249] (-) TimerEvent: {}
+[11.295880] (-) TimerEvent: {}
+[11.397332] (-) TimerEvent: {}
+[11.498715] (-) TimerEvent: {}
+[11.600196] (-) TimerEvent: {}
+[11.701376] (-) TimerEvent: {}
+[11.803012] (-) TimerEvent: {}
+[11.904458] (-) TimerEvent: {}
+[12.008052] (-) TimerEvent: {}
+[12.110355] (-) TimerEvent: {}
+[12.211567] (-) TimerEvent: {}
+[12.313060] (-) TimerEvent: {}
+[12.414915] (-) TimerEvent: {}
+[12.516433] (-) TimerEvent: {}
+[12.618373] (-) TimerEvent: {}
+[12.721499] (-) TimerEvent: {}
+[12.825468] (-) TimerEvent: {}
+[12.927550] (-) TimerEvent: {}
+[12.987591] (compose_nodes) JobEnded: {'identifier': 'compose_nodes', 'rc': 0}
+[12.996909] (-) EventReactorShutdown: {}

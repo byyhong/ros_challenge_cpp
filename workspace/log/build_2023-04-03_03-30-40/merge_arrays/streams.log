@@ -1,0 +1,39 @@
+[0.355s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[1.920s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[4.490s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[9.207s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.212s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[9.218s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.241s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.245s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.248s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.259s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[9.263s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[9.269s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:45:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<int>[m[K’} to ‘[01m[Kconst char*[m[K’
+[9.275s]    45 |         RCLCPP_INFO(this->get_logger(), [01;31m[Kmsg.data[m[K);
+[9.279s]       |                                         [01;31m[K~~~~^~~~[m[K
+[9.283s]       |                                             [01;31m[K|[m[K
+[9.288s]       |                                             [01;31m[Kconst _data_type {aka const std::vector<int>}[m[K
+[9.293s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[9.297s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[9.303s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[9.308s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[9.312s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[9.316s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[9.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[9.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.338s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[9.342s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[9.347s]   479 |   [01;36m[Kconst char * format[m[K,
+[9.351s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[13.180s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[13.190s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[13.195s] gmake: *** [Makefile:146: all] Error 2
+[13.198s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

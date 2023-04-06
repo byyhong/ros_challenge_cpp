@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:170: CMakeFiles/merge_arrays_node.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/merge_arrays_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

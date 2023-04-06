@@ -1,0 +1,511 @@
+[0.149s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs
+[0.938s] -- The C compiler identification is GNU 11.3.0
+[1.504s] -- The CXX compiler identification is GNU 11.3.0
+[1.598s] -- Detecting C compiler ABI info
+[2.545s] -- Detecting C compiler ABI info - done
+[2.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.598s] -- Detecting C compile features
+[2.604s] -- Detecting C compile features - done
+[2.647s] -- Detecting CXX compiler ABI info
+[3.746s] -- Detecting CXX compiler ABI info - done
+[3.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.803s] -- Detecting CXX compile features
+[3.808s] -- Detecting CXX compile features - done
+[3.844s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.592s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.941s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[4.999s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.013s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.028s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.244s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.346s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.555s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.835s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.582s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[16.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.949s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[20.970s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[21.059s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[21.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.067s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[21.071s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[21.186s] -- Found PythonExtra: .so  
+[23.562s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.599s] -- Added test 'lint_cmake' to check CMake code style
+[23.615s] -- Added test 'xmllint' to check XML markup files
+[24.459s] -- Configuring done
+[30.290s] -- Generating done
+[30.812s] -- Build files have been written to: /home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs
+[30.867s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_perception_msgs -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs
+[30.892s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs -- -j4 -l4
+[31.357s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.475s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.568s] [  1%] Built target ament_cmake_python_copy_wauto_perception_msgs
+[32.908s] running egg_info
+[32.936s] creating wauto_perception_msgs.egg-info
+[33.012s] writing wauto_perception_msgs.egg-info/PKG-INFO
+[33.037s] writing dependency_links to wauto_perception_msgs.egg-info/dependency_links.txt
+[33.050s] writing top-level names to wauto_perception_msgs.egg-info/top_level.txt
+[33.063s] writing manifest file 'wauto_perception_msgs.egg-info/SOURCES.txt'
+[33.318s] reading manifest file 'wauto_perception_msgs.egg-info/SOURCES.txt'
+[33.334s] writing manifest file 'wauto_perception_msgs.egg-info/SOURCES.txt'
+[33.556s] [  1%] Built target ament_cmake_python_build_wauto_perception_msgs_egg
+[43.621s] [  1%] Built target wauto_perception_msgs__cpp
+[44.887s] [  2%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/roi__functions.c.o[0m
+[45.307s] [  3%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/roi_array__functions.c.o[0m
+[45.974s] [  4%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/lane_marking__functions.c.o[0m
+[46.526s] [  5%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/lane_marking_array__functions.c.o[0m
+[47.162s] [  6%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/limit_line__functions.c.o[0m
+[47.854s] [  7%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/limit_line_array__functions.c.o[0m
+[48.355s] [  8%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/object__functions.c.o[0m
+[49.013s] [  8%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/object_array__functions.c.o[0m
+[49.664s] [  9%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/object_classification__functions.c.o[0m
+[50.258s] [ 10%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/cluster__functions.c.o[0m
+[50.940s] [ 11%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/wauto_perception_msgs/msg/detail/cluster_array__functions.c.o[0m
+[51.600s] [ 12%] [32m[1mLinking C shared library libwauto_perception_msgs__rosidl_generator_c.so[0m
+[52.554s] [ 12%] Built target wauto_perception_msgs__rosidl_generator_c
+[52.734s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[57.784s] [ 14%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/roi__type_support.cpp.o[0m
+[59.712s] [ 14%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/roi_array__type_support.cpp.o[0m
+[61.614s] [ 15%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/lane_marking__type_support.cpp.o[0m
+[63.346s] [ 16%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/lane_marking_array__type_support.cpp.o[0m
+[65.211s] [ 17%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/limit_line__type_support.cpp.o[0m
+[66.948s] [ 18%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/limit_line_array__type_support.cpp.o[0m
+[68.760s] [ 19%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/object__type_support.cpp.o[0m
+[70.487s] [ 20%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/object_array__type_support.cpp.o[0m
+[72.635s] [ 21%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/object_classification__type_support.cpp.o[0m
+[74.470s] [ 22%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/cluster__type_support.cpp.o[0m
+[76.498s] [ 23%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wauto_perception_msgs/msg/detail/cluster_array__type_support.cpp.o[0m
+[78.869s] [ 24%] [32m[1mLinking CXX shared library libwauto_perception_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[81.524s] [ 24%] Built target wauto_perception_msgs__rosidl_typesupport_introspection_cpp
+[81.660s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[85.852s] [ 26%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/roi__type_support_c.cpp.o[0m
+[87.456s] [ 27%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/roi_array__type_support_c.cpp.o[0m
+[89.258s] [ 28%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/lane_marking__type_support_c.cpp.o[0m
+[91.004s] [ 29%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/lane_marking_array__type_support_c.cpp.o[0m
+[92.801s] [ 29%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/limit_line__type_support_c.cpp.o[0m
+[94.467s] [ 30%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/limit_line_array__type_support_c.cpp.o[0m
+[96.007s] [ 31%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/object__type_support_c.cpp.o[0m
+[97.521s] [ 32%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/object_array__type_support_c.cpp.o[0m
+[99.387s] [ 33%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/object_classification__type_support_c.cpp.o[0m
+[101.002s] [ 34%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/cluster__type_support_c.cpp.o[0m
+[102.455s] [ 35%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wauto_perception_msgs/msg/detail/cluster_array__type_support_c.cpp.o[0m
+[103.893s] [ 36%] [32m[1mLinking CXX shared library libwauto_perception_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[104.741s] [ 36%] Built target wauto_perception_msgs__rosidl_typesupport_fastrtps_c
+[104.812s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[108.107s] [ 38%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/roi__type_support.c.o[0m
+[108.465s] [ 39%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/roi_array__type_support.c.o[0m
+[108.848s] [ 40%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/lane_marking__type_support.c.o[0m
+[109.178s] [ 41%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/lane_marking_array__type_support.c.o[0m
+[109.565s] [ 42%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/limit_line__type_support.c.o[0m
+[109.924s] [ 43%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/limit_line_array__type_support.c.o[0m
+[110.305s] [ 43%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/object__type_support.c.o[0m
+[110.742s] [ 44%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/object_array__type_support.c.o[0m
+[111.160s] [ 45%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/object_classification__type_support.c.o[0m
+[111.465s] [ 46%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/cluster__type_support.c.o[0m
+[111.880s] [ 47%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wauto_perception_msgs/msg/detail/cluster_array__type_support.c.o[0m
+[112.302s] [ 48%] [32m[1mLinking C shared library libwauto_perception_msgs__rosidl_typesupport_introspection_c.so[0m
+[113.066s] [ 48%] Built target wauto_perception_msgs__rosidl_typesupport_introspection_c
+[113.142s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[115.810s] [ 50%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/roi__type_support.cpp.o[0m
+[116.017s] [ 51%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/roi_array__type_support.cpp.o[0m
+[116.265s] [ 51%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking__type_support.cpp.o[0m
+[116.476s] [ 52%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking_array__type_support.cpp.o[0m
+[116.688s] [ 53%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line__type_support.cpp.o[0m
+[116.890s] [ 54%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line_array__type_support.cpp.o[0m
+[117.095s] [ 55%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object__type_support.cpp.o[0m
+[117.336s] [ 56%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object_array__type_support.cpp.o[0m
+[117.592s] [ 57%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object_classification__type_support.cpp.o[0m
+[117.776s] [ 58%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/cluster__type_support.cpp.o[0m
+[118.005s] [ 59%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/cluster_array__type_support.cpp.o[0m
+[118.239s] [ 60%] [32m[1mLinking CXX shared library libwauto_perception_msgs__rosidl_typesupport_c.so[0m
+[119.014s] [ 60%] Built target wauto_perception_msgs__rosidl_typesupport_c
+[119.081s] [ 60%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[122.680s] [ 61%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/roi__type_support.cpp.o[0m
+[124.226s] [ 62%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/lane_marking__type_support.cpp.o[0m
+[125.844s] [ 63%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/lane_marking_array__type_support.cpp.o[0m
+[127.540s] [ 64%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/limit_line__type_support.cpp.o[0m
+[129.083s] [ 65%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/limit_line_array__type_support.cpp.o[0m
+[130.972s] [ 66%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[132.569s] [ 67%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/object_array__type_support.cpp.o[0m
+[134.527s] [ 68%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/object_classification__type_support.cpp.o[0m
+[136.058s] [ 68%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/cluster__type_support.cpp.o[0m
+[137.672s] [ 69%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/cluster_array__type_support.cpp.o[0m
+[139.648s] [ 70%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wauto_perception_msgs/msg/detail/dds_fastrtps/roi_array__type_support.cpp.o[0m
+[141.431s] [ 71%] [32m[1mLinking CXX shared library libwauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[143.429s] [ 71%] Built target wauto_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[143.498s] [ 72%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[145.525s] [ 73%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/roi__type_support.cpp.o[0m
+[146.237s] [ 74%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/lane_marking_array__type_support.cpp.o[0m
+[146.960s] [ 75%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/limit_line__type_support.cpp.o[0m
+[147.737s] [ 76%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/limit_line_array__type_support.cpp.o[0m
+[148.497s] [ 77%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/object__type_support.cpp.o[0m
+[149.225s] [ 77%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/object_array__type_support.cpp.o[0m
+[149.967s] [ 78%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/object_classification__type_support.cpp.o[0m
+[150.671s] [ 79%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/cluster__type_support.cpp.o[0m
+[151.471s] [ 80%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/cluster_array__type_support.cpp.o[0m
+[152.387s] [ 81%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/lane_marking__type_support.cpp.o[0m
+[153.291s] [ 82%] [32mBuilding CXX object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wauto_perception_msgs/msg/roi_array__type_support.cpp.o[0m
+[154.126s] [ 83%] [32m[1mLinking CXX shared library libwauto_perception_msgs__rosidl_typesupport_cpp.so[0m
+[154.805s] [ 83%] Built target wauto_perception_msgs__rosidl_typesupport_cpp
+[154.871s] [ 83%] Built target wauto_perception_msgs
+[154.981s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[160.456s] [ 84%] Built target wauto_perception_msgs__py
+[160.580s] [ 85%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_roi_s.c.o[0m
+[161.158s] [ 87%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_lane_marking_s.c.o[0m
+[161.163s] [ 87%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_lane_marking_array_s.c.o[0m
+[161.817s] [ 88%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_limit_line_s.c.o[0m
+[161.860s] [ 88%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_limit_line_array_s.c.o[0m
+[162.509s] [ 89%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_object_s.c.o[0m
+[162.615s] [ 90%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_object_array_s.c.o[0m
+[163.229s] [ 91%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_object_classification_s.c.o[0m
+[163.306s] [ 92%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_cluster_s.c.o[0m
+[163.873s] [ 93%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_cluster_array_s.c.o[0m
+[163.990s] [ 94%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/wauto_perception_msgs/msg/_roi_array_s.c.o[0m
+[164.673s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/wauto_perception_msgs/libwauto_perception_msgs__rosidl_generator_py.so[0m
+[165.200s] [ 95%] Built target wauto_perception_msgs__rosidl_generator_py
+[165.318s] [ 97%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wauto_perception_msgs/_wauto_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[165.323s] [ 97%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wauto_perception_msgs/_wauto_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[166.394s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[166.423s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[166.784s] [ 99%] Built target wauto_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[166.799s] [ 99%] Built target wauto_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[166.889s] [ 99%] [32mBuilding C object CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wauto_perception_msgs/_wauto_perception_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[167.727s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[168.028s] [100%] Built target wauto_perception_msgs__rosidl_typesupport_c__pyext
+[168.343s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs -- -j4 -l4
+[168.898s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs
+[168.916s] -- Install configuration: ""
+[168.951s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/wauto_perception_msgs
+[168.980s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs
+[169.006s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg
+[169.031s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/cluster.h
+[169.057s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/cluster_array.h
+[169.095s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail
+[169.121s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__functions.c
+[169.150s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__functions.h
+[169.184s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__struct.h
+[169.214s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__type_support.h
+[169.251s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__functions.c
+[169.286s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__functions.h
+[169.318s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__struct.h
+[169.349s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__type_support.h
+[169.380s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__functions.c
+[169.412s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__functions.h
+[169.447s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__struct.h
+[169.479s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__type_support.h
+[169.512s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__functions.c
+[169.543s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__functions.h
+[169.582s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__struct.h
+[169.617s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__type_support.h
+[169.654s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__functions.c
+[169.682s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__functions.h
+[169.715s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__struct.h
+[169.752s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__type_support.h
+[169.781s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__functions.c
+[169.813s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__functions.h
+[169.844s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__struct.h
+[169.875s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__type_support.h
+[169.915s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__functions.c
+[169.943s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__functions.h
+[169.975s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__struct.h
+[170.006s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__type_support.h
+[170.037s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__functions.c
+[170.070s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__functions.h
+[170.103s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__struct.h
+[170.134s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__type_support.h
+[170.164s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__functions.c
+[170.208s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__functions.h
+[170.237s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__struct.h
+[170.271s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__type_support.h
+[170.304s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__functions.c
+[170.339s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__functions.h
+[170.367s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__struct.h
+[170.400s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__type_support.h
+[170.432s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__functions.c
+[170.464s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__functions.h
+[170.498s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__struct.h
+[170.526s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__type_support.h
+[170.562s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/lane_marking.h
+[170.590s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/lane_marking_array.h
+[170.634s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/limit_line.h
+[170.660s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/limit_line_array.h
+[170.696s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/object.h
+[170.726s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/object_array.h
+[170.760s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/object_classification.h
+[170.791s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/roi.h
+[170.822s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/roi_array.h
+[170.854s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+[170.901s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/library_path.sh
+[170.928s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/library_path.dsv
+[170.970s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_generator_c.so
+[171.032s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_generator_c.so" to ""
+[171.038s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs
+[171.042s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg
+[171.050s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail
+[171.059s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__rosidl_typesupport_fastrtps_c.h
+[171.095s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__rosidl_typesupport_fastrtps_c.h
+[171.130s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__rosidl_typesupport_fastrtps_c.h
+[171.160s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__rosidl_typesupport_fastrtps_c.h
+[171.200s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__rosidl_typesupport_fastrtps_c.h
+[171.234s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__rosidl_typesupport_fastrtps_c.h
+[171.271s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[171.303s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__rosidl_typesupport_fastrtps_c.h
+[171.335s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__rosidl_typesupport_fastrtps_c.h
+[171.383s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__rosidl_typesupport_fastrtps_c.h
+[171.413s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__rosidl_typesupport_fastrtps_c.h
+[171.451s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[171.485s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_fastrtps_c.so
+[171.564s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[171.574s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs
+[171.580s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg
+[171.586s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/cluster.hpp
+[171.620s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/cluster_array.hpp
+[171.650s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail
+[171.659s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__builder.hpp
+[171.690s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__struct.hpp
+[171.717s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__traits.hpp
+[171.752s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__builder.hpp
+[171.785s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__struct.hpp
+[171.815s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__traits.hpp
+[171.844s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__builder.hpp
+[171.877s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__struct.hpp
+[171.904s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__traits.hpp
+[171.935s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__builder.hpp
+[171.966s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__struct.hpp
+[171.995s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__traits.hpp
+[172.024s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__builder.hpp
+[172.053s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__struct.hpp
+[172.082s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__traits.hpp
+[172.110s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__builder.hpp
+[172.142s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__struct.hpp
+[172.179s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__traits.hpp
+[172.220s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__builder.hpp
+[172.252s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__struct.hpp
+[172.280s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__traits.hpp
+[172.327s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__builder.hpp
+[172.355s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__struct.hpp
+[172.384s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__traits.hpp
+[172.421s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__builder.hpp
+[172.453s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__struct.hpp
+[172.487s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__traits.hpp
+[172.520s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__builder.hpp
+[172.551s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__struct.hpp
+[172.584s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__traits.hpp
+[172.615s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__builder.hpp
+[172.645s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__struct.hpp
+[172.677s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__traits.hpp
+[172.707s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/lane_marking.hpp
+[172.741s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/lane_marking_array.hpp
+[172.769s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/limit_line.hpp
+[172.799s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/limit_line_array.hpp
+[172.829s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/object.hpp
+[172.857s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/object_array.hpp
+[172.889s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/object_classification.hpp
+[172.919s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/roi.hpp
+[172.955s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/roi_array.hpp
+[172.981s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs
+[172.987s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg
+[172.994s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail
+[173.004s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__rosidl_typesupport_fastrtps_cpp.hpp
+[173.042s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__rosidl_typesupport_fastrtps_cpp.hpp
+[173.072s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/dds_fastrtps
+[173.095s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__rosidl_typesupport_fastrtps_cpp.hpp
+[173.124s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__rosidl_typesupport_fastrtps_cpp.hpp
+[173.153s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__rosidl_typesupport_fastrtps_cpp.hpp
+[173.184s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__rosidl_typesupport_fastrtps_cpp.hpp
+[173.214s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[173.243s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[173.276s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__rosidl_typesupport_fastrtps_cpp.hpp
+[173.307s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__rosidl_typesupport_fastrtps_cpp.hpp
+[173.337s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[173.363s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[173.393s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[173.520s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[173.526s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs
+[173.533s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg
+[173.538s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail
+[173.548s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__rosidl_typesupport_introspection_c.h
+[173.584s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__type_support.c
+[173.617s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__rosidl_typesupport_introspection_c.h
+[173.646s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__type_support.c
+[173.677s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__rosidl_typesupport_introspection_c.h
+[173.701s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__type_support.c
+[173.729s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__rosidl_typesupport_introspection_c.h
+[173.761s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__type_support.c
+[173.791s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__rosidl_typesupport_introspection_c.h
+[173.833s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__type_support.c
+[173.862s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__rosidl_typesupport_introspection_c.h
+[173.895s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__type_support.c
+[173.926s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[173.975s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__type_support.c
+[174.006s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__rosidl_typesupport_introspection_c.h
+[174.039s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__type_support.c
+[174.070s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__rosidl_typesupport_introspection_c.h
+[174.099s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__type_support.c
+[174.129s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__rosidl_typesupport_introspection_c.h
+[174.159s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__type_support.c
+[174.192s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__rosidl_typesupport_introspection_c.h
+[174.219s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__type_support.c
+[174.250s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[174.285s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_introspection_c.so
+[174.334s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_introspection_c.so" to ""
+[174.342s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_c.so
+[174.389s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_c.so" to ""
+[174.394s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs
+[174.400s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg
+[174.406s] -- Up-to-date: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail
+[174.416s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__rosidl_typesupport_introspection_cpp.hpp
+[174.446s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster__type_support.cpp
+[174.476s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__rosidl_typesupport_introspection_cpp.hpp
+[174.509s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/cluster_array__type_support.cpp
+[174.540s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__rosidl_typesupport_introspection_cpp.hpp
+[174.571s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking__type_support.cpp
+[174.601s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__rosidl_typesupport_introspection_cpp.hpp
+[174.629s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/lane_marking_array__type_support.cpp
+[174.655s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__rosidl_typesupport_introspection_cpp.hpp
+[174.688s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line__type_support.cpp
+[174.726s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__rosidl_typesupport_introspection_cpp.hpp
+[174.752s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/limit_line_array__type_support.cpp
+[174.781s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[174.815s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object__type_support.cpp
+[174.842s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__rosidl_typesupport_introspection_cpp.hpp
+[174.878s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_array__type_support.cpp
+[174.910s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__rosidl_typesupport_introspection_cpp.hpp
+[174.943s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/object_classification__type_support.cpp
+[174.971s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__rosidl_typesupport_introspection_cpp.hpp
+[175.000s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi__type_support.cpp
+[175.031s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__rosidl_typesupport_introspection_cpp.hpp
+[175.057s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/include/wauto_perception_msgs/wauto_perception_msgs/msg/detail/roi_array__type_support.cpp
+[175.087s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_introspection_cpp.so
+[175.207s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[175.216s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_cpp.so
+[175.260s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_typesupport_cpp.so" to ""
+[175.268s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/pythonpath.sh
+[175.299s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/pythonpath.dsv
+[175.327s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs-0.0.0-py3.10.egg-info
+[175.357s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[175.387s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[175.419s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[175.448s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[175.478s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs
+[175.497s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/__init__.py
+[175.526s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/_wauto_perception_msgs_s.ep.rosidl_typesupport_c.c
+[175.570s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/_wauto_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[175.610s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/_wauto_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[175.653s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/libwauto_perception_msgs__rosidl_generator_py.so
+[175.699s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg
+[175.720s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/__init__.py
+[175.748s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_cluster.py
+[175.778s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_cluster_array.py
+[175.809s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_cluster_array_s.c
+[175.848s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_cluster_s.c
+[175.875s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_lane_marking.py
+[175.910s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_lane_marking_array.py
+[175.940s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_lane_marking_array_s.c
+[175.969s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_lane_marking_s.c
+[175.997s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_limit_line.py
+[176.028s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_limit_line_array.py
+[176.060s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_limit_line_array_s.c
+[176.095s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_limit_line_s.c
+[176.122s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object.py
+[176.152s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_array.py
+[176.183s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_array_s.c
+[176.218s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_classification.py
+[176.251s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_classification_s.c
+[176.280s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_s.c
+[176.309s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_roi.py
+[176.339s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_roi_array.py
+[176.368s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_roi_array_s.c
+[176.400s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_roi_s.c
+[176.432s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[176.478s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[176.520s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[176.867s] Listing '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs'...
+[176.873s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/__init__.py'...
+[176.878s] Listing '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg'...
+[176.882s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/__init__.py'...
+[176.887s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_cluster.py'...
+[176.891s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_cluster_array.py'...
+[176.896s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_lane_marking.py'...
+[176.901s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_lane_marking_array.py'...
+[176.905s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_limit_line.py'...
+[176.909s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_limit_line_array.py'...
+[176.915s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object.py'...
+[176.920s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_array.py'...
+[176.929s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_object_classification.py'...
+[176.933s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_roi.py'...
+[176.939s] Compiling '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/msg/_roi_array.py'...
+[176.945s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[176.951s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[176.957s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[176.995s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[177.014s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[177.057s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages/wauto_perception_msgs/wauto_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[177.064s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_generator_py.so
+[177.117s] -- Set runtime path of "/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib/libwauto_perception_msgs__rosidl_generator_py.so" to ""
+[177.136s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/Roi.idl
+[177.164s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/RoiArray.idl
+[177.194s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LaneMarking.idl
+[177.236s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LaneMarkingArray.idl
+[177.265s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LimitLine.idl
+[177.295s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LimitLineArray.idl
+[177.325s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/Object.idl
+[177.353s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/ObjectArray.idl
+[177.381s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/ObjectClassification.idl
+[177.409s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/Cluster.idl
+[177.439s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/ClusterArray.idl
+[177.480s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/Roi.msg
+[177.510s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/RoiArray.msg
+[177.546s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LaneMarking.msg
+[177.576s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LaneMarkingArray.msg
+[177.604s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LimitLine.msg
+[177.635s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/LimitLineArray.msg
+[177.666s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/Object.msg
+[177.702s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/ObjectArray.msg
+[177.750s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/ObjectClassification.msg
+[177.784s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/Cluster.msg
+[177.827s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/msg/ClusterArray.msg
+[177.871s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/ament_index/resource_index/package_run_dependencies/wauto_perception_msgs
+[177.918s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/ament_index/resource_index/parent_prefix_path/wauto_perception_msgs
+[177.961s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/ament_prefix_path.sh
+[178.022s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/ament_prefix_path.dsv
+[178.080s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/path.sh
+[178.170s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/environment/path.dsv
+[178.194s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/local_setup.bash
+[178.227s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/local_setup.sh
+[178.259s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/local_setup.zsh
+[178.293s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/local_setup.dsv
+[178.328s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/package.dsv
+[178.377s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/ament_index/resource_index/packages/wauto_perception_msgs
+[178.424s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_generator_cExport.cmake
+[178.460s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_generator_cExport-noconfig.cmake
+[178.494s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[178.533s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[178.562s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_generator_cppExport.cmake
+[178.594s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[178.625s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[178.659s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+[178.692s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[178.729s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_cExport.cmake
+[178.772s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[178.808s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[178.840s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[178.870s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_cppExport.cmake
+[178.902s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[178.939s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_generator_pyExport.cmake
+[178.973s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/export_wauto_perception_msgs__rosidl_generator_pyExport-noconfig.cmake
+[179.008s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/rosidl_cmake-extras.cmake
+[179.036s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[179.064s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[179.090s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[179.120s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[179.148s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[179.176s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[179.204s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgsConfig.cmake
+[179.231s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/cmake/wauto_perception_msgsConfig-version.cmake
+[179.260s] -- Installing: /home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/share/wauto_perception_msgs/package.xml
+[179.300s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/wauto_perception_msgs

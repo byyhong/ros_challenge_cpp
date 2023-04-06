@@ -1,0 +1,8 @@
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/CarState.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/CarInput.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/CarSafety.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/CarTrajectory.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/CarFlatData.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/CarTBS.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/LaneMarking.idl
+/home/atk-sandbox/atk-sandbox/workspace/build/wauto_control_msgs/rosidl_adapter/wauto_control_msgs:msg/LaneBoundaries.idl

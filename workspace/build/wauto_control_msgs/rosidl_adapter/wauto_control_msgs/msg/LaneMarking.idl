@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_control_msgs/msg/LaneMarking.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_control_msgs {
+  module msg {
+    typedef double double__20[20];
+    module LaneMarking_Constants {
+      @verbatim (language="comment", text=
+        "BoundaryType")
+      const uint8 UNMARKED = 0;
+      const uint8 SOLID = 1;
+      const uint8 DASHED = 2;
+      const uint8 DOUBLESOLID = 3;
+      const uint8 DOUBLEDASHED = 4;
+      const uint8 SOLIDDASHED = 5;
+      const uint8 DASHEDSOLID = 6;
+    };
+    @verbatim (language="comment", text=
+      "Msg type for a road lane marking" "\n"
+      "Refer to: https://www.mathworks.com/help/driving/ref/scenarioreader.html#mw_31c3add8-5453-4f95-a37e-b6923ce62508")
+    struct LaneMarking {
+      @verbatim (language="comment", text=
+        "Msg fields")
+      uint8 boundary_type;
+
+      double lateral_offset;
+
+      @verbatim (language="comment", text=
+        "rad")
+      double heading_angle;
+
+      double__20 coordinates_x;
+
+      double__20 coordinates_y;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_vehicle_msgs/msg/VehicleLocation.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_vehicle_msgs {
+  module msg {
+    module VehicleLocation_Constants {
+      @verbatim (language="comment", text=
+        "-----------------------" "\n"        "VehicleLocation Message" "\n"        "-----------------------" "\n"        "The name of the message as defined in the DBC file.")
+      const string NAME = "VehicleLocation";
+    };
+    @verbatim (language="comment", text=
+      "----------------------------------------------" "\n"
+      "This is an auto generated file. DO NOT EDIT!!!" "\n"
+      "----------------------------------------------")
+    struct VehicleLocation {
+      @verbatim (language="comment", text=
+        "-------" "\n"
+        "Signals" "\n"
+        "-------" "\n"
+        "VehicleLatitude")
+      @default (value=0)
+      int32 vehiclelatitude;
+
+      @verbatim (language="comment", text=
+        "VehicleLongitude")
+      @default (value=0)
+      int32 vehiclelongitude;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/Cluster.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+#include "std_msgs/msg/Header.idl"
+
+module wauto_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message defines a cluster")
+    struct Cluster {
+      std_msgs::msg::Header header;
+
+      uint32 id;
+
+      sensor_msgs::msg::PointCloud2 cloud;
+
+      geometry_msgs::msg::Pose pose;
+
+      geometry_msgs::msg::Vector3 size;
+    };
+  };
+};

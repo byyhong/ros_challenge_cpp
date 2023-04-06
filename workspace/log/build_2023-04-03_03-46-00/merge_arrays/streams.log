@@ -1,0 +1,1127 @@
+[0.408s] Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4
+[2.560s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[5.956s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[12.008s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.195s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.236s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[12.296s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)[m[K’:
+[12.353s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:48:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} and ‘[01m[Kstd::nullptr_t[m[K’)
+[12.363s]    41 |         RCLCPP_INFO(this->get_logger(), [01;31m[Kresult == nullptr[m[K);
+[12.370s]       |                                         [01;31m[K~~~~~~~^~~~~~~~~~[m[K
+[12.376s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7[m[K,
+[12.393s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8[m[K:
+[12.402s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:114:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std_msgs::msg::Int32MultiArray_<ContainerAllocator>::operator==(const std_msgs::msg::Int32MultiArray_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>][m[K’
+[12.413s]   114 |   bool [01;36m[Koperator[m[K==(const Int32MultiArray_ & other) const
+[12.420s]       |        [01;36m[K^~~~~~~~[m[K
+[12.427s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:114:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::nullptr_t[m[K’ to ‘[01m[Kconst std_msgs::msg::Int32MultiArray_<std::allocator<void> >&[m[K’
+[12.438s]   114 |   bool operator==([01;36m[Kconst Int32MultiArray_ & other[m[K) const
+[12.450s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[12.457s] In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+[12.466s]                  from [01m[K/usr/include/c++/11/tuple:38[m[K,
+[12.474s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[12.481s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[12.491s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[12.499s]   466 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[12.506s]       |     [01;36m[K^~~~~~~~[m[K
+[12.513s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.521s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.544s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.618s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[12.624s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[12.631s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[12.636s]       |                                                   [01;36m[K^~~~~~~[m[K
+[12.641s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[12.646s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[12.654s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[12.663s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[12.669s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[12.679s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[12.688s]   419 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[12.694s]       |     [01;36m[K^~~~~~~~[m[K
+[12.701s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.708s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.726s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.739s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.755s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.923s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[12.947s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[12.956s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[12.963s]       |                                                   [01;36m[K^~~~~~~[m[K
+[12.973s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[12.981s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[12.989s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[12.995s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[13.021s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[13.029s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:458:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[13.037s]   458 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[13.042s]       |     [01;36m[K^~~~~~~~[m[K
+[13.051s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:458:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.057s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.150s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[13.157s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[13.163s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[13.169s]       |                                                   [01;36m[K^~~~~~~[m[K
+[13.176s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[13.183s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[13.188s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[13.194s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[13.201s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[13.209s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1533:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[13.218s]  1533 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[13.228s]       |     [01;36m[K^~~~~~~~[m[K
+[13.234s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1533:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.239s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.359s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[13.368s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[13.378s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[13.386s]       |                                                   [01;36m[K^~~~~~~[m[K
+[13.392s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[13.399s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[13.407s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[13.422s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[13.430s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[13.443s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1601:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[13.450s]  1601 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[13.457s]       |     [01;36m[K^~~~~~~~[m[K
+[13.472s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1601:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.485s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.592s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[13.598s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[13.607s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[13.615s]       |                                                   [01;36m[K^~~~~~~[m[K
+[13.621s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[13.637s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[13.665s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[13.681s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[13.692s]   276 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[13.700s]       |     [01;36m[K^~~~~~~~[m[K
+[13.709s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.721s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.739s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.772s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.780s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.795s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.804s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.890s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[13.906s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[13.914s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[13.921s]       |                                                   [01;36m[K^~~~~~~[m[K
+[13.928s] In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+[13.938s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[13.946s] [01m[K/usr/include/c++/11/tuple:1528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[13.952s]  1528 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[13.964s]       |     [01;36m[K^~~~~~~~[m[K
+[14.005s] [01m[K/usr/include/c++/11/tuple:1528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.021s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.031s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.147s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.172s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[14.184s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[14.192s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[14.199s]       |                                                   [01;36m[K^~~~~~~[m[K
+[14.205s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[14.209s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[14.216s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+[14.226s]   718 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[14.233s]       |     [01;36m[K^~~~~~~~[m[K
+[14.238s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.244s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.317s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[14.333s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[14.341s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[14.349s]       |                                                   [01;36m[K^~~~~~~[m[K
+[14.355s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[14.362s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[14.367s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+[14.378s]   725 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[14.385s]       |     [01;36m[K^~~~~~~~[m[K
+[14.396s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.403s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.718s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.739s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.758s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.765s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[14.771s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[14.777s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[14.787s]       |                                                   [01;36m[K^~~~~~~[m[K
+[14.793s] In file included from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[14.800s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[14.806s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[14.812s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+[14.820s]   218 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[14.826s]       |     [01;36m[K^~~~~~~~[m[K
+[14.831s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.837s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.842s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.868s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.885s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.898s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[14.904s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[14.909s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[14.915s]       |                                                   [01;36m[K^~~~~~~[m[K
+[14.921s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[14.927s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[14.933s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[14.938s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[14.946s]  2134 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[14.950s]       |     [01;36m[K^~~~~~~~[m[K
+[14.956s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.963s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.973s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.032s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[15.040s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[15.048s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[15.056s]       |                                                   [01;36m[K^~~~~~~[m[K
+[15.062s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[15.068s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[15.074s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[15.082s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[15.088s]  2148 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[15.093s]       |     [01;36m[K^~~~~~~~[m[K
+[15.098s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.102s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.111s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.116s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.126s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.163s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[15.170s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[15.174s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[15.182s]       |                                                   [01;36m[K^~~~~~~[m[K
+[15.187s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[15.191s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[15.197s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[15.202s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[15.207s]  1892 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[15.215s]       |     [01;36m[K^~~~~~~~[m[K
+[15.223s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.229s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.265s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.323s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[15.329s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[15.339s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[15.354s]       |                                                   [01;36m[K^~~~~~~[m[K
+[15.361s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[15.372s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[15.380s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[15.388s]   753 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[15.397s]       |     [01;36m[K^~~~~~~~[m[K
+[15.409s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.418s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.503s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.520s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.534s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[15.541s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[15.555s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[15.564s]       |                                                   [01;36m[K^~~~~~~[m[K
+[15.570s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[15.576s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[15.586s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[15.598s]   760 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[15.611s]       |     [01;36m[K^~~~~~~~[m[K
+[15.637s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.778s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.810s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.820s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.837s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.893s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.913s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.930s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.957s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[15.971s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[15.978s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[15.985s]       |                                                   [01;36m[K^~~~~~~[m[K
+[15.992s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[16.002s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[16.013s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[16.020s]   767 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[16.028s]       |     [01;36m[K^~~~~~~~[m[K
+[16.039s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.057s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.164s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[16.180s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[16.187s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[16.197s]       |                                                   [01;36m[K^~~~~~~[m[K
+[16.210s] In file included from [01m[K/usr/include/c++/11/iosfwd:40[m[K,
+[16.218s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[16.225s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[16.231s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[16.239s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[16.249s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[16.263s]       |     [01;36m[K^~~~~~~~[m[K
+[16.273s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.277s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.377s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[16.384s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[16.392s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[16.399s]       |                                                   [01;36m[K^~~~~~~[m[K
+[16.412s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[16.434s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[16.440s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[16.447s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[16.452s]  1410 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[16.458s]       |     [01;36m[K^~~~~~~~[m[K
+[16.466s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.475s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.545s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.605s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.623s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[16.628s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[16.635s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[16.648s]       |                                                   [01;36m[K^~~~~~~[m[K
+[16.660s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[16.667s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[16.673s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[16.680s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[16.687s]  1416 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[16.692s]       |     [01;36m[K^~~~~~~~[m[K
+[16.698s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.707s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.717s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.728s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.738s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.766s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.772s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[16.776s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[16.783s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[16.788s]       |                                                   [01;36m[K^~~~~~~[m[K
+[16.792s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[16.797s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[16.802s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[16.806s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[16.812s]  1436 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[16.817s]       |     [01;36m[K^~~~~~~~[m[K
+[16.822s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.826s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.831s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.836s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.842s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.853s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.857s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.867s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.881s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[16.886s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[16.890s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[16.896s]       |                                                   [01;36m[K^~~~~~~[m[K
+[16.900s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[16.905s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[16.910s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[16.915s]   437 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[16.919s]       |     [01;36m[K^~~~~~~~[m[K
+[16.925s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.930s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.970s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.986s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[16.990s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[16.995s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[16.999s]       |                                                   [01;36m[K^~~~~~~[m[K
+[17.004s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[17.007s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[17.011s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[17.015s]   443 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[17.026s]       |     [01;36m[K^~~~~~~~[m[K
+[17.033s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.040s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[17.050s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[17.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[17.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[17.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[17.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[17.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[17.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[17.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[17.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[17.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.152s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[17.159s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[17.170s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[17.180s]       |                                                   [01;36m[K^~~~~~~[m[K
+[17.214s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[17.236s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:3[m[K:
+[17.254s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[17.273s]   464 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[17.285s]       |     [01;36m[K^~~~~~~~[m[K
+[17.293s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[17.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[17.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[17.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[17.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[17.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[17.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[17.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[17.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[17.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[17.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.412s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[17.422s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[17.429s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[17.436s]       |                                                   [01;36m[K^~~~~~~[m[K
+[17.443s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[17.451s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[17.456s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[17.461s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[17.469s]   535 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[17.474s]       |     [01;36m[K^~~~~~~~[m[K
+[17.478s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.485s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[17.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[17.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[17.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[17.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[17.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[17.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[17.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[17.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[17.536s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[17.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.548s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[17.554s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[17.559s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[17.563s]       |                                                   [01;36m[K^~~~~~~[m[K
+[17.569s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[17.574s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[17.583s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[17.600s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[17.635s]   541 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[17.646s]       |     [01;36m[K^~~~~~~~[m[K
+[17.663s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.676s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[17.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[17.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[17.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[17.717s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[17.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[17.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[17.734s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[17.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[17.772s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[17.809s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.820s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[17.826s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[17.856s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[17.968s]       |                                                   [01;36m[K^~~~~~~[m[K
+[17.991s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[18.023s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[18.040s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[18.055s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[18.076s]   564 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[18.090s]       |     [01;36m[K^~~~~~~~[m[K
+[18.132s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.140s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.215s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.260s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[18.268s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[18.276s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[18.284s]       |                                                   [01;36m[K^~~~~~~[m[K
+[18.289s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[18.293s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[18.309s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[18.316s]  6226 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[18.324s]       |     [01;36m[K^~~~~~~~[m[K
+[18.332s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.341s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.429s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.439s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[18.447s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[18.456s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[18.461s]       |                                                   [01;36m[K^~~~~~~[m[K
+[18.470s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[18.475s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[18.488s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[18.497s]  6234 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[18.504s]       |     [01;36m[K^~~~~~~~[m[K
+[18.517s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.528s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.560s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.567s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.587s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.596s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[18.605s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’
+[18.628s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[18.637s]       |                                                   [01;36m[K^~~~~~~[m[K
+[18.643s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[18.651s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[18.657s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[18.662s]  6248 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[18.673s]       |     [01;36m[K^~~~~~~~[m[K
+[18.678s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.687s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.738s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.758s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.771s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.777s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[18.787s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[18.793s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[18.804s]       |                                                   [01;36m[K^~~~~~~[m[K
+[18.809s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[18.815s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:4[m[K:
+[18.826s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[18.838s]  6289 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[18.844s]       |     [01;36m[K^~~~~~~~[m[K
+[18.853s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.858s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.885s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.890s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.907s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.911s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[18.915s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’
+[18.924s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[18.931s]       |                                                   [01;36m[K^~~~~~~[m[K
+[18.936s] In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+[18.941s]                  from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[18.945s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[18.949s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[18.953s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[18.957s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:5[m[K:
+[18.961s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[18.965s]   226 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[18.970s]       |     [01;36m[K^~~~~~~~[m[K
+[18.974s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.978s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[18.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[18.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[18.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[18.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.017s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.034s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.040s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[19.047s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.052s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.057s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[19.061s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[19.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.076s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.080s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[19.084s]   985 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[19.088s]       |     [01;36m[K^~~~~~~~[m[K
+[19.093s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.105s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.141s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.161s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.165s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[19.169s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.174s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.178s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[19.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[19.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.198s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.203s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[19.209s]   971 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[19.213s]       |     [01;36m[K^~~~~~~~[m[K
+[19.217s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.221s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.250s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.263s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.272s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.276s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[19.280s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.285s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.290s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[19.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[19.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.313s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.318s] [01m[K/usr/include/c++/11/bits/stl_list.h:1995:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[19.323s]  1995 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[19.327s]       |     [01;36m[K^~~~~~~~[m[K
+[19.331s] [01m[K/usr/include/c++/11/bits/stl_list.h:1995:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.335s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.469s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.475s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[19.480s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.488s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.494s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[19.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[19.537s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.553s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.558s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[19.563s]  1463 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[19.567s]       |     [01;36m[K^~~~~~~~[m[K
+[19.571s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.578s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.588s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.624s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.629s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[19.634s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.639s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.647s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[19.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[19.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.712s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.716s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[19.720s]  1128 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[19.724s]       |     [01;36m[K^~~~~~~~[m[K
+[19.728s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.733s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.737s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.741s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.766s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.779s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.784s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.789s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[19.793s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.799s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.804s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[19.809s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[19.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[19.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.824s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.830s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.834s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.839s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[19.847s]  1804 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[19.857s]       |     [01;36m[K^~~~~~~~[m[K
+[19.862s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.868s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.885s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.925s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.930s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[19.935s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[19.939s]       |                                                   [01;36m[K^~~~~~~[m[K
+[19.942s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[19.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[19.950s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[19.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.968s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[19.972s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[19.978s]  1818 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[19.982s]       |     [01;36m[K^~~~~~~~[m[K
+[19.987s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.991s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.047s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.053s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.058s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[20.062s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[20.067s]       |                                                   [01;36m[K^~~~~~~[m[K
+[20.071s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[20.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.103s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.126s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.132s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[20.137s]  1045 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[20.142s]       |     [01;36m[K^~~~~~~~[m[K
+[20.148s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[20.153s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.199s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.208s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.215s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.227s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.231s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[20.238s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[20.244s]       |                                                   [01;36m[K^~~~~~~[m[K
+[20.251s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[20.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.377s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.382s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[20.386s]  1105 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[20.390s]       |     [01;36m[K^~~~~~~~[m[K
+[20.396s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[20.404s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.416s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.422s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.435s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.477s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.483s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[20.492s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[20.515s]       |                                                   [01;36m[K^~~~~~~[m[K
+[20.524s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[20.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.537s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.567s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.582s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.589s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[20.597s]  1116 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[20.604s]       |     [01;36m[K^~~~~~~~[m[K
+[20.609s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[20.614s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.678s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.682s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[20.688s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[20.694s]       |                                                   [01;36m[K^~~~~~~[m[K
+[20.700s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[20.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.710s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.725s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.738s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.754s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.759s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+[20.765s]  1173 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[20.771s]       |     [01;36m[K^~~~~~~~[m[K
+[20.777s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[20.781s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.786s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.791s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.796s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.801s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.808s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.813s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.821s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.826s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.831s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.841s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.846s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.850s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[20.855s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[20.867s]       |                                                   [01;36m[K^~~~~~~[m[K
+[20.872s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[20.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.886s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.890s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.919s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[20.924s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+[20.929s]  1179 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[20.937s]       |     [01;36m[K^~~~~~~~[m[K
+[20.942s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[20.946s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[20.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.970s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.974s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.000s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[21.007s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’
+[21.014s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[21.041s]       |                                                   [01;36m[K^~~~~~~[m[K
+[21.047s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[21.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.104s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.111s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.120s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[21.125s] [01m[K/usr/include/c++/11/variant:1249:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[21.135s]  1249 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[21.144s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.155s] [01m[K/usr/include/c++/11/variant:1249:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[21.163s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.185s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.208s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.212s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.222s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[21.226s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:41:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[21.231s]    41 |         RCLCPP_INFO(this->get_logger(), result == [01;36m[Knullptr[m[K);
+[21.238s]       |                                                   [01;36m[K^~~~~~~[m[K
+[21.244s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[21.247s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[21.253s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[21.257s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[21.263s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:5[m[K:
+[21.269s] [01m[K/usr/include/c++/11/system_error:362:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[21.279s]   362 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[21.287s]       |   [01;36m[K^~~~~~~~[m[K
+[21.296s] [01m[K/usr/include/c++/11/system_error:362:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[21.303s]   362 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[21.310s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[21.315s] [01m[K/usr/include/c++/11/system_error:368:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[21.320s]   368 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[21.326s]       |   [01;36m[K^~~~~~~~[m[K
+[21.330s] [01m[K/usr/include/c++/11/system_error:368:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[21.336s]   368 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[21.345s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[21.350s] [01m[K/usr/include/c++/11/system_error:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[21.360s]   376 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[21.367s]       |   [01;36m[K^~~~~~~~[m[K
+[21.375s] [01m[K/usr/include/c++/11/system_error:376:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[21.386s]   376 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[21.395s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[21.402s] [01m[K/usr/include/c++/11/system_error:408:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[21.408s]   408 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[21.415s]       |   [01;36m[K^~~~~~~~[m[K
+[21.427s] [01m[K/usr/include/c++/11/system_error:408:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[21.439s]   408 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[21.448s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[21.463s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[21.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[21.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.490s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[21.500s] [01m[K/usr/include/c++/11/bits/std_thread.h:281:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+[21.524s]   281 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[21.531s]       |   [01;36m[K^~~~~~~~[m[K
+[21.541s] [01m[K/usr/include/c++/11/bits/std_thread.h:281:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[21.553s]   281 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[21.564s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[21.572s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[21.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.654s]                  from [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:7[m[K:
+[21.662s] [01m[K/usr/include/c++/11/variant:1256:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+[21.670s]  1256 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[21.678s]       |                  [01;36m[K^~~~~~~~[m[K
+[21.686s] [01m[K/usr/include/c++/11/variant:1256:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::monostate[m[K’
+[21.691s]  1256 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[21.697s]       |                             [01;36m[K^~~~~~~~~[m[K
+[21.706s] [01m[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:37:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.712s]    37 |     void topic_callback([01;35m[Kconst std_msgs::msg::Int32MultiArray& msg[m[K)
+[21.718s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.726s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[21.733s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[21.738s] gmake: *** [Makefile:146: all] Error 2
+[21.742s] Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays -- -j4 -l4

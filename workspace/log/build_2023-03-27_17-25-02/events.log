@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.001261] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.002734] (-) JobUnselected: {'identifier': 'compose_nodes'}
+[0.004030] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.005077] (-) JobUnselected: {'identifier': 'merge_arrays'}
+[0.006204] (-) JobUnselected: {'identifier': 'wacore'}
+[0.007608] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.008909] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.009927] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.011434] (-) EventReactorShutdown: {}

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/cluster__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/cluster__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/cluster_array__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/cluster_array__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking_array__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking_array__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line_array__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line_array__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object_array__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object_array__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object_classification__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/object_classification__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/roi__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/roi__type_support.cpp.o.d"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/roi_array__type_support.cpp.o"
+  "CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wauto_perception_msgs/msg/roi_array__type_support.cpp.o.d"
+  "libwauto_perception_msgs__rosidl_typesupport_c.pdb"
+  "libwauto_perception_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/cluster__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/cluster_array__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/lane_marking_array__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/limit_line_array__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/object__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/object_array__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/object_classification__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/roi__type_support.cpp"
+  "rosidl_typesupport_c/wauto_perception_msgs/msg/roi_array__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/wauto_perception_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.002974] (-) JobUnselected: {'identifier': 'common_pkgs'}
+[0.006939] (-) JobUnselected: {'identifier': 'compose_nodes'}
+[0.008282] (-) JobUnselected: {'identifier': 'launch_utils'}
+[0.010060] (-) JobUnselected: {'identifier': 'wacore'}
+[0.011279] (-) JobUnselected: {'identifier': 'wauto_control_msgs'}
+[0.012970] (-) JobUnselected: {'identifier': 'wauto_perception_msgs'}
+[0.014288] (-) JobUnselected: {'identifier': 'wauto_vehicle_msgs'}
+[0.016331] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.018237] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.095077] (-) TimerEvent: {}
+[0.197737] (-) TimerEvent: {}
+[0.309729] (-) TimerEvent: {}
+[0.342961] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.358170] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.360865] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays', 'env': OrderedDict([('HOSTNAME', 'atk-sandbox-dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/lib:/home/atk-sandbox/atk-sandbox/workspace/install/wacore/lib:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atk-sandbox'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\x1b[38;5;40m\\]\\h\\[\x1b(B\x1b[m\\]:\\[\x1b(B\x1b[m\\]\\[\x1b[38;5;39m\\]\\w\\[\x1b(B\x1b[m\\]$ \\[\x1b(B\x1b[m\\]'), ('USERSHELLPROFILE', '/home/atk-sandbox/.bashrc'), ('ROS_WORKSPACE_SRC', '/home/atk-sandbox/atk-sandbox/workspace/src/'), ('COLCON_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install'), ('ROS_DISTRO', 'humble'), ('USERSHELLPATH', '/bin/bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/atk-sandbox/.local/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/opt/ros/humble'), ('MOSEKLM_LICENSE_FILE', '/home/atk-sandbox/atk-sandbox/containers/dev/mosek.lic'), ('PWD', '/home/atk-sandbox/atk-sandbox/workspace/build/merge_arrays'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs/local/lib/python3.10/dist-packages:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/atk-sandbox/atk-sandbox/workspace/install/wauto_vehicle_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_perception_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wauto_control_msgs:/home/atk-sandbox/atk-sandbox/workspace/install/wacore:/home/atk-sandbox/atk-sandbox/workspace/install/merge_arrays:/home/atk-sandbox/atk-sandbox/workspace/install/compose_nodes:/home/atk-sandbox/atk-sandbox/workspace/install/common_pkgs:/home/atk-sandbox/atk-sandbox/workspace/install/launch_utils:/opt/ros/humble')]), 'shell': False}
+[0.410181] (-) TimerEvent: {}
+[0.511809] (-) TimerEvent: {}
+[0.613899] (-) TimerEvent: {}
+[0.715951] (-) TimerEvent: {}
+[0.819486] (-) TimerEvent: {}
+[0.920920] (-) TimerEvent: {}
+[1.023389] (-) TimerEvent: {}
+[1.125992] (-) TimerEvent: {}
+[1.228591] (-) TimerEvent: {}
+[1.332040] (-) TimerEvent: {}
+[1.433575] (-) TimerEvent: {}
+[1.535304] (-) TimerEvent: {}
+[1.637086] (-) TimerEvent: {}
+[1.740115] (-) TimerEvent: {}
+[1.845234] (-) TimerEvent: {}
+[1.947776] (-) TimerEvent: {}
+[2.051542] (-) TimerEvent: {}
+[2.154118] (-) TimerEvent: {}
+[2.256324] (-) TimerEvent: {}
+[2.335580] (merge_arrays) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target merge_arrays_node\x1b[0m\n'}
+[2.356717] (-) TimerEvent: {}
+[2.458930] (-) TimerEvent: {}
+[2.561752] (-) TimerEvent: {}
+[2.664539] (-) TimerEvent: {}
+[2.766112] (-) TimerEvent: {}
+[2.868937] (-) TimerEvent: {}
+[2.970489] (-) TimerEvent: {}
+[3.074564] (-) TimerEvent: {}
+[3.176107] (-) TimerEvent: {}
+[3.294225] (-) TimerEvent: {}
+[3.399764] (-) TimerEvent: {}
+[3.501329] (-) TimerEvent: {}
+[3.603263] (-) TimerEvent: {}
+[3.707231] (-) TimerEvent: {}
+[3.811607] (-) TimerEvent: {}
+[3.913647] (-) TimerEvent: {}
+[4.015204] (-) TimerEvent: {}
+[4.117468] (-) TimerEvent: {}
+[4.219554] (-) TimerEvent: {}
+[4.321003] (-) TimerEvent: {}
+[4.422635] (-) TimerEvent: {}
+[4.524417] (-) TimerEvent: {}
+[4.626129] (-) TimerEvent: {}
+[4.728603] (-) TimerEvent: {}
+[4.830361] (-) TimerEvent: {}
+[4.931989] (-) TimerEvent: {}
+[5.033605] (-) TimerEvent: {}
+[5.135465] (-) TimerEvent: {}
+[5.237439] (-) TimerEvent: {}
+[5.339321] (-) TimerEvent: {}
+[5.440815] (-) TimerEvent: {}
+[5.542762] (-) TimerEvent: {}
+[5.644502] (-) TimerEvent: {}
+[5.746733] (-) TimerEvent: {}
+[5.776392] (merge_arrays) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[5.847086] (-) TimerEvent: {}
+[5.948966] (-) TimerEvent: {}
+[6.050526] (-) TimerEvent: {}
+[6.152035] (-) TimerEvent: {}
+[6.253587] (-) TimerEvent: {}
+[6.355195] (-) TimerEvent: {}
+[6.457563] (-) TimerEvent: {}
+[6.559761] (-) TimerEvent: {}
+[6.661304] (-) TimerEvent: {}
+[6.762960] (-) TimerEvent: {}
+[6.864575] (-) TimerEvent: {}
+[6.968448] (-) TimerEvent: {}
+[7.070278] (-) TimerEvent: {}
+[7.171768] (-) TimerEvent: {}
+[7.273165] (-) TimerEvent: {}
+[7.375456] (-) TimerEvent: {}
+[7.478975] (-) TimerEvent: {}
+[7.581005] (-) TimerEvent: {}
+[7.683153] (-) TimerEvent: {}
+[7.785178] (-) TimerEvent: {}
+[7.888325] (-) TimerEvent: {}
+[7.991979] (-) TimerEvent: {}
+[8.094038] (-) TimerEvent: {}
+[8.196496] (-) TimerEvent: {}
+[8.298974] (-) TimerEvent: {}
+[8.401246] (-) TimerEvent: {}
+[8.504679] (-) TimerEvent: {}
+[8.606977] (-) TimerEvent: {}
+[8.709035] (-) TimerEvent: {}
+[8.811466] (-) TimerEvent: {}
+[8.913717] (-) TimerEvent: {}
+[9.016278] (-) TimerEvent: {}
+[9.118694] (-) TimerEvent: {}
+[9.222597] (-) TimerEvent: {}
+[9.325168] (-) TimerEvent: {}
+[9.427264] (-) TimerEvent: {}
+[9.529789] (-) TimerEvent: {}
+[9.632202] (-) TimerEvent: {}
+[9.734514] (-) TimerEvent: {}
+[9.837489] (-) TimerEvent: {}
+[9.939977] (-) TimerEvent: {}
+[10.044034] (-) TimerEvent: {}
+[10.146284] (-) TimerEvent: {}
+[10.248994] (-) TimerEvent: {}
+[10.351263] (-) TimerEvent: {}
+[10.453594] (-) TimerEvent: {}
+[10.557726] (-) TimerEvent: {}
+[10.660436] (-) TimerEvent: {}
+[10.762470] (-) TimerEvent: {}
+[10.864755] (-) TimerEvent: {}
+[10.967511] (-) TimerEvent: {}
+[11.069981] (-) TimerEvent: {}
+[11.172354] (-) TimerEvent: {}
+[11.260320] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MergeArrays::topic_callback(const Int32MultiArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.279724] (-) TimerEvent: {}
+[11.281175] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:47:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.287356] (merge_arrays) StderrLine: {'line': b'   47 |             array = msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K;\n'}
+[11.292121] (merge_arrays) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.296773] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7\x1b[m\x1b[K,\n'}
+[11.301252] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[11.305238] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(const std_msgs::msg::Int32MultiArray_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.309448] (merge_arrays) StderrLine: {'line': b'   36 | struct \x1b[01;36m\x1b[KInt32MultiArray_\x1b[m\x1b[K\n'}
+[11.313352] (merge_arrays) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.318270] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32MultiArray_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.323149] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(std_msgs::msg::Int32MultiArray_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.329175] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.333520] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:48:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.337939] (merge_arrays) StderrLine: {'line': b'   48 |             result = msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K;\n'}
+[11.341834] (merge_arrays) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.345993] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp:7\x1b[m\x1b[K,\n'}
+[11.350384] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:8\x1b[m\x1b[K:\n'}
+[11.354314] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(const std_msgs::msg::Int32MultiArray_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.360561] (merge_arrays) StderrLine: {'line': b'   36 | struct \x1b[01;36m\x1b[KInt32MultiArray_\x1b[m\x1b[K\n'}
+[11.365126] (merge_arrays) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.369573] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32MultiArray_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.373241] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >& std_msgs::msg::Int32MultiArray_<std::allocator<void> >::operator=(std_msgs::msg::Int32MultiArray_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.381128] (-) TimerEvent: {}
+[11.382694] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.388524] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/atk-sandbox/atk-sandbox/workspace/src/merge_arrays/src/merge_arrays_node.cpp:50:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.394814] (merge_arrays) StderrLine: {'line': b'   50 |         for(int i = 0; \x1b[01;35m\x1b[Ki < sizeof(array.data)/sizeof(array.data[0])\x1b[m\x1b[K; i++){\n'}
+[11.400527] (merge_arrays) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.481334] (-) TimerEvent: {}
+[11.583482] (-) TimerEvent: {}
+[11.685734] (-) TimerEvent: {}
+[11.788084] (-) TimerEvent: {}
+[11.890463] (-) TimerEvent: {}
+[11.992794] (-) TimerEvent: {}
+[12.095084] (-) TimerEvent: {}
+[12.197246] (-) TimerEvent: {}
+[12.299619] (-) TimerEvent: {}
+[12.402236] (-) TimerEvent: {}
+[12.504435] (-) TimerEvent: {}
+[12.606957] (-) TimerEvent: {}
+[12.709735] (-) TimerEvent: {}
+[12.811970] (-) TimerEvent: {}
+[12.914482] (-) TimerEvent: {}
+[13.017796] (-) TimerEvent: {}
+[13.130008] (-) TimerEvent: {}
+[13.232171] (-) TimerEvent: {}
+[13.334917] (-) TimerEvent: {}
+[13.437090] (-) TimerEvent: {}
+[13.539234] (-) TimerEvent: {}
+[13.641694] (-) TimerEvent: {}
+[13.744227] (-) TimerEvent: {}
+[13.846453] (-) TimerEvent: {}
+[13.948978] (-) TimerEvent: {}
+[14.051299] (-) TimerEvent: {}
+[14.153553] (-) TimerEvent: {}
+[14.255968] (-) TimerEvent: {}
+[14.358775] (-) TimerEvent: {}
+[14.461005] (-) TimerEvent: {}
+[14.563179] (-) TimerEvent: {}
+[14.665398] (-) TimerEvent: {}
+[14.767762] (-) TimerEvent: {}
+[14.870058] (-) TimerEvent: {}
+[14.976192] (-) TimerEvent: {}
+[15.078793] (-) TimerEvent: {}
+[15.181461] (-) TimerEvent: {}
+[15.283764] (-) TimerEvent: {}
+[15.386024] (-) TimerEvent: {}
+[15.488301] (-) TimerEvent: {}
+[15.590629] (-) TimerEvent: {}
+[15.722093] (-) TimerEvent: {}
+[15.744991] (merge_arrays) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1\n'}
+[15.751371] (merge_arrays) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2\n'}
+[15.757953] (merge_arrays) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.762543] (merge_arrays) CommandEnded: {'returncode': 2}
+[15.822321] (-) TimerEvent: {}
+[15.924682] (-) TimerEvent: {}
+[16.026183] (-) TimerEvent: {}
+[16.127898] (-) TimerEvent: {}
+[16.229502] (-) TimerEvent: {}
+[16.331192] (-) TimerEvent: {}
+[16.441079] (-) TimerEvent: {}
+[16.542522] (-) TimerEvent: {}
+[16.643944] (-) TimerEvent: {}
+[16.745435] (-) TimerEvent: {}
+[16.847057] (-) TimerEvent: {}
+[16.951205] (-) TimerEvent: {}
+[17.052898] (-) TimerEvent: {}
+[17.154606] (-) TimerEvent: {}
+[17.256981] (-) TimerEvent: {}
+[17.359424] (-) TimerEvent: {}
+[17.462630] (-) TimerEvent: {}
+[17.564839] (-) TimerEvent: {}
+[17.666895] (-) TimerEvent: {}
+[17.768501] (-) TimerEvent: {}
+[17.870350] (-) TimerEvent: {}
+[17.974353] (-) TimerEvent: {}
+[18.012237] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 2}
+[18.025692] (-) EventReactorShutdown: {}

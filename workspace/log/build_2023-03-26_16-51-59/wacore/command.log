@@ -1,0 +1,6 @@
+Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wacore': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/wacore -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/wacore
+Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wacore' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atk-sandbox/atk-sandbox/workspace/src/common/wacore -DCMAKE_INSTALL_PREFIX=/home/atk-sandbox/atk-sandbox/workspace/install/wacore
+Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wacore': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/wacore -- -j4 -l4
+Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wacore' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atk-sandbox/atk-sandbox/workspace/build/wacore -- -j4 -l4
+Invoking command in '/home/atk-sandbox/atk-sandbox/workspace/build/wacore': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/wacore
+Invoked command in '/home/atk-sandbox/atk-sandbox/workspace/build/wacore' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atk-sandbox/atk-sandbox/workspace/build/wacore

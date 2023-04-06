@@ -1,0 +1,13 @@
+{
+  "package_name": "wauto_control_msgs",
+  "non_idl_tuples": [
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/CarState.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/CarInput.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/CarSafety.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/CarTrajectory.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/CarFlatData.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/CarTBS.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/LaneMarking.msg",
+    "/home/atk-sandbox/atk-sandbox/workspace/src/common/interfaces/wauto_control_msgs:msg/LaneBoundaries.msg"
+  ]
+}

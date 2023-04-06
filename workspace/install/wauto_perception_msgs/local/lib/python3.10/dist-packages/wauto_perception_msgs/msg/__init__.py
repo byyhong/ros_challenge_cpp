@@ -1,0 +1,11 @@
+from wauto_perception_msgs.msg._cluster import Cluster  # noqa: F401
+from wauto_perception_msgs.msg._cluster_array import ClusterArray  # noqa: F401
+from wauto_perception_msgs.msg._lane_marking import LaneMarking  # noqa: F401
+from wauto_perception_msgs.msg._lane_marking_array import LaneMarkingArray  # noqa: F401
+from wauto_perception_msgs.msg._limit_line import LimitLine  # noqa: F401
+from wauto_perception_msgs.msg._limit_line_array import LimitLineArray  # noqa: F401
+from wauto_perception_msgs.msg._object import Object  # noqa: F401
+from wauto_perception_msgs.msg._object_array import ObjectArray  # noqa: F401
+from wauto_perception_msgs.msg._object_classification import ObjectClassification  # noqa: F401
+from wauto_perception_msgs.msg._roi import Roi  # noqa: F401
+from wauto_perception_msgs.msg._roi_array import RoiArray  # noqa: F401

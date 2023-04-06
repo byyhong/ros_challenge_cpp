@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/wauto_control_msgs__cpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/car_flat_data.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/car_input.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/car_safety.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/car_state.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/car_tbs.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/car_trajectory.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_flat_data__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_flat_data__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_flat_data__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_input__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_input__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_input__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_safety__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_safety__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_safety__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_state__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_state__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_state__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_tbs__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_tbs__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_tbs__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_trajectory__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_trajectory__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/car_trajectory__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/lane_boundaries__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/lane_boundaries__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/lane_boundaries__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/lane_marking__builder.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/lane_marking__struct.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/detail/lane_marking__traits.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/lane_boundaries.hpp"
+  "rosidl_generator_cpp/wauto_control_msgs/msg/lane_marking.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/wauto_control_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

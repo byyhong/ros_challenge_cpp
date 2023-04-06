@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_perception_msgs/msg/RoiArray.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "wauto_perception_msgs/msg/Roi.idl"
+
+module wauto_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message has an array of Region of Interests (Roi)")
+    struct RoiArray {
+      std_msgs::msg::Header header;
+
+      sequence<wauto_perception_msgs::msg::Roi> rois;
+    };
+  };
+};

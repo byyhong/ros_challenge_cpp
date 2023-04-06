@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o'
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

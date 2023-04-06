@@ -1,0 +1,118 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wauto_vehicle_msgs/msg/ObjectTrackB.msg
+// generated code does not contain a copyright notice
+
+
+module wauto_vehicle_msgs {
+  module msg {
+    module ObjectTrackB_Constants {
+      @verbatim (language="comment", text=
+        "---------------------" "\n"        "Object_TrackB Message" "\n"        "---------------------" "\n"        "The name of the message as defined in the DBC file.")
+      const string NAME = "Object_TrackB";
+      @verbatim (language="comment", text=
+        "-----" "\n"        "Enums" "\n"        "-----" "\n"        "Enum for Object_Source_Camera signal" "\n"        "true")
+      const uint8 OBJECT_SOURCE_CAMERA_1 = 1;
+      @verbatim (language="comment", text=
+        "false")
+      const uint8 OBJECT_SOURCE_CAMERA_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for Object_Source_Radar signal" "\n"        "true")
+      const uint8 OBJECT_SOURCE_RADAR_1 = 1;
+      @verbatim (language="comment", text=
+        "false")
+      const uint8 OBJECT_SOURCE_RADAR_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for Object_Source_Ultrasonic signal" "\n"        "true")
+      const uint8 OBJECT_SOURCE_ULTRASONIC_1 = 1;
+      @verbatim (language="comment", text=
+        "false")
+      const uint8 OBJECT_SOURCE_ULTRASONIC_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for Object_Source_V2X signal" "\n"        "true")
+      const uint8 OBJECT_SOURCE_V2X_1 = 1;
+      @verbatim (language="comment", text=
+        "false")
+      const uint8 OBJECT_SOURCE_V2X_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for Object_Source_Lidar signal" "\n"        "true")
+      const uint8 OBJECT_SOURCE_LIDAR_1 = 1;
+      @verbatim (language="comment", text=
+        "false")
+      const uint8 OBJECT_SOURCE_LIDAR_0 = 0;
+      @verbatim (language="comment", text=
+        "Enum for Object_Source_Other signal" "\n"        "true")
+      const uint8 OBJECT_SOURCE_OTHER_1 = 1;
+      @verbatim (language="comment", text=
+        "false")
+      const uint8 OBJECT_SOURCE_OTHER_0 = 0;
+    };
+    @verbatim (language="comment", text=
+      "----------------------------------------------" "\n"
+      "This is an auto generated file. DO NOT EDIT!!!" "\n"
+      "----------------------------------------------")
+    struct ObjectTrackB {
+      @verbatim (language="comment", text=
+        "-------" "\n"
+        "Signals" "\n"
+        "-------" "\n"
+        "Rolling_Count")
+      @default (value=0)
+      uint8 rolling_count;
+
+      @verbatim (language="comment", text=
+        "ObjObjectID")
+      @default (value=0)
+      uint8 objobjectid;
+
+      @verbatim (language="comment", text=
+        "Width")
+      @default (value=0)
+      uint8 width;
+
+      @verbatim (language="comment", text=
+        "Height")
+      @default (value=0)
+      uint8 height;
+
+      @verbatim (language="comment", text=
+        "Object_Relative_Orientation")
+      @default (value=0)
+      uint8 object_relative_orientation;
+
+      @verbatim (language="comment", text=
+        "RelLnPosition")
+      @default (value=0)
+      int8 rellnposition;
+
+      @verbatim (language="comment", text=
+        "Object_Source_Camera")
+      @default (value=0)
+      uint8 object_source_camera;
+
+      @verbatim (language="comment", text=
+        "Object_Source_Radar")
+      @default (value=0)
+      uint8 object_source_radar;
+
+      @verbatim (language="comment", text=
+        "Object_Source_Ultrasonic")
+      @default (value=0)
+      uint8 object_source_ultrasonic;
+
+      @verbatim (language="comment", text=
+        "Object_Source_V2X")
+      @default (value=0)
+      uint8 object_source_v2x;
+
+      @verbatim (language="comment", text=
+        "Object_Source_Lidar")
+      @default (value=0)
+      uint8 object_source_lidar;
+
+      @verbatim (language="comment", text=
+        "Object_Source_Other")
+      @default (value=0)
+      uint8 object_source_other;
+    };
+  };
+};
